@@ -16,10 +16,11 @@
   --accent-text: #ffffff;
 
   --radius: 10px;
-  /* The site runs full width. Set --maxw to a length (e.g. 1100px) to put the
-     content back into a centered column, and --measure to cap text line length. */
+  /* The layout runs full width; --measure caps how long a line of text gets.
+     Set --maxw to a length (e.g. 1100px) to put the whole site back into a
+     centered column, or --measure to none to let text run edge to edge too. */
   --maxw: none;
-  --measure: none;
+  --measure: 75ch;
 
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
