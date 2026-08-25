@@ -16,8 +16,10 @@
   --accent-text: #ffffff;
 
   --radius: 10px;
-  --maxw: 1040px;
-  --measure: 68ch;
+  /* The site runs full width. Set --maxw to a length (e.g. 1100px) to put the
+     content back into a centered column, and --measure to cap text line length. */
+  --maxw: none;
+  --measure: none;
 
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -80,7 +82,7 @@ img { max-width: 100%; height: auto; display: block; }
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.85rem clamp(1rem, 4vw, 2rem);
+  padding: 0.85rem clamp(1rem, 3vw, 3rem);
   background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
@@ -154,7 +156,7 @@ img { max-width: 100%; height: auto; display: block; }
     flex-direction: column;
     align-items: flex-start;
     gap: 0.9rem;
-    padding: 1rem clamp(1rem, 4vw, 2rem) 1.25rem;
+    padding: 1rem clamp(1rem, 3vw, 3rem) 1.25rem;
     background: var(--bg);
     border-bottom: 1px solid var(--border);
   }
@@ -167,7 +169,7 @@ img { max-width: 100%; height: auto; display: block; }
 main {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 clamp(1rem, 4vw, 2rem);
+  padding: 0 clamp(1rem, 3vw, 3rem);
 }
 
 section { padding: 3rem 0; }
@@ -205,7 +207,7 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 .lede {
   font-size: 1.15rem;
   color: var(--muted);
-  max-width: 58ch;
+  max-width: var(--measure);
   margin: 0 0 1.5rem;
 }
 
@@ -328,7 +330,7 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
 .interview-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 1.5rem;
 }
 
@@ -400,8 +402,7 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 /* --------------------------------------------- Interview detail page  */
 
 .interview {
-  max-width: 760px;
-  margin: 0 auto;
+  max-width: var(--measure);
   padding: 2.5rem 0 1rem;
 }
 
@@ -415,6 +416,12 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 .back-link:hover { text-decoration: underline; }
 
 .interview h1 { margin-bottom: 0.6rem; text-wrap: balance; }
+
+.interview .video-frame {
+  max-height: 72vh;
+  width: auto;
+  margin-inline: auto;
+}
 
 .interview-meta {
   font-size: 0.9rem;
@@ -508,12 +515,12 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
 }
 
 .gallery-wide {
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 
 .item {
