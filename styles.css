@@ -16,11 +16,12 @@
   --accent-text: #ffffff;
 
   --radius: 10px;
-  /* The layout runs full width; --measure caps how long a line of text gets.
-     Set --maxw to a length (e.g. 1100px) to put the whole site back into a
-     centered column, or --measure to none to let text run edge to edge too. */
-  --maxw: none;
-  --measure: 75ch;
+  /* Content sits in a centered band with a gutter on each side.
+     --maxw is how wide that band gets; --pad is the gutter inside it.
+     --measure is off, so text fills the band rather than stopping short. */
+  --maxw: 1280px;
+  --pad: clamp(1rem, 4vw, 2.5rem);
+  --measure: none;
 
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -83,7 +84,8 @@ img { max-width: 100%; height: auto; display: block; }
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.85rem clamp(1rem, 3vw, 3rem);
+  padding-block: 0.85rem;
+  padding-inline: max(var(--pad), calc((100% - var(--maxw)) / 2 + var(--pad)));
   background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
@@ -157,7 +159,7 @@ img { max-width: 100%; height: auto; display: block; }
     flex-direction: column;
     align-items: flex-start;
     gap: 0.9rem;
-    padding: 1rem clamp(1rem, 3vw, 3rem) 1.25rem;
+    padding: 1rem var(--pad) 1.25rem;
     background: var(--bg);
     border-bottom: 1px solid var(--border);
   }
@@ -170,7 +172,7 @@ img { max-width: 100%; height: auto; display: block; }
 main {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 clamp(1rem, 3vw, 3rem);
+  padding: 0 var(--pad);
 }
 
 section { padding: 3rem 0; }
@@ -576,7 +578,8 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 footer {
   border-top: 1px solid var(--border);
   margin-top: 3rem;
-  padding: 2rem 1.25rem;
+  padding-block: 2rem;
+  padding-inline: max(var(--pad), calc((100% - var(--maxw)) / 2 + var(--pad)));
   text-align: center;
   color: var(--muted);
   font-size: 0.9rem;
