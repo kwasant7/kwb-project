@@ -40,8 +40,8 @@ Secondary videos use the same `data-youtube="VIDEO_ID"` pattern as the interview
 
 ## Changing the look
 
-All colors are CSS variables at the top of `styles.css`, in two blocks — one for the
-light theme, one for dark. Edit those and the whole site follows.
+All colors are CSS variables in the `:root` block at the top of `styles.css`. Edit
+those and the whole site follows. The site is light-only.
 
 ## Running it locally
 

@@ -1,47 +1,6 @@
 /* Korean War Brides Project — shared behavior for every page.
    Each block skips itself if the elements it needs are not on the page. */
 
-// -- Theme toggle: follows the system setting until the visitor picks one. --
-(function () {
-  var root = document.documentElement;
-  var toggle = document.getElementById('theme-toggle');
-  if (!toggle) return;
-
-  var stored = null;
-  try {
-    stored = localStorage.getItem('theme');
-  } catch (e) {
-    // Storage blocked (private browsing) — fall back to the system theme.
-  }
-
-  if (stored === 'light' || stored === 'dark') {
-    root.setAttribute('data-theme', stored);
-  }
-
-  function current() {
-    var set = root.getAttribute('data-theme');
-    if (set) return set;
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  }
-
-  function render() {
-    toggle.textContent = current() === 'dark' ? '☀️' : '🌙';
-  }
-
-  toggle.addEventListener('click', function () {
-    var next = current() === 'dark' ? 'light' : 'dark';
-    root.setAttribute('data-theme', next);
-    try {
-      localStorage.setItem('theme', next);
-    } catch (e) {
-      // Ignore — the toggle still works for this page view.
-    }
-    render();
-  });
-
-  render();
-})();
-
 // -- Mobile menu. --
 (function () {
   var toggle = document.getElementById('nav-toggle');
