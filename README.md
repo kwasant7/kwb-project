@@ -10,7 +10,8 @@ no dependencies, no framework.
 | File | Page | What goes here |
 | --- | --- | --- |
 | `index.html` | Home | The landing page and your space to describe the project |
-| `oral-histories.html` | Oral Histories | YouTube interviews, one block per narrator |
+| `oral-histories.html` | Oral Histories | The index grid — one card per interview |
+| `interviews/*.html` | Interview pages | One page per interview; copy `interviews/template.html` |
 | `archive.html` | Archive | Photographs, secondary footage, documents |
 | `about.html` | About | Origins, method, credits, contact details |
 
@@ -19,16 +20,21 @@ inside each page.
 
 ## Adding an oral history
 
-In `oral-histories.html`, copy an `<article class="video">` block and change:
+Each interview gets its own page, and a card on the index that links to it.
 
-1. `data-youtube="VIDEO_ID"` — the ID from the YouTube URL
-   (`youtu.be/dQw4w9WgXcQ` → `dQw4w9WgXcQ`)
-2. the `<h2>` narrator name
-3. the `<p class="meta">` line — date, place, running time
-4. the summary paragraph and the tags
+**1. Make the page.** Copy `interviews/template.html` to `interviews/her-name.html` and
+work through the spots marked `EDIT`: the headline quote, the narrator/date/place line,
+the summary, `data-youtube="VIDEO_ID"`, background, and selected passages. Delete any
+section you do not need.
 
-Thumbnails load automatically from the video ID, and the player only loads when a
-visitor presses play. The search box on that page filters on all the text in each block.
+**2. Add the card.** In `oral-histories.html`, copy an `<a class="interview-card">` block
+and set its `href` to the page you just made, its `data-youtube` to the same video ID,
+the `<h2 class="quote">` to the line you want to lead with, and the `meta` line.
+
+The video ID is the part of the YouTube URL after `v=` — `youtu.be/dQw4w9WgXcQ` →
+`dQw4w9WgXcQ`. Card thumbnails are pulled from the video automatically, so there is no
+separate image to upload, and the player only loads when a visitor presses play. The
+search box filters on everything written in a card.
 
 ## Adding an archive item
 

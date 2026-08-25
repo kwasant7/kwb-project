@@ -27,12 +27,17 @@
 
   <main id="main">
     <section class="page-head">
-      <p class="eyebrow">The collection</p>
       <h1>Oral histories</h1>
+      <!-- EDIT: how often you interview, who you interview, and how. -->
       <p class="lede">
-        Full-length recorded interviews. Each entry lists the narrator, when and where the
-        interview took place, and a short summary of what it covers.
+        Year-round, the project records the women who came to the United States as the wives
+        of American servicemen, along with their children and grandchildren. Each interview is
+        published in full, in the narrator's own words. Interviews can be in person or remote,
+        in Korean or English.
       </p>
+      <!-- EDIT: point this at your sign-up form (Google Form, Airtable, or an email link). -->
+      <p><a class="btn btn-primary" href="mailto:you@example.com?subject=Oral%20history%20interview">Sign up for an interview</a></p>
+
       <label class="search">
         <span class="visually-hidden">Search oral histories</span>
         <input id="filter" type="search" placeholder="Search by name, place, or topic…" autocomplete="off" />
@@ -41,86 +46,56 @@
     </section>
 
     <!--
-      ADDING AN INTERVIEW
+      ADDING AN INTERVIEW  (two steps)
       ------------------------------------------------------------------
-      Copy one <article class="video"> block below and edit four things:
+      1. Copy interviews/template.html to interviews/her-name.html and fill it in.
+      2. Copy one <a class="interview-card"> block below and edit:
 
-        1. data-youtube="VIDEO_ID"   the part of the YouTube URL after v=
-                                     e.g. youtu.be/dQw4w9WgXcQ  ->  dQw4w9WgXcQ
-        2. the <h2> narrator name
-        3. the <p class="meta"> line (date · place · length)
-        4. the summary paragraph
+           href="interviews/her-name.html"   the page you just made
+           data-youtube="VIDEO_ID"           the bit of the YouTube URL after v=
+           <h2 class="quote">                the line from the interview you want to lead with
+           <p class="meta">                  narrator name · place · length
 
-      The thumbnail and player load automatically from the video ID.
-      Entries are searchable by everything written inside the block.
+      The card thumbnail is pulled from the YouTube video automatically, so
+      there is no separate image to upload. Cards are searchable by all their text.
     -->
-    <section class="video-list" id="videos">
+    <section class="interview-index">
+      <div class="interview-grid" id="interviews">
 
-      <article class="video">
-        <div class="video-frame" data-youtube="ScMzIvxBSi4">
-          <button class="video-play" type="button">
-            <span class="video-play-icon" aria-hidden="true">▶</span>
-            <span class="visually-hidden">Play interview with Narrator Name</span>
-          </button>
-        </div>
-        <div class="video-body">
-          <h2>Narrator Name</h2>
-          <p class="meta">Interviewed March 2026 · Los Angeles, California · 1 hr 12 min</p>
-          <p>
-            EXAMPLE ENTRY — replace this. A short summary of what the interview covers:
-            childhood before the war, how she met her husband, the journey to the United
-            States, and the first years in a new country.
-          </p>
-          <ul class="tags">
-            <li>Migration</li>
-            <li>1950s</li>
-            <li>California</li>
-          </ul>
-        </div>
-      </article>
+        <a class="interview-card" href="interviews/example-one.html">
+          <span class="card-media" data-youtube="ScMzIvxBSi4"></span>
+          <span class="card-body">
+            <h2 class="quote">&ldquo;I was told to bring one bag&rdquo;</h2>
+            <span class="meta">Narrator Name · Los Angeles, California · 1 hr 12 min</span>
+            <span class="card-tags">
+              <span>Migration</span><span>1950s</span>
+            </span>
+          </span>
+        </a>
 
-      <article class="video">
-        <div class="video-frame" data-youtube="ScMzIvxBSi4">
-          <button class="video-play" type="button">
-            <span class="video-play-icon" aria-hidden="true">▶</span>
-            <span class="visually-hidden">Play interview with Narrator Name</span>
-          </button>
-        </div>
-        <div class="video-body">
-          <h2>Narrator Name</h2>
-          <p class="meta">Interviewed April 2026 · Tacoma, Washington · 48 min</p>
-          <p>
-            EXAMPLE ENTRY — replace this. A daughter recalls growing up between two
-            languages, the food her mother cooked, and what was never spoken about at home.
-          </p>
-          <ul class="tags">
-            <li>Second generation</li>
-            <li>Family</li>
-          </ul>
-        </div>
-      </article>
+        <a class="interview-card" href="interviews/example-two.html">
+          <span class="card-media" data-youtube="ScMzIvxBSi4"></span>
+          <span class="card-body">
+            <h2 class="quote">&ldquo;My mother cooked two dinners every night&rdquo;</h2>
+            <span class="meta">Narrator Name · Tacoma, Washington · 48 min</span>
+            <span class="card-tags">
+              <span>Second generation</span><span>Family</span>
+            </span>
+          </span>
+        </a>
 
-      <article class="video">
-        <div class="video-frame" data-youtube="ScMzIvxBSi4">
-          <button class="video-play" type="button">
-            <span class="video-play-icon" aria-hidden="true">▶</span>
-            <span class="visually-hidden">Play interview with Narrator Name</span>
-          </button>
-        </div>
-        <div class="video-body">
-          <h2>Narrator Name</h2>
-          <p class="meta">Interviewed May 2026 · Fayetteville, North Carolina · 2 hr 5 min</p>
-          <p>
-            EXAMPLE ENTRY — replace this. Life on and around a military base, church
-            networks, and the small Korean grocery that became a gathering place.
-          </p>
-          <ul class="tags">
-            <li>Military base</li>
-            <li>Community</li>
-          </ul>
-        </div>
-      </article>
+        <a class="interview-card" href="interviews/example-three.html">
+          <span class="card-media" data-youtube="ScMzIvxBSi4"></span>
+          <span class="card-body">
+            <h2 class="quote">&ldquo;The store was where everyone found each other&rdquo;</h2>
+            <span class="meta">Narrator Name · Fayetteville, North Carolina · 2 hr 5 min</span>
+            <span class="card-tags">
+              <span>Military base</span><span>Community</span>
+            </span>
+          </span>
+        </a>
 
+      </div>
     </section>
 
     <section class="callout">

@@ -1,0 +1,114 @@
+<!doctype html>
+<!--
+  INTERVIEW PAGE TEMPLATE
+  ====================================================================
+  To add an interview:
+    1. Copy this file to interviews/her-name.html
+    2. Search this file for "EDIT" and fill in each spot
+    3. Add a matching card to oral-histories.html
+
+  Leave the ../ in the stylesheet, script, and nav links — this file
+  sits one folder down from the rest of the site.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- EDIT: page title and description -->
+  <title>Interview title · Korean War Brides Project</title>
+  <meta name="description" content="One sentence describing this interview." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕊️</text></svg>" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark">KWB</span>
+      <span class="brand-name">Korean War Brides Project</span>
+    </a>
+    <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="../oral-histories.html" aria-current="page">Oral Histories</a>
+      <a href="../archive.html">Archive</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article class="interview">
+      <a class="back-link" href="../oral-histories.html">← All oral histories</a>
+
+      <!-- EDIT: the headline. A line from the interview works well. -->
+      <h1>&ldquo;A line from the interview&rdquo;</h1>
+
+      <!-- EDIT: narrator, date, place, running time -->
+      <p class="interview-meta">
+        Narrator Name · Interviewed Month Day, Year · City, State · 0 hr 00 min
+      </p>
+
+      <!-- EDIT: one or two sentences on what the interview covers. -->
+      <p class="interview-summary">
+        A short description of the interview.
+      </p>
+
+      <!-- EDIT: data-youtube="VIDEO_ID" — the part of the URL after v= -->
+      <div class="video-frame" data-youtube="VIDEO_ID">
+        <button class="video-play" type="button">
+          <span class="video-play-icon" aria-hidden="true">▶</span>
+          <span class="visually-hidden">Play the interview</span>
+        </button>
+      </div>
+
+      <!-- EDIT: background on the narrator. Add or delete paragraphs freely. -->
+      <section class="prose">
+        <h2>Background</h2>
+        <p>
+          Where she was born, how she met her husband, when she arrived, and
+          what she did after — as much or as little as you want to write.
+        </p>
+      </section>
+
+      <!-- EDIT: selected passages. Delete this whole section if you do not
+           have a transcript yet. Each entry is a timestamp and a quotation. -->
+      <section class="prose">
+        <h2>Selected passages</h2>
+        <dl class="passages">
+          <dt>00:00</dt>
+          <dd>What she says here.</dd>
+          <dt>00:00</dt>
+          <dd>What she says here.</dd>
+        </dl>
+      </section>
+
+      <!-- EDIT: delete if there are no related materials. -->
+      <section class="prose">
+        <h2>Related material</h2>
+        <p>
+          Photographs and documents connected to this interview are in the
+          <a href="../archive.html">archive</a>.
+        </p>
+      </section>
+
+      <!-- EDIT: adjust to your citation format. -->
+      <section class="prose">
+        <h2>Cite this interview</h2>
+        <p class="cite">
+          Interview with [Narrator], [date], Korean War Brides Project,
+          https://kwasant7.github.io/kwb-project/
+        </p>
+      </section>
+
+      <a class="back-link" href="../oral-histories.html">← All oral histories</a>
+    </article>
+  </main>
+
+  <footer>
+    <p>© <span data-year>2026</span> Korean War Brides Project</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
