@@ -203,7 +203,7 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
   margin: 0 0 0.75rem;
 }
 
-.hero { padding-top: 4rem; }
+.hero { padding-top: 4rem; padding-bottom: 1rem; }
 .page-head { padding-top: 3rem; }
 
 .lede {
