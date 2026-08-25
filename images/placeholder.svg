@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder image">
+  <rect width="800" height="600" fill="#e8e1d5"/>
+  <g fill="none" stroke="#c3b8a5" stroke-width="3">
+    <rect x="40" y="40" width="720" height="520"/>
+    <path d="M40 560 L300 300 L470 470 L580 370 L760 560"/>
+    <circle cx="580" cy="180" r="52"/>
+  </g>
+  <text x="400" y="322" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#8d8271">
+    Replace with a photograph
+  </text>
+  <text x="400" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#a2977f">
+    images/your-file.jpg
+  </text>
+</svg>

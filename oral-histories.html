@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oral Histories · Korean War Brides Project</title>
+  <meta name="description" content="Recorded oral history interviews with Korean war brides and their families." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕊️</text></svg>" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">KWB</span>
+      <span class="brand-name">Korean War Brides Project</span>
+    </a>
+    <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="oral-histories.html" aria-current="page">Oral Histories</a>
+      <a href="archive.html">Archive</a>
+      <a href="about.html">About</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle color theme">🌙</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <p class="eyebrow">The collection</p>
+      <h1>Oral histories</h1>
+      <p class="lede">
+        Full-length recorded interviews. Each entry lists the narrator, when and where the
+        interview took place, and a short summary of what it covers.
+      </p>
+      <label class="search">
+        <span class="visually-hidden">Search oral histories</span>
+        <input id="filter" type="search" placeholder="Search by name, place, or topic…" autocomplete="off" />
+      </label>
+      <p id="filter-status" class="filter-status" role="status"></p>
+    </section>
+
+    <!--
+      ADDING AN INTERVIEW
+      ------------------------------------------------------------------
+      Copy one <article class="video"> block below and edit four things:
+
+        1. data-youtube="VIDEO_ID"   the part of the YouTube URL after v=
+                                     e.g. youtu.be/dQw4w9WgXcQ  ->  dQw4w9WgXcQ
+        2. the <h2> narrator name
+        3. the <p class="meta"> line (date · place · length)
+        4. the summary paragraph
+
+      The thumbnail and player load automatically from the video ID.
+      Entries are searchable by everything written inside the block.
+    -->
+    <section class="video-list" id="videos">
+
+      <article class="video">
+        <div class="video-frame" data-youtube="ScMzIvxBSi4">
+          <button class="video-play" type="button">
+            <span class="video-play-icon" aria-hidden="true">▶</span>
+            <span class="visually-hidden">Play interview with Narrator Name</span>
+          </button>
+        </div>
+        <div class="video-body">
+          <h2>Narrator Name</h2>
+          <p class="meta">Interviewed March 2026 · Los Angeles, California · 1 hr 12 min</p>
+          <p>
+            EXAMPLE ENTRY — replace this. A short summary of what the interview covers:
+            childhood before the war, how she met her husband, the journey to the United
+            States, and the first years in a new country.
+          </p>
+          <ul class="tags">
+            <li>Migration</li>
+            <li>1950s</li>
+            <li>California</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="video">
+        <div class="video-frame" data-youtube="ScMzIvxBSi4">
+          <button class="video-play" type="button">
+            <span class="video-play-icon" aria-hidden="true">▶</span>
+            <span class="visually-hidden">Play interview with Narrator Name</span>
+          </button>
+        </div>
+        <div class="video-body">
+          <h2>Narrator Name</h2>
+          <p class="meta">Interviewed April 2026 · Tacoma, Washington · 48 min</p>
+          <p>
+            EXAMPLE ENTRY — replace this. A daughter recalls growing up between two
+            languages, the food her mother cooked, and what was never spoken about at home.
+          </p>
+          <ul class="tags">
+            <li>Second generation</li>
+            <li>Family</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="video">
+        <div class="video-frame" data-youtube="ScMzIvxBSi4">
+          <button class="video-play" type="button">
+            <span class="video-play-icon" aria-hidden="true">▶</span>
+            <span class="visually-hidden">Play interview with Narrator Name</span>
+          </button>
+        </div>
+        <div class="video-body">
+          <h2>Narrator Name</h2>
+          <p class="meta">Interviewed May 2026 · Fayetteville, North Carolina · 2 hr 5 min</p>
+          <p>
+            EXAMPLE ENTRY — replace this. Life on and around a military base, church
+            networks, and the small Korean grocery that became a gathering place.
+          </p>
+          <ul class="tags">
+            <li>Military base</li>
+            <li>Community</li>
+          </ul>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="callout">
+      <h2>More interviews are being added</h2>
+      <p>
+        Recording is ongoing. If you would like to be interviewed, or can suggest someone,
+        please <a href="about.html#contact">get in touch</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span data-year>2026</span> Korean War Brides Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

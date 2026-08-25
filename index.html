@@ -3,79 +3,97 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>KWB Project</title>
-  <meta name="description" content="A starter site for the KWB Project." />
+  <title>Korean War Brides Project</title>
+  <meta name="description" content="An oral history and archival project documenting the lives of Korean war brides." />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧱</text></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕊️</text></svg>" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <a class="brand" href="#top">KWB</a>
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+    <a class="brand" href="index.html">
+      <span class="brand-mark">KWB</span>
+      <span class="brand-name">Korean War Brides Project</span>
+    </a>
+    <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="oral-histories.html">Oral Histories</a>
+      <a href="archive.html">Archive</a>
+      <a href="about.html">About</a>
       <button id="theme-toggle" type="button" aria-label="Toggle color theme">🌙</button>
     </nav>
   </header>
 
-  <main id="top">
+  <main id="main">
     <section class="hero">
-      <p class="eyebrow">Work in progress</p>
-      <h1>KWB Project</h1>
+      <p class="eyebrow">Oral history &amp; archive</p>
+      <h1>Korean War Brides Project</h1>
+      <!-- EDIT: one or two sentences describing the project in plain language. -->
       <p class="lede">
-        A starting point. Static HTML, CSS, and a little JavaScript — no build step,
-        no dependencies, deployed straight from this repo.
+        Documenting the lives of Korean women who married American servicemen during and
+        after the Korean War — in their own voices, and through the records they left behind.
       </p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="#features">See what's here</a>
-        <a class="btn" href="https://github.com/kwasant7/kwb-project">View on GitHub</a>
+        <a class="btn btn-primary" href="oral-histories.html">Watch the oral histories</a>
+        <a class="btn" href="archive.html">Browse the archive</a>
       </div>
     </section>
 
-    <section id="features" class="features">
-      <h2>What's in the box</h2>
+    <!-- EDIT: This is your main space to talk about the project. Add or remove
+         paragraphs freely; each <p> is a paragraph, <h2> starts a new heading. -->
+    <section class="prose">
+      <h2>What this project is about</h2>
+      <p>
+        Between 1950 and the decades that followed, tens of thousands of Korean women
+        emigrated to the United States as the wives of American servicemen. They arrived
+        into unfamiliar towns, often as the only Korean person for miles, and built
+        families, businesses, and communities that reshaped Korean America.
+      </p>
+      <p>
+        Their stories are rarely written down. This project sets out to record them
+        directly — long-form interviews with the women themselves and with their children
+        and grandchildren — and to gather the photographs, letters, and documents that
+        sit in family albums rather than institutional archives.
+      </p>
+      <p>
+        <em>Replace this text with your own framing: why you started, what questions you
+        are asking, and what you hope the collection becomes.</em>
+      </p>
+    </section>
+
+    <section class="features">
+      <h2>Three parts to the collection</h2>
       <div class="grid">
         <article class="card">
-          <h3>Zero dependencies</h3>
-          <p>Three files and a README. Open <code>index.html</code> in a browser and it just works.</p>
+          <h3><a href="oral-histories.html">Oral histories</a></h3>
+          <p>Recorded interviews, published as video. The center of the project.</p>
         </article>
         <article class="card">
-          <h3>Light &amp; dark</h3>
-          <p>Follows your system theme, with a toggle that remembers your choice.</p>
+          <h3><a href="archive.html">Source material</a></h3>
+          <p>Photographs, documents, news clippings, and secondary footage.</p>
         </article>
         <article class="card">
-          <h3>Responsive</h3>
-          <p>A single fluid grid that holds up from phone widths to wide desktops.</p>
-        </article>
-        <article class="card">
-          <h3>Deployed</h3>
-          <p>Pushing to <code>main</code> publishes the site through GitHub Pages.</p>
+          <h3><a href="about.html">About the project</a></h3>
+          <p>Who is behind it, how interviews are conducted, and how to take part.</p>
         </article>
       </div>
     </section>
 
-    <section id="about" class="about">
-      <h2>About</h2>
+    <section class="callout">
+      <h2>Do you have a story to share?</h2>
+      <!-- EDIT: your contact address. -->
       <p>
-        This page is scaffolding — replace the copy, swap the colors, add pages.
-        Everything lives in <code>index.html</code>, <code>styles.css</code>, and
-        <code>script.js</code>.
+        If you are a Korean war bride, a descendant, or you hold family materials from
+        this period, the project would like to hear from you.
       </p>
-      <p class="counter-line">
-        Clicks on this button: <strong id="count">0</strong>
-        <button id="counter" class="btn" type="button">Click me</button>
-      </p>
-    </section>
-
-    <section id="contact" class="contact">
-      <h2>Contact</h2>
-      <p>Questions go to <a href="https://github.com/kwasant7">@kwasant7</a> on GitHub.</p>
+      <p><a class="btn btn-primary" href="mailto:you@example.com">Get in touch</a></p>
     </section>
   </main>
 
   <footer>
-    <p>© <span id="year">2026</span> KWB Project</p>
+    <p>© <span data-year>2026</span> Korean War Brides Project</p>
   </footer>
 
   <script src="script.js"></script>
