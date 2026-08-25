@@ -176,7 +176,6 @@ main {
 }
 
 section { padding: 3rem 0; }
-section + section { border-top: 1px solid var(--border); }
 
 h1 {
   font-family: var(--serif);
@@ -235,7 +234,6 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
 /* -------------------------------------------------------------- Buttons  */
 
-.cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; }
 
 .btn {
   display: inline-block;
@@ -289,7 +287,6 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 .callout h2 { margin-top: 0; }
 .callout p { color: var(--muted); max-width: var(--measure); }
 .callout p:last-child { margin-bottom: 0; }
-.callout + section, section + .callout { border-top: 0; }
 
 .contact-list {
   list-style: none;
@@ -439,7 +436,7 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 }
 
 .interview .prose { padding: 2rem 0 0; }
-.interview .prose + .prose { border-top: 1px solid var(--border); margin-top: 2rem; }
+.interview .prose + .prose { margin-top: 2rem; }
 .interview .back-link:last-child { margin: 2.5rem 0 0; }
 
 .passages {
@@ -514,7 +511,6 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
 /* -------------------------------------------------------------- Archive  */
 
-.archive-section + .archive-section { border-top: 1px solid var(--border); }
 
 .gallery {
   display: grid;
