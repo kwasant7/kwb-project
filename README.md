@@ -49,6 +49,10 @@ Secondary videos use the same `data-youtube="VIDEO_ID"` pattern as the interview
 All colors are CSS variables in the `:root` block at the top of `styles.css`. Edit
 those and the whole site follows. The site is light-only.
 
+Body text uses Google Sans, self-hosted from `fonts/` (`fonts/OFL.txt` has the
+license). Headings use a serif system font stack — see `--serif` in `styles.css`
+if you want to change that too.
+
 ## Running it locally
 
 ```bash
