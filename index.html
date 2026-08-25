@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KWB Project</title>
+  <meta name="description" content="A starter site for the KWB Project." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧱</text></svg>" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">KWB</a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle color theme">🌙</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Work in progress</p>
+      <h1>KWB Project</h1>
+      <p class="lede">
+        A starting point. Static HTML, CSS, and a little JavaScript — no build step,
+        no dependencies, deployed straight from this repo.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#features">See what's here</a>
+        <a class="btn" href="https://github.com/kwasant7/kwb-project">View on GitHub</a>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>What's in the box</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Zero dependencies</h3>
+          <p>Three files and a README. Open <code>index.html</code> in a browser and it just works.</p>
+        </article>
+        <article class="card">
+          <h3>Light &amp; dark</h3>
+          <p>Follows your system theme, with a toggle that remembers your choice.</p>
+        </article>
+        <article class="card">
+          <h3>Responsive</h3>
+          <p>A single fluid grid that holds up from phone widths to wide desktops.</p>
+        </article>
+        <article class="card">
+          <h3>Deployed</h3>
+          <p>Pushing to <code>main</code> publishes the site through GitHub Pages.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>
+        This page is scaffolding — replace the copy, swap the colors, add pages.
+        Everything lives in <code>index.html</code>, <code>styles.css</code>, and
+        <code>script.js</code>.
+      </p>
+      <p class="counter-line">
+        Clicks on this button: <strong id="count">0</strong>
+        <button id="counter" class="btn" type="button">Click me</button>
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Questions go to <a href="https://github.com/kwasant7">@kwasant7</a> on GitHub.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> KWB Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
