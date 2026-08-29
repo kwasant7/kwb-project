@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Korean War Brides Project — site styles
+   Korean War & Military Brides Project — site styles
    Colors live in the :root block below. Change them there and the whole
    site follows. Everything else is layout.
    ========================================================================== */
@@ -27,14 +27,17 @@
 
 
 :root {
-  --bg: #fbf9f5;
-  --bg-soft: #f2eee6;
+  /* Palette drawn from the project logo: steel blue on cream. --accent is a
+     deepened version of the logo's blue so it clears AA contrast as text and
+     as a button fill; --accent-soft is a pale tint of the logo's cream. */
+  --bg: #f8f9fb;
+  --bg-soft: #eef2f6;
   --surface: #ffffff;
-  --text: #1c1a17;
-  --muted: #6a6259;
-  --border: #e2dbcf;
-  --accent: #8c2f39;
-  --accent-soft: #f6e9ea;
+  --text: #1a2027;
+  --muted: #5b6672;
+  --border: #dbe3ea;
+  --accent: #3b6c87;
+  --accent-soft: #fff3d6;
   --accent-text: #ffffff;
 
   --radius: 10px;
@@ -219,6 +222,14 @@ h2 {
 h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
 .hero { padding-top: 4rem; padding-bottom: 1rem; }
+
+.hero-logo {
+  width: clamp(140px, 18vw, 200px);
+  height: auto;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+}
+
 .page-head { padding-top: 3rem; }
 
 .lede {
@@ -293,7 +304,7 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
 .callout {
   background: var(--accent-soft);
-  border: 1px solid var(--border);
+  border: 1px solid #f0dfae;
   border-radius: var(--radius);
   padding: 1.75rem;
   margin: 3rem 0;
