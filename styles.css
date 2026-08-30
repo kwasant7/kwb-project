@@ -402,9 +402,9 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
 .quote {
   font-family: var(--sans);
-  font-size: 1.18rem;
+  font-size: 1.02rem;
   line-height: 1.3;
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.6rem;
   text-wrap: balance;
 }
 
@@ -420,8 +420,9 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 /* A line from the interview, sitting under the narrator's name on a card. */
 .card-quote {
   display: block;
-  font-size: 1rem;
-  line-height: 1.45;
+  font-size: 1.32rem;
+  font-weight: 600;
+  line-height: 1.35;
   color: var(--text);
   margin: 0 0 0.75rem;
   text-wrap: pretty;
