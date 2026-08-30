@@ -417,6 +417,16 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
   margin: 0 0 0.75rem;
 }
 
+/* A line from the interview, sitting under the narrator's name on a card. */
+.card-quote {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.45;
+  color: var(--text);
+  margin: 0 0 0.75rem;
+  text-wrap: pretty;
+}
+
 .card-tags {
   display: flex;
   flex-wrap: wrap;
