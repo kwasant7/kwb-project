@@ -217,7 +217,10 @@ main {
   padding: 0 var(--pad);
 }
 
-section { padding: 3rem 0; }
+/* Sections carry no vertical padding of their own; the space between them is
+   one explicit gap, so neighbouring padding cannot double into a hole. */
+section { padding: 0; }
+section + section { margin-top: 2.5rem; }
 
 h1 {
   font-family: var(--sans);
@@ -236,7 +239,7 @@ h2 {
 
 h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
-.hero { padding-top: 4rem; padding-bottom: 1rem; }
+.hero { padding-top: 3.25rem; }
 
 .page-head { padding-top: 3rem; }
 
@@ -315,7 +318,6 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
   border: 1px solid #f0dfae;
   border-radius: var(--radius);
   padding: 1.75rem;
-  margin: 3rem 0;
 }
 
 .callout h2 { margin-top: 0; }
@@ -360,7 +362,7 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
 /* ------------------------------------------------- Interview card grid  */
 
-.interview-index { padding-top: 2rem; }
+.interview-index { padding-top: 0; }
 
 .interview-grid {
   display: grid;
