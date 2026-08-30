@@ -2,7 +2,8 @@
    ---------------------------------------------------------------
    AUTO-GENERATED from YouTube's speech recognition, then lightly
    cleaned: her name was corrected (the recogniser heard "Oxen" and
-   "Oxon"), lines were grouped into paragraphs, and [Music] markers
+   "Oxon"), her husband's surname was corrected to Crimbchin (heard as
+   "Crimson"), lines were grouped into paragraphs, and [Music] markers
    were dropped. NOTHING ELSE HAS BEEN CHECKED AGAINST THE RECORDING.
 
    To correct a line, edit its "text". Keep "t" (seconds from the
@@ -16,7 +17,7 @@ window.KWMB_TRANSCRIPT = {
   cues: [
     {
       "t": 0.5,
-      "text": "Starting off, um, you've been Ock Soon Lee and you've been Pega Crimson, I believe, as well."
+      "text": "Starting off, um, you've been Ock Soon Lee and you've been Pega Crimbchin, I believe, as well."
     },
     {
       "t": 5.9,
