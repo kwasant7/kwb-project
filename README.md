@@ -36,6 +36,42 @@ The video ID is the part of the YouTube URL after `v=` — `youtu.be/dQw4w9WgXcQ
 separate image to upload, and the player only loads when a visitor presses play. The
 search box filters on everything written in a card.
 
+## Transcripts
+
+A transcript lives in `interviews/data/<slug>.js` and is loaded by its interview
+page just before `script.js`. The file sets `window.KWMB_TRANSCRIPT` to:
+
+```js
+window.KWMB_TRANSCRIPT = {
+  video: "zksQXKivqhw",
+  reviewed: false,
+  cues: [ { "t": 0.5, "text": "..." }, ... ]
+};
+```
+
+`t` is seconds from the start of the video. On the page each passage highlights
+as it is spoken, scrolls to keep up, and seeks the video when clicked, and the
+whole thing is searchable.
+
+**Correcting one.** Edit a passage's `text`; leave `t` alone or the sync drifts.
+While `reviewed: false` is set, the page shows a notice saying the transcript is
+machine-generated and unchecked. Delete that line once you have been through it
+against the recording, and the notice goes away.
+
+**Save as PDF** uses the browser's own print dialog with a print stylesheet, so
+there is no PDF library to maintain. The printed copy drops the site header,
+video, and controls, prints every passage (even ones filtered out by a search),
+and stamps the page URL at the foot.
+
+**Getting a first draft.** YouTube's automatic captions are a starting point:
+
+```bash
+yt-dlp --write-auto-subs --sub-langs "en.*" --sub-format json3 --skip-download "<video url>"
+```
+
+Expect errors in names and Korean words especially — that draft is a scaffold to
+correct, never something to publish as someone's exact words.
+
 ## Adding an archive item
 
 1. Drop the image into `images/`

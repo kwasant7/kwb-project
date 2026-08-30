@@ -610,6 +610,127 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 .doc-list strong { display: block; color: var(--text); }
 .doc-list p { margin: 0.35rem 0 0; color: var(--muted); font-size: 0.95rem; }
 
+/* ------------------------------------------------- Quotes & transcript  */
+
+.pullquote {
+  margin: 0 0 1.75rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--accent);
+}
+
+.pullquote blockquote {
+  margin: 0;
+}
+
+.pullquote blockquote p {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--text);
+  text-wrap: pretty;
+}
+
+.pullquote figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* Timestamp buttons, in quotes and in the transcript. */
+.seek,
+.cue-time {
+  font: inherit;
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.12rem 0.55rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.seek:hover,
+.cue-time:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.transcript-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 0.9rem;
+}
+
+.transcript-follow {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.transcript-search { flex: 1 1 14rem; }
+
+.transcript-search input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  font-size: 0.92rem;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.transcript-notice {
+  margin: 0 0 0.9rem;
+  padding: 0.8rem 1rem;
+  background: var(--accent-soft);
+  border: 1px solid #f0dfae;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.transcript-status {
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  min-height: 1.3em;
+}
+
+.transcript {
+  max-height: 26rem;
+  overflow-y: auto;
+  padding: 0.35rem 1rem 0.35rem 0.35rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  scroll-behavior: smooth;
+}
+
+.cue {
+  margin: 0 0 0.85rem;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  color: var(--muted);
+  border-radius: 6px;
+  padding: 0.25rem 0.35rem;
+}
+
+.cue[hidden] { display: none; }
+
+.cue.is-active {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
 /* -------------------------------------------------------------- Footer   */
 
 footer {
@@ -625,4 +746,83 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .btn, .video-play, .interview-card { transition: none; }
+}
+
+
+/* ------------------------------------------------------- Print to PDF   */
+
+@media print {
+  .site-header,
+  footer,
+  .back-link,
+  .video-frame,
+  .transcript-toolbar,
+  .transcript-status,
+  .skip-link,
+  .cue-time,
+  .seek {
+    display: none !important;
+  }
+
+  html, body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+
+  main, .interview {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* The transcript prints in full rather than as a scrolling panel. */
+  .transcript {
+    max-height: none;
+    overflow: visible;
+    border: 0;
+    padding: 0;
+    background: transparent;
+  }
+
+  .cue {
+    color: #000;
+    background: transparent;
+    padding: 0;
+    margin-bottom: 0.6em;
+    /* Keep a passage from being split across two pages. */
+    break-inside: avoid;
+  }
+
+  .cue[hidden] { display: block !important; }
+  .cue.is-active { background: transparent; }
+
+  .pullquote {
+    break-inside: avoid;
+    border-left: 2pt solid #000;
+  }
+
+  .transcript-notice {
+    border: 1pt solid #000;
+    background: transparent;
+    break-inside: avoid;
+  }
+
+  h1 { font-size: 20pt; }
+  h2 { font-size: 13pt; break-after: avoid; }
+
+  a { color: #000; text-decoration: none; }
+
+  /* Show the source URL once, so a printed copy can be traced back. */
+  .interview::after {
+    content: "Source: https://kwasant7.github.io/kwb-project/interviews/ock-soon-lee.html";
+    display: block;
+    margin-top: 1.5em;
+    padding-top: 0.5em;
+    border-top: 0.5pt solid #999;
+    font-size: 8pt;
+    color: #444;
+  }
+
+  @page { margin: 18mm; }
 }
