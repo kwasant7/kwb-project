@@ -124,16 +124,6 @@ var KWMBVideo = (function () {
   };
 })();
 
-// -- Timestamp buttons (the pull quotes) jump the player to a moment. --
-(function () {
-  Array.prototype.forEach.call(document.querySelectorAll('.seek[data-seek]'), function (button) {
-    button.addEventListener('click', function () {
-      var t = parseFloat(button.getAttribute('data-seek'));
-      if (!isNaN(t)) KWMBVideo.seek(t);
-    });
-  });
-})();
-
 // -- Synced transcript.
 //    Renders window.KWMB_TRANSCRIPT, highlights the line being spoken, scrolls
 //    to keep up, seeks on click, filters on search, and prints to PDF. --

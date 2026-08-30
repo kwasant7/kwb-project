@@ -620,35 +620,9 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 .doc-list strong { display: block; color: var(--text); }
 .doc-list p { margin: 0.35rem 0 0; color: var(--muted); font-size: 0.95rem; }
 
-/* ------------------------------------------------- Quotes & transcript  */
+/* ------------------------------------------------------- Transcript  */
 
-.pullquote {
-  margin: 0 0 1.75rem;
-  padding-left: 1.1rem;
-  border-left: 3px solid var(--accent);
-}
-
-.pullquote blockquote {
-  margin: 0;
-}
-
-.pullquote blockquote p {
-  margin: 0;
-  font-size: 1.3rem;
-  line-height: 1.4;
-  font-weight: 600;
-  color: var(--text);
-  text-wrap: pretty;
-}
-
-.pullquote figcaption {
-  margin-top: 0.6rem;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-/* Timestamp buttons, in quotes and in the transcript. */
-.seek,
+/* Timestamp buttons in the transcript. */
 .cue-time {
   font: inherit;
   font-size: 0.82rem;
@@ -662,7 +636,6 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
   cursor: pointer;
 }
 
-.seek:hover,
 .cue-time:hover {
   background: var(--accent);
   border-color: var(--accent);
@@ -769,8 +742,7 @@ footer {
   .transcript-toolbar,
   .transcript-status,
   .skip-link,
-  .cue-time,
-  .seek {
+  .cue-time {
     display: none !important;
   }
 
@@ -806,11 +778,6 @@ footer {
 
   .cue[hidden] { display: block !important; }
   .cue.is-active { background: transparent; }
-
-  .pullquote {
-    break-inside: avoid;
-    border-left: 2pt solid #000;
-  }
 
   .transcript-notice {
     border: 1pt solid #000;
