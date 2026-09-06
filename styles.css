@@ -438,10 +438,24 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 }
 
 .back-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
   font-size: 0.9rem;
   text-decoration: none;
   margin-bottom: 1.75rem;
+}
+
+/* The arrow is masked rather than shown as an image, so it picks up the
+   link colour instead of staying black. */
+.back-link::before {
+  content: "";
+  flex: none;
+  width: 0.9em;
+  height: 0.9em;
+  background: currentColor;
+  -webkit-mask: url(images/arrow-left.png) center / contain no-repeat;
+  mask: url(images/arrow-left.png) center / contain no-repeat;
 }
 
 .back-link:hover { text-decoration: underline; }
