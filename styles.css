@@ -297,24 +297,7 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
   color: var(--accent-text);
 }
 
-/* ---------------------------------------------------------------- Cards  */
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1rem;
-}
-
-.card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.2rem;
-}
-
-.card h3 a { text-decoration: none; }
-.card h3 a:hover { text-decoration: underline; }
-.card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+/* -------------------------------------------------------------- Callout  */
 
 .callout {
   background: var(--accent-soft);
