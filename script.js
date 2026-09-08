@@ -17,7 +17,14 @@
 //    Anything with data-youtube="VIDEO_ID" gets that video's still image as its
 //    background, so interview cards need no separate photo uploaded. --
 (function () {
-  Array.prototype.forEach.call(document.querySelectorAll('[data-youtube]'), function (el) {
+  Array.prototype.forEach.call(document.querySelectorAll('[data-youtube], [data-cover]'), function (el) {
+    // data-cover="path/to/photo.jpg" wins, for interviews that should lead with
+    // a photograph rather than a still lifted from the video.
+    var cover = el.getAttribute('data-cover');
+    if (cover) {
+      el.style.backgroundImage = "url('" + cover + "')";
+      return;
+    }
     var id = el.getAttribute('data-youtube');
     if (!id || id === 'VIDEO_ID') return;
     el.style.backgroundImage = "url('https://i.ytimg.com/vi/" + id + "/hqdefault.jpg')";
