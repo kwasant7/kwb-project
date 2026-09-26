@@ -1,4 +1,4 @@
-/* Transcript for the Leesa Manion interview (video VIDEO_ID).
+/* Transcript for the Leesa Manion interview (video dAJuKOVZSbM).
    ---------------------------------------------------------------
    MACHINE-TRANSCRIBED with Whisper from the original recording, with
    unclear passages re-run and lightly cleaned (repeated words and small
@@ -15,7 +15,7 @@
    through, and the "unverified" notice will disappear from the page. */
 
 window.KWMB_TRANSCRIPT = {
-  video: "VIDEO_ID",
+  video: "dAJuKOVZSbM",
   reviewed: false,
   cues: [
     {
