@@ -359,11 +359,21 @@ var KWMBPdf = (function () {
     time.setAttribute('aria-label', 'Play from ' + stamp(cue.t));
     time.addEventListener('click', function () { KWMBVideo.seek(cue.t); });
 
+    line.appendChild(time);
+
+    // A passage spoken in another language carries it as "original", shown
+    // above the English "text" that translates it.
+    if (cue.original) {
+      var said = document.createElement('span');
+      said.className = 'cue-original';
+      said.lang = data.lang || 'ko';
+      said.textContent = cue.original;
+      line.appendChild(said);
+    }
+
     var body = document.createElement('span');
     body.className = 'cue-text';
     body.textContent = cue.text;
-
-    line.appendChild(time);
     line.appendChild(body);
     root.appendChild(line);
     return line;
@@ -402,7 +412,7 @@ var KWMBPdf = (function () {
       var q = search.value.trim().toLowerCase();
       var shown = 0;
       nodes.forEach(function (node, i) {
-        var hit = !q || cues[i].text.toLowerCase().indexOf(q) !== -1;
+        var hit = !q || (cues[i].text + ' ' + (cues[i].original || '')).toLowerCase().indexOf(q) !== -1;
         node.hidden = !hit;
         if (hit) shown += 1;
       });
@@ -438,6 +448,7 @@ var KWMBPdf = (function () {
           : '',
         footer: location.host + location.pathname,
         // Always the whole transcript, never just what a search left showing.
+        // The PDF font is Latin-only, so translated passages print in English.
         cues: cues.map(function (cue) {
           return { stamp: stamp(cue.t), text: cue.text };
         })
