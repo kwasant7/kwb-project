@@ -1,4 +1,4 @@
-# The Korean War & Military Brides Project
+# Korean Women History Project
 
 An oral history and archival site. Plain HTML, CSS, and JavaScript — no build step,
 no dependencies, no framework.

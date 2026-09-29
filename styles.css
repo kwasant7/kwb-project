@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Korean War & Military Brides Project — site styles
+   Korean Women History Project — site styles
    Colors live in the :root block below. Change them there and the whole
    site follows. Everything else is layout.
    ========================================================================== */
@@ -813,7 +813,7 @@ footer {
 
   /* Show the source URL once, so a printed copy can be traced back. */
   .interview::after {
-    content: "Source: https://kwasant7.github.io/kwb-project/interviews/ock-soon-lee.html";
+    content: "Source: www.koreanwomenshistory.org";
     display: block;
     margin-top: 1.5em;
     padding-top: 0.5em;

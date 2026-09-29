@@ -1,4 +1,4 @@
-/* Korean War Brides Project — shared behavior for every page.
+/* Korean Women History Project — shared behavior for every page.
    Each block skips itself if the elements it needs are not on the page. */
 
 // -- Mobile menu. --
