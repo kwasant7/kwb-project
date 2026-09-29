@@ -3,7 +3,7 @@
 An oral history and archival site. Plain HTML, CSS, and JavaScript — no build step,
 no dependencies, no framework.
 
-**Live site:** https://kwasant7.github.io/kwb-project/
+**Live site:** https://www.koreanwomenshistory.org/ (deployed by Vercel on every push to `main`)
 
 ## Pages
 
