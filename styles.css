@@ -260,6 +260,23 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 .prose h2 { margin-top: 2.2rem; }
 .prose h2:first-child { margin-top: 0; }
 
+/* Numbered sources under a passage, set small and faded. */
+.prose sup { line-height: 0; font-size: 0.7em; }
+.prose sup a { text-decoration: none; }
+
+.sources {
+  margin: 1.25rem 0 0;
+  padding: 0.9rem 0 0 1.2rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--muted);
+  max-width: var(--measure);
+}
+
+.sources li { margin-bottom: 0.35rem; }
+.sources a { color: var(--muted); }
+
 .cite {
   display: inline-block;
   margin-top: 0.4rem;
