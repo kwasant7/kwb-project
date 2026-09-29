@@ -710,6 +710,17 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 
 .cue[hidden] { display: none; }
 
+.cue-speaker {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+.cue-speaker.is-interviewer { color: var(--muted); }
+
 .cue-original {
   display: block;
   margin-left: 3.4rem;

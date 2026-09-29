@@ -361,6 +361,14 @@ var KWMBPdf = (function () {
 
     line.appendChild(time);
 
+    // Who is speaking, when the transcript says.
+    if (cue.speaker) {
+      var who = document.createElement('span');
+      who.className = 'cue-speaker' + (cue.speaker === 'Interviewer' ? ' is-interviewer' : '');
+      who.textContent = cue.speaker;
+      line.appendChild(who);
+    }
+
     // A passage spoken in another language carries it as "original", shown
     // above the English "text" that translates it.
     if (cue.original) {
@@ -412,7 +420,7 @@ var KWMBPdf = (function () {
       var q = search.value.trim().toLowerCase();
       var shown = 0;
       nodes.forEach(function (node, i) {
-        var hit = !q || (cues[i].text + ' ' + (cues[i].original || '')).toLowerCase().indexOf(q) !== -1;
+        var hit = !q || (cues[i].text + ' ' + (cues[i].original || '') + ' ' + (cues[i].speaker || '')).toLowerCase().indexOf(q) !== -1;
         node.hidden = !hit;
         if (hit) shown += 1;
       });
@@ -450,7 +458,7 @@ var KWMBPdf = (function () {
         // Always the whole transcript, never just what a search left showing.
         // The PDF font is Latin-only, so translated passages print in English.
         cues: cues.map(function (cue) {
-          return { stamp: stamp(cue.t), text: cue.text };
+          return { stamp: stamp(cue.t), text: (cue.speaker ? cue.speaker + ': ' : '') + cue.text };
         })
       });
 

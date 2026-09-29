@@ -45,11 +45,13 @@ page just before `script.js`. The file sets `window.KWMB_TRANSCRIPT` to:
 window.KWMB_TRANSCRIPT = {
   video: "zksQXKivqhw",
   reviewed: false,
-  cues: [ { "t": 0.5, "text": "..." }, ... ]
+  cues: [ { "t": 0.5, "speaker": "Interviewer", "text": "..." }, ... ]
 };
 ```
 
-`t` is seconds from the start of the video. On the page each passage highlights
+`t` is seconds from the start of the video. `speaker` is shown as a label before the
+passage ("Interviewer" or the narrator's name) and is optional. A passage spoken in another
+language can add `"original"`, shown above the English `"text"`. On the page each passage highlights
 as it is spoken, scrolls to keep up, and seeks the video when clicked, and the
 whole thing is searchable.
 
