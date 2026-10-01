@@ -644,6 +644,9 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
   font-style: italic;
 }
 
+/* Korean breaks between words, not inside them. */
+[lang="ko"] { word-break: keep-all; }
+
 .doc-list {
   list-style: none;
   padding: 0;
