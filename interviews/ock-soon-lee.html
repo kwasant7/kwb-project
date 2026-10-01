@@ -5,20 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Interview with Ock Soon Lee: A Life of Faith, Survival, and Service | Korean Women History Project</title>
   <meta name="description" content="Ock Soon Lee survived forced labor and the Korean War, married an American serviceman, and settled in Pennsylvania in 1954. Her oral history, in full." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="../classical.css" />
   <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" href="../favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16.png" />
   <link rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
+  <link rel="manifest" href="../site.webmanifest" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <a class="brand" href="../index.html">
+  <header class="site-header nav">
+    <a class="brand nav-brand" href="../index.html">
       <img class="brand-logo" src="../images/logo.png" alt="" width="512" height="512" />
       <span class="brand-name">Korean Women History Project</span>
     </a>
-    <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <button id="nav-toggle" class="nav-toggle btn btn-secondary" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" class="site-nav">
       <a href="../index.html">Home</a>
       <a href="../oral-histories.html" aria-current="page">Oral Histories</a>
@@ -43,9 +48,9 @@
         marry, and the life she built afterwards in Pennsylvania.
       </p>
 
-      <div class="video-frame" data-youtube="zksQXKivqhw" data-cover="../images/ock-soon-lee-cover.jpg">
+      <div class="video-frame plate" data-youtube="zksQXKivqhw" data-cover="../images/ock-soon-lee-cover.jpg">
         <button class="video-play" type="button">
-          <span class="video-play-icon" aria-hidden="true">▶</span>
+          <span class="video-play-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3"/></svg></span>
           <span class="visually-hidden">Play the interview</span>
         </button>
       </div>
@@ -71,9 +76,9 @@
           </label>
           <label class="transcript-search">
             <span class="visually-hidden">Search the transcript</span>
-            <input type="search" id="transcript-search" placeholder="Search the transcript&hellip;" autocomplete="off" />
+            <input type="search" id="transcript-search" class="input" placeholder="Search the transcript&hellip;" autocomplete="off" />
           </label>
-          <button type="button" class="btn" id="transcript-print">Save as PDF</button>
+          <button type="button" class="btn btn-secondary" id="transcript-print">Save as PDF</button>
         </div>
 
         <p class="transcript-status" id="transcript-status" role="status"></p>

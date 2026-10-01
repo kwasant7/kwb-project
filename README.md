@@ -15,7 +15,7 @@ no dependencies, no framework.
 | `archive.html` | Archive | Photographs, secondary footage, documents |
 | `about.html` | About | Origins, method, credits, contact details |
 
-Shared across all four: `styles.css`, `script.js`, and the header/footer markup
+Shared across all of them: `classical.css`, `styles.css`, `script.js`, and the header/footer markup
 inside each page.
 
 ## Adding an oral history
@@ -89,12 +89,18 @@ Secondary videos use the same `data-youtube="VIDEO_ID"` pattern as the interview
 
 ## Changing the look
 
-All colors are CSS variables in the `:root` block at the top of `styles.css`. Edit
-those and the whole site follows. The site is light-only.
+The site follows the Classical design system in `classical.css`, which every page
+loads before `styles.css`. Its `:root` block holds the tokens: colors and their
+100–900 ramps, fonts, spacing, radii, and shadows. Edit those and the whole site
+follows. `styles.css` lays out the site's own pieces and takes every color, font,
+and spacing value from those tokens. The site is light-only.
 
-Body text uses Google Sans, self-hosted from `fonts/` (`fonts/OFL.txt` has the
-license). Headings use a serif system font stack — see `--serif` in `styles.css`
-if you want to change that too.
+The rules of the system: buttons are outlined in the accent rather than filled,
+cards are bordered rather than filled, hairlines separate sections, running text
+is justified, and every photograph sits in a `.plate` (a thin mat with a warm
+archival grade). Headings use Cormorant Garamond and body text uses Lora, both
+loaded from Google Fonts by `classical.css`. Icons come from
+[Lucide](https://lucide.dev).
 
 ## Running it locally
 
