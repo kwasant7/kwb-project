@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Oral Histories | Korean Women History Project</title>
   <meta name="description" content="Recorded oral history interviews with Korean war brides and their families." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="classical.css" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
@@ -18,12 +15,12 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header nav">
-    <a class="brand nav-brand" href="index.html">
+  <header class="site-header">
+    <a class="brand" href="index.html">
       <img class="brand-logo" src="images/logo.png" alt="" width="512" height="512" />
       <span class="brand-name">Korean Women History Project</span>
     </a>
-    <button id="nav-toggle" class="nav-toggle btn btn-secondary" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav id="site-nav" class="site-nav">
       <a href="index.html">Home</a>
       <a href="oral-histories.html" aria-current="page">Oral Histories</a>
@@ -47,7 +44,7 @@
 
       <label class="search">
         <span class="visually-hidden">Search oral histories</span>
-        <input id="filter" class="input" type="search" placeholder="Search by name, place, or topic…" autocomplete="off" />
+        <input id="filter" type="search" placeholder="Search by name, place, or topic…" autocomplete="off" />
       </label>
       <p id="filter-status" class="filter-status" role="status"></p>
     </section>
@@ -56,7 +53,7 @@
       ADDING AN INTERVIEW  (two steps)
       ------------------------------------------------------------------
       1. Copy interviews/template.html to interviews/her-name.html and fill it in.
-      2. Copy one <a class="interview-card card"> block below and edit:
+      2. Copy one <a class="interview-card"> block below and edit:
 
            href="interviews/her-name.html"   the page you just made
            data-youtube="VIDEO_ID"           the bit of the YouTube URL after v=
@@ -69,24 +66,24 @@
     <section class="interview-index">
       <div class="interview-grid" id="interviews">
 
-        <a class="interview-card card" href="interviews/ock-soon-lee.html">
-          <span class="card-media plate" data-youtube="zksQXKivqhw" data-cover="images/ock-soon-lee-cover.jpg"></span>
+        <a class="interview-card" href="interviews/ock-soon-lee.html">
+          <span class="card-media" data-youtube="zksQXKivqhw" data-cover="images/ock-soon-lee-cover.jpg"></span>
           <span class="card-body">
             <h2 class="quote">Interview with Ock Soon Lee: A Life of Faith, Survival, and Service</h2>
             <span class="card-quote">&ldquo;I have nothing to bring. Just what I&rsquo;m wearing.&rdquo;</span>
           </span>
         </a>
 
-        <a class="interview-card card" href="interviews/leesa-manion.html">
-          <span class="card-media plate" data-youtube="dAJuKOVZSbM" data-cover="images/leesa-manion-cover.jpg"></span>
+        <a class="interview-card" href="interviews/leesa-manion.html">
+          <span class="card-media" data-youtube="dAJuKOVZSbM" data-cover="images/leesa-manion-cover.jpg"></span>
           <span class="card-body">
             <h2 class="quote">Interview with Leesa Manion: A Life of Loss, Reunion, and Advocacy</h2>
             <span class="card-quote">&ldquo;It can be our superhero strength.&rdquo;</span>
           </span>
         </a>
 
-        <a class="interview-card card" href="interviews/sookja-green.html">
-          <span class="card-media plate" data-youtube="VayJiYW_1X4" data-cover="images/sookja-green-cover.jpg"></span>
+        <a class="interview-card" href="interviews/sookja-green.html">
+          <span class="card-media" data-youtube="VayJiYW_1X4" data-cover="images/sookja-green-cover.jpg"></span>
           <span class="card-body">
             <h2 class="quote">Interview with Sookja Green: A Life of Courage, Love, and Two Cultures</h2>
             <span class="card-quote">&ldquo;It&rsquo;s okay. You can do this.&rdquo;</span>

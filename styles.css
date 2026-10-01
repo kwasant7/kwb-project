@@ -1,46 +1,88 @@
 /* ==========================================================================
    Korean Women History Project — site styles
-   The look comes from classical.css, the Classical design system, which every
-   page loads first: colors, fonts, spacing, radii and shadows are its
-   variables, and buttons, cards, the header bar and image plates are its
-   classes. This file lays out the site's own pieces with those tokens. To
-   change the look, retune the tokens in classical.css.
+   Colors live in the :root block below. Change them there and the whole
+   site follows. Everything else is layout.
    ========================================================================== */
 
+/* Google Sans, self-hosted (SIL Open Font License 1.1, see fonts/OFL.txt).
+   A single variable file covers weight 400-700, so italic is the only
+   second file needed. */
+@font-face {
+  font-family: "Google Sans";
+  src: url("fonts/GoogleSans-Variable.woff2") format("woff2-variations"),
+       url("fonts/GoogleSans-Variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Google Sans";
+  src: url("fonts/GoogleSans-Italic-Variable.woff2") format("woff2-variations"),
+       url("fonts/GoogleSans-Italic-Variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+
 :root {
+  /* Palette drawn from the project logo: gold on near-black, over a warm
+     off-white. --accent is a deepened version of the logo's gold (#b68235)
+     so it clears AA contrast as text and as a button fill; --accent-soft is
+     a pale tint of the same gold. */
+  --bg: #f3f2f2;
+  --bg-soft: #eae9e9;
+  --surface: #f8f4f4;
+  --text: #201f1d;
+  --muted: #605d5d;
+  --border: #d7d3d3;
+  --accent: #8f611c;
+  /* Body text carrying a slight gold hue, for card pull quotes. */
+  --text-quote: #5a3b0a;
+  --accent-soft: #fff3e4;
+  --accent-soft-border: #f1dcb8;
+  --accent-text: #ffffff;
+
+  /* Dark banner across the top, the same near-black as the logo's tile so
+     the logo sits flush in it. */
+  --header-bg: #201f1d;
+  --header-text: #f3f2f2;
+
+  --radius: 10px;
   /* Content sits in a centered band with a gutter on each side.
-     --maxw is how wide that band gets; --pad is the gutter inside it;
-     --measure is the longest a line of running text gets. */
+     --maxw is how wide that band gets; --pad is the gutter inside it.
+     --measure is off, so text fills the band rather than stopping short. */
   --maxw: 1280px;
   --pad: clamp(1rem, 4vw, 2.5rem);
-  --measure: 70ch;
+  --measure: none;
 
-  /* Quieter secondary text, dark enough to stay readable at small sizes. */
-  --color-muted: var(--color-neutral-700);
-  /* The base accent is for strokes and large type; text at paragraph size
-     takes a deeper step of the same ramp so it clears contrast. */
-  --color-accent-text: var(--color-accent-700);
+  /* --serif is unused now that headings use --sans too; kept so a serif
+     look can be restored by pointing a rule back at it. */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --sans: "Google Sans", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
   /* The site is light-only; this keeps form controls and scrollbars light
      even for visitors whose system is set to dark mode. */
   color-scheme: light;
 }
 
+* { box-sizing: border-box; }
+
 html { scroll-behavior: smooth; }
 
-body { -webkit-font-smoothing: antialiased; }
-
-a {
-  color: var(--color-accent-text);
-  text-decoration-color: var(--color-accent-400);
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.65 var(--sans);
+  -webkit-font-smoothing: antialiased;
 }
 
-a:hover {
-  color: var(--color-accent-800);
-  text-decoration-color: currentColor;
-}
+a { color: var(--accent); }
+a:hover { text-decoration-thickness: 2px; }
 
-img { height: auto; }
+img { max-width: 100%; height: auto; display: block; }
 
 .visually-hidden {
   position: absolute;
@@ -55,78 +97,105 @@ img { height: auto; }
   position: absolute;
   left: -9999px;
   top: 0;
+  background: var(--accent);
+  color: var(--accent-text);
+  padding: 0.6rem 1rem;
   z-index: 100;
-  padding: var(--space-2) var(--space-3);
-  background: var(--color-bg);
-  border: 1px solid var(--color-accent);
 }
 .skip-link:focus { left: 0; }
 
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
 /* --------------------------------------------------------------- Header  */
 
-/* The header bar is the design system's .nav; this pins it to the top and
-   lines its edges up with the content band below. */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 20;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding-block: var(--space-3);
+  gap: 1.5rem;
+  padding-block: 0.7rem;
   padding-inline: max(var(--pad), calc((100% - var(--maxw)) / 2 + var(--pad)));
-  background: var(--color-bg);
+  background: var(--header-bg);
+  color: var(--header-text);
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: var(--space-3);
+  gap: 0.7rem;
+  text-decoration: none;
+  color: var(--header-text);
   min-width: 0;
 }
 
 .brand-logo {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   flex: none;
 }
 
 .brand-name {
-  font-size: 22px;
-  line-height: 1.1;
-  color: var(--color-text);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .site-nav {
   display: flex;
   align-items: center;
-  gap: var(--space-6);
+  gap: 0.4rem;
 }
 
 .site-nav a {
-  font-size: 15px;
-  padding-block: var(--space-1);
-  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  color: var(--header-text);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.5rem 0.85rem;
+  border-radius: 8px;
   white-space: nowrap;
 }
 
-.site-nav a:hover { color: var(--color-accent-text); }
+.site-nav a:hover { background: rgba(255, 255, 255, 0.12); }
 
-/* The current page is marked with an accent rule rather than a fill. */
+/* Current page reads as a filled chip, the way the reference header does. */
 .site-nav a[aria-current="page"] {
-  color: var(--color-accent-text);
-  border-bottom-color: var(--color-accent);
+  background: var(--header-text);
+  color: var(--header-bg);
 }
 
-.nav-toggle { display: none; }
+.nav-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  color: var(--header-text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.55rem 0.8rem;
+}
+
+.nav-toggle:hover { background: rgba(255, 255, 255, 0.12); }
 
 @media (max-width: 860px) {
   .brand-name {
-    font-size: 19px;
+    font-size: 0.95rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
-  .nav-toggle { display: inline-flex; }
+  .nav-toggle { display: inline-block; }
 
   .site-nav {
     display: none;
@@ -135,14 +204,11 @@ img { height: auto; }
     left: 0;
     right: 0;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 0;
-    padding: var(--space-2) var(--pad) var(--space-4);
-    background: var(--color-bg);
-    border-bottom: 1px solid var(--color-divider);
+    align-items: stretch;
+    gap: 0.25rem;
+    padding: 0.75rem var(--pad) 1rem;
+    background: var(--header-bg);
   }
-
-  .site-nav a { padding-block: var(--space-2); }
 
   .site-nav.open { display: flex; }
 }
@@ -155,56 +221,45 @@ main {
   padding: 0 var(--pad);
 }
 
-/* Sections carry no vertical padding of their own. A hairline rule and one
-   explicit gap separate neighbours, so padding cannot double into a hole. */
+/* Sections carry no vertical padding of their own; the space between them is
+   one explicit gap, so neighbouring padding cannot double into a hole. */
 section { padding: 0; }
+section + section { margin-top: 2.5rem; }
 
-section + section { margin-top: var(--space-8); }
-
-/* A callout draws its own border, so it gets no rule above it. */
-section + section:not(.callout) {
-  padding-top: var(--space-8);
-  border-top: 1px solid var(--color-divider);
-}
-
-/* Page titles are display type, so they take the lighter normal cut. */
 h1 {
-  font-size: clamp(2.625rem, 5.5vw, 3.75rem);
-  font-weight: 400;
-  line-height: 1.05;
-  margin-bottom: var(--space-4);
-  text-wrap: balance;
+  font-family: var(--sans);
+  font-size: clamp(2.1rem, 5.5vw, 3.2rem);
+  line-height: 1.12;
+  margin: 0 0 1rem;
+  letter-spacing: -0.015em;
 }
 
-h2 { margin-bottom: var(--space-3); }
+h2 {
+  font-family: var(--sans);
+  font-size: clamp(1.35rem, 2.6vw, 1.7rem);
+  line-height: 1.25;
+  margin: 0 0 1rem;
+}
 
-.hero,
-.page-head { padding-top: calc(var(--space-8) * 1.5); }
+h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
+
+.hero { padding-top: 3.25rem; }
+
+.page-head { padding-top: 3rem; }
 
 .lede {
-  font-size: 18px;
-  color: var(--color-muted);
+  font-size: 1.15rem;
+  color: var(--muted);
   max-width: var(--measure);
-  margin: 0 0 var(--space-6);
+  margin: 0 0 1.5rem;
 }
 
-/* Running text is justified at a comfortable measure. */
 .prose p {
   max-width: var(--measure);
-  margin: 0 0 var(--space-4);
-  font-size: 16px;
-  text-align: justify;
-  hyphens: auto;
+  margin: 0 0 1.1rem;
 }
 
-/* A phone-width line is too short to justify without gaps between words. */
-@media (max-width: 600px) {
-  .prose p,
-  .archive-section > p,
-  .interview-summary { text-align: left; }
-}
-
-.prose h2 { margin-top: var(--space-8); }
+.prose h2 { margin-top: 2.2rem; }
 .prose h2:first-child { margin-top: 0; }
 
 /* Numbered sources under a passage, set small and faded. */
@@ -212,38 +267,66 @@ h2 { margin-bottom: var(--space-3); }
 .prose sup a { text-decoration: none; }
 
 .sources {
-  margin: var(--space-4) 0 0;
-  padding: var(--space-3) 0 0 var(--space-4);
-  border-top: 1px solid var(--color-divider);
-  font-size: 13px;
+  margin: 1.25rem 0 0;
+  padding: 0.9rem 0 0 1.2rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
   line-height: 1.5;
-  color: var(--color-muted);
+  color: var(--muted);
   max-width: var(--measure);
 }
 
-.sources li { margin-bottom: var(--space-1); }
-.sources a { color: var(--color-muted); }
+.sources li { margin-bottom: 0.35rem; }
+.sources a { color: var(--muted); }
 
-.prose .cite {
+.cite {
   display: inline-block;
-  margin-top: var(--space-1);
-  padding: var(--space-2) var(--space-3);
-  border-left: 2px solid var(--color-accent);
-  font-size: 14px;
-  color: var(--color-muted);
-  text-align: left;
-  hyphens: manual;
+  margin-top: 0.4rem;
+  padding: 0.6rem 0.85rem;
+  background: var(--bg-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.94rem;
+  color: var(--muted);
+}
+
+/* -------------------------------------------------------------- Buttons  */
+
+
+.btn {
+  display: inline-block;
+  padding: 0.65rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+
+.btn:hover { transform: translateY(-1px); border-color: var(--accent); }
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
 }
 
 /* -------------------------------------------------------------- Callout  */
 
 .callout {
-  border: 1px solid var(--color-accent-300);
-  border-radius: var(--radius-md);
-  padding: var(--space-6);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-soft-border);
+  border-radius: var(--radius);
+  padding: 1.75rem;
 }
 
-.callout p { color: var(--color-muted); max-width: var(--measure); }
+.callout h2 { margin-top: 0; }
+.callout p { color: var(--muted); max-width: var(--measure); }
 .callout p:last-child { margin-bottom: 0; }
 
 .contact-list {
@@ -251,28 +334,34 @@ h2 { margin-bottom: var(--space-3); }
   padding: 0;
   margin: 0;
   display: grid;
-  gap: var(--space-2);
+  gap: 0.6rem;
 }
 
 .contact-list strong {
   display: inline-block;
   min-width: 6.5rem;
-  font-weight: 600;
-  color: var(--color-text);
+  color: var(--text);
 }
 
 /* --------------------------------------------------------------- Search  */
 
-.search {
-  display: block;
-  max-width: 26rem;
-  margin-top: var(--space-6);
+.search { display: block; max-width: 26rem; }
+
+.search input {
+  width: 100%;
+  padding: 0.6rem 0.85rem;
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
 }
 
 .filter-status {
-  margin: var(--space-2) 0 0;
-  font-size: 14px;
-  color: var(--color-muted);
+  margin: 0.6rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
   min-height: 1.4em;
 }
 
@@ -283,72 +372,97 @@ h2 { margin-bottom: var(--space-3); }
 .interview-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: var(--space-6);
+  gap: 1.5rem;
 }
 
-/* Each card is the design system's .card, as a link. */
 .interview-card {
-  gap: var(--space-3);
-  color: inherit;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
   text-decoration: none;
+  color: inherit;
   transition: border-color 0.14s ease;
 }
 
-.interview-card:hover { color: inherit; border-color: var(--color-accent); }
+.interview-card:hover {
+  border-color: var(--accent);
+}
 
 .interview-card[hidden] { display: none; }
 
 .card-media {
   display: block;
   aspect-ratio: 16 / 9;
-  background: var(--color-surface) center / cover no-repeat;
+  background: var(--bg-soft) center / cover no-repeat;
+  border-bottom: 1px solid var(--border);
 }
 
-/* The design system's .card-body is a small faded paragraph; here it holds
-   the card's title and quote, so it keeps full size and strength. */
-.interview-card .card-body {
+.card-body {
   display: block;
-  font-size: inherit;
-  opacity: 1;
+  padding: 1.1rem 1.15rem 1.25rem;
 }
 
 .quote {
-  font-size: 24px;
-  line-height: 1.15;
-  margin: 0 0 var(--space-2);
+  font-family: var(--sans);
+  font-size: 1.22rem;
+  line-height: 1.3;
+  margin: 0 0 0.6rem;
   text-wrap: balance;
 }
 
-.interview-card:hover .quote { color: var(--color-accent-text); }
+.interview-card:hover .quote { color: var(--accent); }
 
 .meta {
   display: block;
-  font-size: 13px;
-  color: var(--color-muted);
-  margin: 0 0 var(--space-3);
+  font-size: 0.86rem;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
 }
 
-/* A line from the interview, sitting under the title on a card. */
+/* A line from the interview, sitting under the narrator's name on a card. */
 .card-quote {
   display: block;
-  font-style: italic;
-  font-size: 15px;
-  line-height: 1.5;
-  color: var(--color-neutral-800);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--text-quote);
+  margin: 0 0 0.75rem;
   text-wrap: pretty;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.card-tags span {
+  font-size: 0.76rem;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.18rem 0.6rem;
 }
 
 /* --------------------------------------------- Interview detail page  */
 
-.interview { padding: var(--space-8) 0 var(--space-4); }
+.interview {
+  max-width: var(--measure);
+  padding: 2.5rem 0 1rem;
+}
 
 .back-link {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-1);
-  font-size: 14px;
+  gap: 0.45em;
+  font-size: 0.9rem;
   text-decoration: none;
-  margin-bottom: var(--space-6);
+  margin-bottom: 1.75rem;
 }
 
 /* The arrow is masked rather than shown as an image, so it picks up the
@@ -356,8 +470,8 @@ h2 { margin-bottom: var(--space-3); }
 .back-link::before {
   content: "";
   flex: none;
-  width: 1em;
-  height: 1em;
+  width: 0.95em;
+  height: 0.95em;
   background: currentColor;
   -webkit-mask: url(images/arrow-left.svg) center / contain no-repeat;
   mask: url(images/arrow-left.svg) center / contain no-repeat;
@@ -365,7 +479,7 @@ h2 { margin-bottom: var(--space-3); }
 
 .back-link:hover { text-decoration: underline; }
 
-.interview h1 { margin-bottom: var(--space-3); }
+.interview h1 { margin-bottom: 0.6rem; text-wrap: balance; }
 
 .interview .video-frame {
   max-height: 72vh;
@@ -373,60 +487,63 @@ h2 { margin-bottom: var(--space-3); }
   margin-inline: auto;
 }
 
+.interview-standfirst {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 0.6rem;
+}
+
 .interview-meta {
-  font-size: 14px;
-  color: var(--color-muted);
-  margin: 0 0 var(--space-3);
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0 0 1rem;
 }
 
 .interview-summary {
-  font-size: 17px;
-  color: var(--color-muted);
-  max-width: var(--measure);
-  margin: 0 0 var(--space-6);
-  text-align: justify;
-  hyphens: auto;
+  font-size: 1.08rem;
+  color: var(--muted);
+  margin: 0 0 1.75rem;
 }
 
-.interview .prose { margin-top: var(--space-8); }
-.interview .back-link:last-child { margin: var(--space-8) 0 0; }
+.interview .prose { padding: 2rem 0 0; }
+.interview .prose + .prose { margin-top: 2rem; }
+.interview .back-link:last-child { margin: 2.5rem 0 0; }
 
 .passages {
   margin: 0;
   display: grid;
   grid-template-columns: max-content 1fr;
-  gap: var(--space-2) var(--space-4);
+  gap: 0.5rem 1.1rem;
   align-items: baseline;
 }
 
 .passages dt {
   font-variant-numeric: tabular-nums;
-  font-size: 14px;
-  color: var(--color-accent-text);
+  font-size: 0.88rem;
+  color: var(--accent);
 }
 
 .passages dd {
   margin: 0;
-  color: var(--color-muted);
+  color: var(--muted);
 }
 
 @media (max-width: 520px) {
-  .passages { grid-template-columns: 1fr; gap: var(--space-1); }
-  .passages dd { margin-bottom: var(--space-3); }
+  .passages { grid-template-columns: 1fr; gap: 0.15rem; }
+  .passages dd { margin-bottom: 0.7rem; }
 }
 
 /* ------------------------------------------------- Video player frame  */
 
-/* Frames are .plate images until they play; the plate's archival grade is
-   lifted once the video itself is showing. */
 .video-frame {
   position: relative;
   aspect-ratio: 16 / 9;
-  background: var(--color-surface) center / cover no-repeat;
+  background: var(--bg-soft) center / cover no-repeat;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   overflow: hidden;
 }
-
-.video-frame.plate:has(iframe) { filter: none; }
 
 .video-frame iframe {
   position: absolute;
@@ -443,55 +560,52 @@ h2 { margin-bottom: var(--space-3); }
   height: 100%;
   display: grid;
   place-items: center;
-  background: color-mix(in srgb, var(--color-neutral-900) 22%, transparent);
+  background: rgba(0, 0, 0, 0.28);
   border: 0;
   cursor: pointer;
   transition: background 0.15s ease;
 }
 
-.video-play:hover { background: color-mix(in srgb, var(--color-neutral-900) 38%, transparent); }
-.video-play:focus-visible { outline-offset: -4px; }
+.video-play:hover { background: rgba(0, 0, 0, 0.45); }
 
-/* The play mark is an accent outline on the paper ground, not a solid fill. */
 .video-play-icon {
   display: grid;
   place-items: center;
-  width: 56px;
-  height: 56px;
+  width: 62px;
+  height: 62px;
+  padding-left: 5px;
   border-radius: 50%;
-  border: 1px solid var(--color-accent);
-  background: var(--color-bg);
-  color: var(--color-accent-text);
+  background: var(--accent);
+  color: #fff;
+  font-size: 1.4rem;
 }
 
-.video-play-icon svg { width: 22px; height: 22px; margin-left: 3px; }
-
-.video-play:hover .video-play-icon { background: var(--color-accent-100); }
-.video-play:active .video-play-icon { background: var(--color-accent-200); }
-
 /* -------------------------------------------------------------- Archive  */
+
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-8) var(--space-6);
+  gap: 1.5rem;
 }
 
 .gallery-wide {
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 
-/* Each item is a plate with its caption set beneath it, as in a book. */
-.item { margin: 0; }
+.item {
+  margin: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
 
 /* A short paragraph introducing each archive section. */
 .archive-section > p {
-  font-size: 16px;
-  color: var(--color-muted);
+  color: var(--muted);
   max-width: var(--measure);
-  margin: calc(var(--space-1) * -1) 0 var(--space-6);
-  text-align: justify;
-  hyphens: auto;
+  margin: -0.25rem 0 1.25rem;
 }
 
 /* Each thumbnail links to its full-size file. */
@@ -504,35 +618,26 @@ h2 { margin-bottom: var(--space-3); }
   object-fit: cover;
 }
 
-.item-image:hover > img { outline-color: var(--color-accent); }
-
 /* Document pages crop from the top, where the title is. */
 .item-doc img { object-position: top; }
 
 /* Charts are shown whole rather than cropped. */
 .item-fit img { object-fit: contain; }
 
+.item .video-frame { border: 0; border-radius: 0; }
+
 .item figcaption {
-  margin-top: var(--space-3);
-  font-size: 14px;
-  line-height: 1.5;
-  color: var(--color-muted);
+  padding: 0.9rem 1rem 1.1rem;
+  font-size: 0.92rem;
+  color: var(--muted);
 }
 
-.item figcaption strong {
-  display: block;
-  margin-bottom: var(--space-1);
-  font-family: var(--font-heading);
-  font-weight: var(--font-heading-weight);
-  font-size: 19px;
-  line-height: 1.2;
-  color: var(--color-text);
-}
+.item figcaption strong { color: var(--text); }
 
 .credit {
   display: block;
-  margin-top: var(--space-2);
-  font-size: 12px;
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
   font-style: italic;
 }
 
@@ -541,41 +646,32 @@ h2 { margin-bottom: var(--space-3); }
   padding: 0;
   margin: 0;
   display: grid;
-  gap: var(--space-6);
+  gap: 1.25rem;
 }
 
 .doc-list li {
-  border-left: 1px solid var(--color-divider);
-  padding-left: var(--space-4);
+  border-left: 3px solid var(--border);
+  padding-left: 1rem;
 }
 
-.doc-list strong {
-  display: block;
-  font-family: var(--font-heading);
-  font-weight: var(--font-heading-weight);
-  font-size: 19px;
-  line-height: 1.2;
-  color: var(--color-text);
-}
-
-.doc-list .meta { margin: var(--space-1) 0 0; }
-.doc-list p { margin: var(--space-1) 0 0; color: var(--color-muted); font-size: 15px; }
+.doc-list strong { display: block; color: var(--text); }
+.doc-list p { margin: 0.35rem 0 0; color: var(--muted); font-size: 0.95rem; }
 
 /* Subheadings that split the reading list into groups. */
-.archive-section h3 { margin: var(--space-8) 0 var(--space-4); }
+.archive-section h3 { margin: 2rem 0 1rem; }
 .archive-section h2 + h3 { margin-top: 0; }
 
 /* A list entry with a book cover beside it. */
 .doc-list .has-cover {
   display: grid;
   grid-template-columns: 64px 1fr;
-  gap: var(--space-4);
+  gap: 1rem;
   align-items: start;
 }
 
 .doc-cover {
   width: 64px;
-  outline: 1px solid var(--color-divider);
+  border: 1px solid var(--border);
 }
 
 /* ------------------------------------------------------- Transcript  */
@@ -583,100 +679,103 @@ h2 { margin-bottom: var(--space-3); }
 /* Timestamp buttons in the transcript. */
 .cue-time {
   font: inherit;
-  font-size: 12px;
+  font-size: 0.82rem;
   font-variant-numeric: tabular-nums;
-  color: var(--color-accent-text);
-  background: transparent;
-  border: 1px solid var(--color-divider);
-  border-radius: var(--radius-md);
-  padding: 1px var(--space-2);
-  margin-right: var(--space-2);
+  color: var(--accent);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.12rem 0.55rem;
+  margin-right: 0.5rem;
   cursor: pointer;
 }
 
 .cue-time:hover {
-  border-color: var(--color-accent);
-  background: var(--color-accent-100);
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
 }
-
-.cue-time:active { background: var(--color-accent-200); }
 
 .transcript-toolbar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: var(--space-3) var(--space-4);
-  margin-bottom: var(--space-3);
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 0.9rem;
 }
 
 .transcript-follow {
   display: flex;
   align-items: center;
-  gap: var(--space-1);
-  font-size: 14px;
-  color: var(--color-muted);
+  gap: 0.4rem;
+  font-size: 0.92rem;
+  color: var(--muted);
 }
-
-.transcript-follow input { accent-color: var(--color-accent); }
 
 .transcript-search { flex: 1 1 14rem; }
 
-.prose .transcript-notice {
-  max-width: none;
-  margin: 0 0 var(--space-3);
-  padding: var(--space-2) var(--space-3);
-  background: var(--color-accent-100);
-  border: 1px solid var(--color-accent-300);
-  border-radius: var(--radius-md);
-  font-size: 14px;
-  color: var(--color-text);
-  text-align: left;
+.transcript-search input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  font-size: 0.92rem;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.transcript-notice {
+  margin: 0 0 0.9rem;
+  padding: 0.8rem 1rem;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-soft-border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  color: var(--text);
 }
 
 .transcript-status {
-  margin: 0 0 var(--space-2);
-  font-size: 14px;
-  color: var(--color-muted);
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+  color: var(--muted);
   min-height: 1.3em;
 }
 
 .transcript {
   max-height: 26rem;
   overflow-y: auto;
-  padding: var(--space-2) var(--space-3) var(--space-2) var(--space-2);
-  border: 1px solid var(--color-divider);
-  border-radius: var(--radius-md);
+  padding: 0.35rem 1rem 0.35rem 0.35rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
   scroll-behavior: smooth;
 }
 
-/* Passages sit in a scrolling panel, so they run full width and ragged. */
-.prose .cue {
-  max-width: none;
-  margin: 0 0 var(--space-3);
-  font-size: 15px;
+.cue {
+  margin: 0 0 0.85rem;
+  font-size: 0.97rem;
   line-height: 1.6;
-  color: var(--color-muted);
-  border-radius: var(--radius-md);
-  padding: var(--space-1) var(--space-2);
-  text-align: left;
-  hyphens: manual;
+  color: var(--muted);
+  border-radius: 6px;
+  padding: 0.25rem 0.35rem;
 }
 
 .cue[hidden] { display: none; }
 
 .cue-speaker {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: var(--color-accent-text);
-  margin-right: var(--space-2);
+  color: var(--accent);
+  margin-right: 0.5rem;
 }
 
-.cue-speaker.is-interviewer { color: var(--color-muted); }
+.cue-speaker.is-interviewer { color: var(--muted); }
 
 .cue-original {
   display: block;
   margin-left: 3.4rem;
-  color: var(--color-text);
+  color: var(--text);
 }
 
 .cue-original + .cue-text {
@@ -684,26 +783,26 @@ h2 { margin-bottom: var(--space-3); }
   margin-left: 3.4rem;
 }
 
-.prose .cue.is-active {
-  background: var(--color-accent-100);
-  color: var(--color-text);
+.cue.is-active {
+  background: var(--accent-soft);
+  color: var(--text);
 }
 
 /* -------------------------------------------------------------- Footer   */
 
 footer {
-  border-top: 1px solid var(--color-divider);
-  margin-top: calc(var(--space-8) * 1.5);
-  padding-block: var(--space-8);
+  border-top: 1px solid var(--border);
+  margin-top: 3rem;
+  padding-block: 2rem;
   padding-inline: max(var(--pad), calc((100% - var(--maxw)) / 2 + var(--pad)));
   text-align: center;
-  color: var(--color-muted);
-  font-size: 14px;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .video-play, .interview-card { transition: none; }
+  .btn, .video-play, .interview-card { transition: none; }
 }
 
 
@@ -742,7 +841,7 @@ footer {
     background: transparent;
   }
 
-  .prose .cue {
+  .cue {
     color: #000;
     background: transparent;
     padding: 0;
@@ -752,9 +851,9 @@ footer {
   }
 
   .cue[hidden] { display: block !important; }
-  .prose .cue.is-active { background: transparent; }
+  .cue.is-active { background: transparent; }
 
-  .prose .transcript-notice {
+  .transcript-notice {
     border: 1pt solid #000;
     background: transparent;
     break-inside: avoid;
