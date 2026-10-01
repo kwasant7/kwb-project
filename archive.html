@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Source Material | Korean Women History Project</title>
-  <meta name="description" content="Photographs, documents, and secondary footage gathered for the Korean Women History Project." />
+  <meta name="description" content="Laws, newspaper clippings, photographs, and footage gathered for the Korean Women History Project." />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png" />
@@ -31,58 +31,387 @@
     <section class="page-head">
       <h1>Source material</h1>
       <p class="lede">
-        Photographs, documents, and secondary footage collected alongside the interviews —
-        family albums, immigration papers, newspaper clippings, and archival film.
+        The laws, newspaper clippings, photographs, and footage gathered alongside the
+        interviews, arranged in the order the story happened. Select any image to see it
+        full size.
       </p>
     </section>
 
     <!--
       ADDING A PHOTOGRAPH OR DOCUMENT
       ------------------------------------------------------------------
-      1. Put the image file in the images/ folder (e.g. images/wedding-1954.jpg)
-      2. Copy a <figure class="item"> block below
-      3. Set src="images/your-file.jpg", write a real alt description,
-         then edit the caption and the credit line.
+      1. Put the full-size image in images/source/ (e.g. images/source/1954-wedding.jpg),
+         no more than 2000px on its long side, and an 800px-wide copy with the
+         same name in images/source/thumbs/
+      2. Copy a <figure class="item"> block below into the right section
+      3. Point href at the full-size file and src at the thumbnail, set width and
+         height to the thumbnail's size, write a real alt description, then edit
+         the caption and the credit line.
 
-      Keep images under ~1 MB each so pages stay quick to load.
+      Add class="item item-doc" for a document page, so the thumbnail shows the
+      top of the page where the title is, or "item item-fit" for a chart, so
+      nothing is cropped.
     -->
-    <section class="archive-section">
-      <h2>Photographs</h2>
+    <section class="archive-section" id="exclusion">
+      <h2>Exclusion, 1879–1924</h2>
+      <p>
+        For decades before the Korean War, American law kept Asian immigrants out. By 1924
+        almost no one from Asia could immigrate, and that included the Korean wives of
+        American servicemen.
+      </p>
+      <div class="gallery">
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1879-harpers-weekly-nast.jpg">
+            <img src="images/source/thumbs/1879-harpers-weekly-nast.jpg" alt="Harper's Weekly cover cartoon by Thomas Nast: a Black man walking away from a wall of Southern headlines beside a Chinese man walking away from a wall of Californian headlines" loading="lazy" width="800" height="1130" />
+          </a>
+          <figcaption>
+            <strong>“Political Assassinations,” <cite>Harper’s Weekly</cite>, September 13, 1879.</strong>
+            Thomas Nast’s cover satirizes the mob politics driving Black Americans out of the
+            South and Chinese immigrants out of the West. The caption quotes both campaigns’
+            slogans, one of which contains a racial slur.
+            <span class="credit">Thomas Nast. <a href="https://www.loc.gov/pictures/item/2010644337/">Library of Congress, Prints and Photographs Division</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1882-chinese-exclusion-act.jpg">
+            <img src="images/source/thumbs/1882-chinese-exclusion-act.jpg" alt="First page of the handwritten Chinese Exclusion Act, 1882" loading="lazy" width="500" height="682" />
+          </a>
+          <figcaption>
+            <strong>Chinese Exclusion Act, May 6, 1882.</strong>
+            The first federal law to bar immigrants by race, suspending the entry of Chinese
+            laborers. It stayed in force until 1943.
+            <span class="credit"><a href="https://www.archives.gov/milestone-documents/chinese-exclusion-act">National Archives</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="item">
+          <a class="item-image" href="images/source/1886-chinese-must-go-trade-card.jpg">
+            <img src="images/source/thumbs/1886-chinese-must-go-trade-card.jpg" alt="Color advertisement showing Uncle Sam kicking Chinese men off the edge of the country while holding a can of Magic Washer" loading="lazy" width="617" height="593" />
+          </a>
+          <figcaption>
+            <strong>“The Chinese Must Go,” trade card, 1886.</strong>
+            An advertisement for Magic Washer, a laundry product, shows Uncle Sam kicking
+            Chinese men out of the country. Anti-Chinese feeling was common enough to sell
+            with.
+            <span class="credit">Geo. Dee Magic Washer Co. <a href="https://www.loc.gov/pictures/resource/pga.02758/">Library of Congress, Prints and Photographs Division</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1924-immigration-act.jpg">
+            <img src="images/source/thumbs/1924-immigration-act.jpg" alt="First page of the Immigration Act of 1924, H.R. 7995, stamped by the Department of State" loading="lazy" width="800" height="1205" />
+          </a>
+          <figcaption>
+            <strong>Immigration Act of 1924.</strong>
+            National-origins quotas cut immigration from southern and eastern Europe, and a
+            ban on “aliens ineligible to citizenship” shut out nearly everyone from Asia.
+            Congress would have to carve exceptions out of this law before an Asian wife could
+            join her husband.
+            <span class="credit"><a href="https://catalog.archives.gov/id/5752154">National Archives</a></span>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="archive-section" id="laws">
+      <h2>The war bride laws, 1945–1965</h2>
+      <p>
+        After World War II, Congress began letting servicemen bring their foreign wives home.
+        For Asian wives each opening came separately, until the 1965 act ended the quota
+        system and made family the center of immigration law.
+      </p>
+      <div class="gallery">
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1945-war-brides-act.jpg">
+            <img src="images/source/thumbs/1945-war-brides-act.jpg" alt="Printed text of the War Brides Act, Public Law 271, December 28, 1945" loading="lazy" width="800" height="544" />
+          </a>
+          <figcaption>
+            <strong>War Brides Act, December 28, 1945.</strong>
+            Public Law 271 let the foreign wives and children of servicemen enter outside the
+            quotas, but only if they were “otherwise admissible.” Under the 1924 law, Asian
+            wives were not.
+            <span class="credit">U.S. Statutes at Large, 59 Stat. 659. <a href="https://www.govinfo.gov/content/pkg/STATUTE-59/pdf/STATUTE-59-Pg659.pdf">govinfo.gov</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1947-house-report-479.jpg">
+            <img src="images/source/thumbs/1947-house-report-479.jpg" alt="First page of House Report No. 479, 80th Congress, May 28, 1947" loading="lazy" width="800" height="1329" />
+          </a>
+          <figcaption>
+            <strong>House Report No. 479, May 28, 1947.</strong>
+            The House Judiciary Committee backs extending the Fiancées Act, which let
+            servicemen bring fiancées over to marry. The report notes that a soldier’s wife
+            entered outside the quotas, while a fiancée had to wait for a quota number.
+            <span class="credit">U.S. Congressional Serial Set. <a href="https://www.govinfo.gov/app/details/SERIALSET-11120_00_00-055-0479-0000">govinfo.gov</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1947-senate-report-501.jpg">
+            <img src="images/source/thumbs/1947-senate-report-501.jpg" alt="First page of Senate Report No. 501, 80th Congress, July 11, 1947" loading="lazy" width="800" height="1195" />
+          </a>
+          <figcaption>
+            <strong>Senate Report No. 501, July 11, 1947.</strong>
+            The Senate Judiciary Committee recommends a bill “to permit the racially
+            inadmissible spouses” of servicemen to enter under the War Brides Act.
+            <span class="credit">U.S. Congressional Serial Set</span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1947-public-law-213.jpg">
+            <img src="images/source/thumbs/1947-public-law-213.jpg" alt="Printed text of Public Law 213, July 22, 1947, amending the War Brides Act" loading="lazy" width="800" height="633" />
+          </a>
+          <figcaption>
+            <strong>Public Law 213, July 22, 1947.</strong>
+            The amendment that followed: a serviceman’s wife could no longer be refused
+            because of her race, as long as the couple married within thirty days of the
+            law’s passage.
+            <span class="credit">U.S. Statutes at Large, 61 Stat. 401</span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1952-immigration-nationality-act.jpg">
+            <img src="images/source/thumbs/1952-immigration-nationality-act.jpg" alt="Printed first page of the Immigration and Nationality Act, Public Law 414, June 27, 1952" loading="lazy" width="800" height="518" />
+          </a>
+          <figcaption>
+            <strong>Immigration and Nationality Act, June 27, 1952.</strong>
+            The McCarran–Walter Act ended race as a bar to citizenship, so an Asian wife of a
+            citizen could finally enter without a special law. The national-origins quotas
+            stayed.
+            <span class="credit">U.S. Statutes at Large, 66 Stat. 163. <a href="https://www.govinfo.gov/content/pkg/STATUTE-66/pdf/STATUTE-66-Pg163.pdf">govinfo.gov</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1965-immigration-nationality-act.jpg">
+            <img src="images/source/thumbs/1965-immigration-nationality-act.jpg" alt="First page of the enrolled Immigration and Nationality Act of 1965, H.R. 2580, stamped received by the White House" loading="lazy" width="800" height="555" />
+          </a>
+          <figcaption>
+            <strong>Immigration and Nationality Act of 1965.</strong>
+            The Hart–Celler Act abolished the national-origins quotas and built the system
+            around family. Korean wives who had become citizens could now sponsor their
+            parents, brothers, and sisters.
+            <span class="credit">Public Law 89-236. National Archives</span>
+          </figcaption>
+        </figure>
+
+        <figure class="item">
+          <a class="item-image" href="images/source/1965-johnson-signs-at-liberty-island.jpg">
+            <img src="images/source/thumbs/1965-johnson-signs-at-liberty-island.jpg" alt="President Lyndon B. Johnson signs the immigration bill at a desk on Liberty Island, surrounded by officials, with the Manhattan skyline behind" loading="lazy" width="800" height="538" />
+          </a>
+          <figcaption>
+            <strong>President Johnson signs the act at Liberty Island, October 3, 1965.</strong>
+            <span class="credit">Yoichi Okamoto. <a href="https://www.docsteach.org/document/lbj-immigration-act/">National Archives, DocsTeach</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-fit">
+          <a class="item-image" href="images/source/korean-american-population-1940-2020.jpg">
+            <img src="images/source/thumbs/korean-american-population-1940-2020.jpg" alt="Bar chart of the Korean American population by decade from 1940 to 2020, rising from 8,568 to 1,926,508, with growth peaking at 413 percent between 1970 and 1980" loading="lazy" width="738" height="499" />
+          </a>
+          <figcaption>
+            <strong>Korean American population, 1940–2020.</strong>
+            The population grew 413 percent between 1970 and 1980, the first full decade
+            under the 1965 law.
+            <span class="credit">Taeku Lee, <cite>The Multiple Faces of the National Korean American Community</cite> (Council of Korean Americans, 2023), from U.S. Census data. <a href="https://ka.institute/cka-report/">ka.institute</a></span>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="archive-section" id="camptowns">
+      <h2>Camptowns in Korea</h2>
+      <p>
+        Many of the women met their husbands near U.S. bases, in the camptowns
+        (<span lang="ko">기지촌</span>, <i>kijichon</i>) that grew up around them. The stigma
+        attached to those towns followed every one of them, whatever her own story.
+      </p>
       <div class="gallery">
 
         <figure class="item">
-          <img src="images/placeholder.svg" alt="Placeholder — replace with a description of the photograph" loading="lazy" width="800" height="600" />
+          <a class="item-image" href="images/source/1963-joo-myung-duck-mixed-names.jpg">
+            <img src="images/source/thumbs/1963-joo-myung-duck-mixed-names.jpg" alt="A Korean woman holds a crying mixed-race toddler in front of a parked vehicle" loading="lazy" width="800" height="531" />
+          </a>
           <figcaption>
-            <strong>Caption goes here.</strong>
-            EXAMPLE — replace. A sentence about what the photograph shows and when it was taken.
-            <span class="credit">Courtesy of the family of —</span>
+            <strong>From <cite>The Mixed Names</cite>, 1963–65.</strong>
+            Joo Myung-duck photographed mixed-race children and their mothers in 1960s Korea,
+            where both faced open discrimination.
+            <span class="credit">Joo Myung-duck. Courtesy of Museum Hanmi, via <a href="https://apjjf.org/2024/2/han"><cite>The Asia-Pacific Journal: Japan Focus</cite></a></span>
           </figcaption>
         </figure>
 
         <figure class="item">
-          <img src="images/placeholder.svg" alt="Placeholder — replace with a description of the photograph" loading="lazy" width="800" height="600" />
+          <a class="item-image" href="images/source/1965-kuwabara-munsan.jpg">
+            <img src="images/source/thumbs/1965-kuwabara-munsan.jpg" alt="Two American soldiers walk down a dirt road with two Korean women who cover their faces from the camera" loading="lazy" width="800" height="588" />
+          </a>
           <figcaption>
-            <strong>Caption goes here.</strong>
-            EXAMPLE — replace.
-            <span class="credit">Courtesy of the family of —</span>
+            <strong>Munsan, 1965.</strong>
+            Two women walking with American soldiers near the base at Munsan hide their faces
+            from the camera.
+            <span class="credit">Kuwabara Shisei, from <cite>Kankoku gen’ei</cite>. Via <a href="https://apjjf.org/2024/2/han"><cite>The Asia-Pacific Journal: Japan Focus</cite></a></span>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="archive-section" id="arriving">
+      <h2>Arriving in America</h2>
+      <p>
+        The first Korean wife to land in Seattle made the newspapers. Most of the women who
+        followed arrived with no one watching, and some were left on their own.
+      </p>
+      <div class="gallery">
+
+        <figure class="item">
+          <a class="item-image" href="images/source/1951-eltinge-arrives-seattle.jpg">
+            <img src="images/source/thumbs/1951-eltinge-arrives-seattle.jpg" alt="The troop ship General LeRoy Eltinge in harbor, its decks crowded with soldiers" loading="lazy" width="800" height="644" />
+          </a>
+          <figcaption>
+            <strong>The USNS <i>General LeRoy Eltinge</i> reaches Seattle, May 5, 1951.</strong>
+            The ship brought more than 1,500 soldiers home from combat in Korea through the
+            Seattle Port of Embarkation.
+            <span class="credit">U.S. Army. <a href="https://www.trumanlibrary.gov/photograph-records/63-1175-16">Harry S. Truman Library &amp; Museum</a></span>
           </figcaption>
         </figure>
 
         <figure class="item">
-          <img src="images/placeholder.svg" alt="Placeholder — replace with a description of the photograph" loading="lazy" width="800" height="600" />
+          <a class="item-image" href="images/source/1951-eltinge-docks-seattle.jpg">
+            <img src="images/source/thumbs/1951-eltinge-docks-seattle.jpg" alt="Women in matching dresses wave from a bunting-draped stand as the Eltinge docks and officers walk along the pier" loading="lazy" width="800" height="643" />
+          </a>
           <figcaption>
-            <strong>Caption goes here.</strong>
-            EXAMPLE — replace.
-            <span class="credit">Courtesy of the family of —</span>
+            <strong>Docking in Seattle, May 5, 1951.</strong>
+            Women wave from a stand on the pier as the <i>Eltinge</i> docks. Its soldiers were
+            the first to come home from Korea under the Army’s rotation program.
+            <span class="credit">Richard L. Woodcock, U.S. Army. <a href="https://www.trumanlibrary.gov/photograph-records/63-1175-01">Harry S. Truman Library &amp; Museum</a></span>
           </figcaption>
         </figure>
 
         <figure class="item">
-          <img src="images/placeholder.svg" alt="Placeholder — replace with a description of the photograph" loading="lazy" width="800" height="600" />
+          <a class="item-image" href="images/source/1951-blue-morgan-says-grace.jpg">
+            <img src="images/source/thumbs/1951-blue-morgan-says-grace.jpg" alt="A young Korean woman bows her head in prayer at a kitchen table with an American soldier and an older couple" loading="lazy" width="800" height="450" />
+          </a>
           <figcaption>
-            <strong>Caption goes here.</strong>
-            EXAMPLE — replace.
-            <span class="credit">Courtesy of the family of —</span>
+            <strong>Blue Morgan says grace with her new family, 1951.</strong>
+            Born Lee Yong Soon, she was billed as the first Korean war bride to arrive in the
+            United States when she landed in Seattle with her husband, Sgt. Johnie Morgan, in
+            October 1951.
+            <span class="credit">Wayne Miller, LIFE. Via <a href="https://time.com/3576662/americas-first-korean-war-bride-comes-home/">TIME</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="item">
+          <a class="item-image" href="images/source/1959-deserted-war-bride-clipping.jpg">
+            <img src="images/source/thumbs/1959-deserted-war-bride-clipping.jpg" alt="Newspaper front page with an AP photo of a police officer handing a doll to a Korean mother and her two small daughters, headlined Deserted Korea War Bride, 2 Children Find New Life" loading="lazy" width="800" height="649" />
+          </a>
+          <figcaption>
+            <strong>“Deserted Korea War Bride, 2 Children Find New Life,” December 1959.</strong>
+            A Fort Worth police officer found Marie Mackey and her daughters, Beverly and
+            Judy, alone in a bare apartment. Her husband had been gone four days, and they had
+            not eaten in two.
+            <span class="credit">Associated Press</span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/1963-red-cross-bride-school.jpg">
+            <img src="images/source/thumbs/1963-red-cross-bride-school.jpg" alt="Newspaper photo of a soldier and his Korean wife standing over a registration table where a Red Cross volunteer sits" loading="lazy" width="674" height="701" />
+          </a>
+          <figcaption>
+            <strong>“Bride School,” <cite>Columbus Ledger</cite> (Georgia), April 2, 1963.</strong>
+            The American Red Cross ran a brides’ school in Seoul for servicemen’s foreign-born
+            wives. Yi Yung and her husband, Sp4 Bernard Ohler, register for the spring term.
+            <span class="credit"><a href="https://www.newspapers.com/newspage/856604771/">Newspapers.com</a></span>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="archive-section" id="kwa">
+      <h2>The Korean Women’s Association</h2>
+      <p>
+        In 1972, Korean military wives in Pierce County, Washington, began meeting to help
+        one another with isolation, language, and abuse. Their group became the Korean
+        Women’s Association (KWA), which now runs social services across Western Washington.
+      </p>
+      <div class="gallery">
+
+        <figure class="item">
+          <a class="item-image" href="images/source/1992-kwa-building-fund-night.jpg">
+            <img src="images/source/thumbs/1992-kwa-building-fund-night.jpg" alt="About twenty women in brightly colored hanbok on a stage beneath a Korean and English banner dated June 26, 1992" loading="lazy" width="800" height="562" />
+          </a>
+          <figcaption>
+            <strong>Building-fund night, June 26, 1992.</strong>
+            KWA members in hanbok at a gala raising money for a permanent hall. The banner
+            reads <span lang="ko">워싱턴주대한부인회관 건립기금 모금의 밤</span>, “an evening to
+            raise funds to build the Korean Women’s Association hall of Washington State.”
+            <span class="credit">Korean Women’s Association</span>
+          </figcaption>
+        </figure>
+
+        <figure class="item item-doc">
+          <a class="item-image" href="images/source/2017-kwa-supported-living-site.jpg">
+            <img src="images/source/thumbs/2017-kwa-supported-living-site.jpg" alt="Newspaper front page headlined New era for KWA, showing a crowd at a ribbon cutting outside a Korean Women's Association building" loading="lazy" width="800" height="1142" />
+          </a>
+          <figcaption>
+            <strong>“Korean Women’s group opens supported living site,” <cite>Peninsula Daily News</cite>, December 29, 2017.</strong>
+            KWA opens its first home for people with developmental disabilities, near Sequim.
+            Founding member Sulja Warnick recalls a group started to help Korean women married
+            to American servicemen.
+            <span class="credit">Michael Dashiell, Olympic Peninsula News Group</span>
+          </figcaption>
+        </figure>
+
+        <figure class="item">
+          <a class="item-image" href="images/source/kwa-members-group.jpg">
+            <img src="images/source/thumbs/kwa-members-group.jpg" alt="About forty older Korean Americans in winter coats pose on the steps of a monument" loading="lazy" width="800" height="529" />
+          </a>
+          <figcaption>
+            <strong>A KWA group outing.</strong>
+            Undated, from the association’s own history page.
+            <span class="credit"><a href="https://kwacares.org/about-us/kwa-history/">Korean Women’s Association</a></span>
+          </figcaption>
+        </figure>
+
+        <figure class="item">
+          <a class="item-image" href="images/source/kwa-crime-victim-advocacy.jpg">
+            <img src="images/source/thumbs/kwa-crime-victim-advocacy.jpg" alt="An outreach table with pamphlets and lanyards beside a Korean Women's Association banner for crime victim advocacy" loading="lazy" width="800" height="599" />
+          </a>
+          <figcaption>
+            <strong>Crime victim advocacy outreach, 2020s.</strong>
+            KWA’s banner offers help with assault, fraud, burglary, hate crimes, and identity
+            theft from staff who speak English, Korean, and Vietnamese.
+            <span class="credit">Korean Women’s Association</span>
+          </figcaption>
+        </figure>
+
+        <figure class="item">
+          <a class="item-image" href="images/source/kwa-ribbon-cutting.jpg">
+            <img src="images/source/thumbs/kwa-ribbon-cutting.jpg" alt="A row of community leaders cut a ribbon in a large hall filled with exhibitor booths" loading="lazy" width="800" height="533" />
+          </a>
+          <figcaption>
+            <strong>Ribbon cutting at a KWA community event.</strong>
+            <span class="credit">Seattle Korean Daily (<span lang="ko">시애틀코리안데일리</span>)</span>
+          </figcaption>
+        </figure>
+
+        <figure class="item">
+          <a class="item-image" href="images/source/2026-kwa-service-area-map.jpg">
+            <img src="images/source/thumbs/2026-kwa-service-area-map.jpg" alt="A backlit carved-wood map of Washington State's counties mounted on a wall" loading="lazy" width="800" height="600" />
+          </a>
+          <figcaption>
+            <strong>Service-area map at KWA’s Tacoma headquarters, 2026.</strong>
+            The carved-wood map marks each county where KWA runs an office or program.
+            <span class="credit">Korean Women History Project</span>
           </figcaption>
         </figure>
 
@@ -91,35 +420,36 @@
 
     <!-- Secondary video: newsreels, documentary excerpts, archival footage.
          Same data-youtube="VIDEO_ID" pattern as the oral histories page. -->
-    <section class="archive-section">
+    <section class="archive-section" id="footage">
       <h2>Secondary footage</h2>
       <div class="gallery gallery-wide">
 
         <figure class="item">
-          <div class="video-frame" data-youtube="ScMzIvxBSi4">
+          <div class="video-frame" data-youtube="ItSukHvMHCA">
             <button class="video-play" type="button">
               <span class="video-play-icon" aria-hidden="true">▶</span>
-              <span class="visually-hidden">Play archival footage</span>
+              <span class="visually-hidden">Play the 2007 KBS documentary on the Korean Women’s Association</span>
             </button>
           </div>
           <figcaption>
-            <strong>Title of the footage.</strong>
-            EXAMPLE — replace. What it shows and why it matters to the project.
-            <span class="credit">Source: archive name, year</span>
+            <strong>KBS documentary on the Korean Women’s Association, 2007.</strong>
+            Part 3 of a Korean-language KBS program on KWA, including the account of a
+            military wife who escaped domestic violence with the association’s help.
+            <span class="credit">KBS. Posted by KWA TV with us</span>
           </figcaption>
         </figure>
 
         <figure class="item">
-          <div class="video-frame" data-youtube="ScMzIvxBSi4">
+          <div class="video-frame" data-youtube="K3Q8dMK8SSc">
             <button class="video-play" type="button">
               <span class="video-play-icon" aria-hidden="true">▶</span>
-              <span class="visually-hidden">Play archival footage</span>
+              <span class="visually-hidden">Play the KBS WATV report on the KWA Community Expo</span>
             </button>
           </div>
           <figcaption>
-            <strong>Title of the footage.</strong>
-            EXAMPLE — replace.
-            <span class="credit">Source: archive name, year</span>
+            <strong>KWA Community Expo, 2025.</strong>
+            A Korean-language news report on the community expo hosted by the association.
+            <span class="credit">KBS WATV / Seattle, November 2025</span>
           </figcaption>
         </figure>
 
@@ -127,23 +457,35 @@
     </section>
 
     <!-- Documents, articles, books, and links to other collections. -->
-    <section class="archive-section">
+    <section class="archive-section" id="reading">
       <h2>Documents &amp; further reading</h2>
       <ul class="doc-list">
-        <li>
-          <strong>Document or article title</strong>
-          <span class="meta">Publication or archive, year</span>
-          <p>EXAMPLE — replace. One line on what it is and how it relates to the project.</p>
+        <li class="has-cover">
+          <img class="doc-cover" src="images/source/yuh-beyond-the-shadow-of-camptown.jpg" alt="" loading="lazy" width="257" height="400" />
+          <div>
+            <strong><a href="https://nyupress.org/9780814796993/beyond-the-shadow-of-camptown/">Beyond the Shadow of Camptown: Korean Military Brides in America</a></strong>
+            <span class="meta">Ji-Yeon Yuh, New York University Press, 2002</span>
+            <p>
+              The essential history of Korean military brides, built on interviews with the
+              women themselves. Chapter 3, “Immigrant Encounters,” covers their first years
+              in America.
+            </p>
+          </div>
         </li>
         <li>
-          <strong>Document or article title</strong>
-          <span class="meta">Publication or archive, year</span>
-          <p>EXAMPLE — replace.</p>
+          <strong><a href="http://www.crossingeast.org/crossingeastarchive/2017/03/27/dr-ji-yeon-yuh-interview/">Dr. Ji-Yeon Yuh interview</a></strong>
+          <span class="meta"><cite>Crossing East</cite>, 2006</span>
+          <p>Yuh on how an estimated 100,000 Korean women came to the United States as military wives.</p>
         </li>
         <li>
-          <strong>Document or article title</strong>
-          <span class="meta">Publication or archive, year</span>
-          <p>EXAMPLE — replace.</p>
+          <strong><a href="https://time.com/3576662/americas-first-korean-war-bride-comes-home/">America’s First Korean War Bride Comes Home</a></strong>
+          <span class="meta">TIME, 2014</span>
+          <p>Wayne Miller’s 1951 photographs of Blue Morgan’s arrival in Seattle and her first days with her husband’s family.</p>
+        </li>
+        <li>
+          <strong><a href="https://tpl.accesstomemory.org/kwa-50-years-of-helping-the-community">KWA: 50 Years of Helping the Community</a></strong>
+          <span class="meta">Northwest Room, Tacoma Public Library</span>
+          <p>Photographs of KWA members and the association’s early community work.</p>
         </li>
       </ul>
     </section>
@@ -152,9 +494,11 @@
       <h2>Rights and permissions</h2>
       <!-- EDIT: adjust to match how you have actually cleared these materials. -->
       <p>
-        Materials here are shared with the permission of the families and institutions
-        that hold them. If you believe something has been posted in error, or you would
-        like to request use of an item, please <a href="about.html#contact">contact the project</a>.
+        Government records here are in the public domain. Other photographs and clippings are
+        reproduced for education, credited to the photographers, publications, and archives
+        that hold them. If you hold the rights to an item and would like it credited
+        differently or removed, or would like to request use of an item, please
+        <a href="about.html#contact">contact the project</a>.
       </p>
     </section>
   </main>

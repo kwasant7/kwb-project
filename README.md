@@ -76,9 +76,14 @@ correct, never something to publish as someone's exact words.
 
 ## Adding an archive item
 
-1. Drop the image into `images/`
-2. In `archive.html`, copy a `<figure class="item">` block
-3. Point `src` at your file, write a real `alt` description, edit the caption and credit
+1. Save the image to `images/source/`, no more than 2000px on its long side, and an
+   800px-wide copy with the same name to `images/source/thumbs/`
+2. In `archive.html`, copy a `<figure class="item">` block into the right section
+3. Point `href` at the full-size file and `src` at the thumbnail, set `width` and `height`
+   to the thumbnail's size, write a real `alt` description, edit the caption and credit
+
+Use `class="item item-doc"` for a document page, so the thumbnail shows the top of the
+page, and `class="item item-fit"` for a chart, so nothing is cropped.
 
 Secondary videos use the same `data-youtube="VIDEO_ID"` pattern as the interviews.
 
