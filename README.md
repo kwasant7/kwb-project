@@ -106,5 +106,8 @@ Then open http://localhost:8000.
 
 ## Deploying
 
-GitHub Pages serves the `main` branch from the repository root. Push to `main` and the
-live site updates within a minute.
+Vercel serves the `main` branch from the repository root. Push to `main` and the live
+site updates within a minute or so.
+
+`robots.txt` keeps search engines away from `interviews/template.html`, which is public
+but only holds placeholder text. Copies of the template are not affected.
