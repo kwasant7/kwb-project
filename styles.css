@@ -751,6 +751,9 @@ h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
 }
 
 .transcript {
+  /* Positioned so each passage's offsetTop is measured from the top of this
+     box, which is what the follow-the-video scrolling expects. */
+  position: relative;
   max-height: 26rem;
   overflow-y: auto;
   padding: 0.35rem 1rem 0.35rem 0.35rem;

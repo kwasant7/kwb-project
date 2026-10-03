@@ -343,7 +343,7 @@ var KWMBPdf = (function () {
     notice.className = 'transcript-notice';
     notice.innerHTML = '<strong>Auto-generated transcript.</strong> Produced by ' +
       'speech recognition and not yet checked against the recording, so it ' +
-      'contains errors and should not be quoted as her exact words. The video ' +
+      'contains errors and should not be quoted as the narrator’s exact words. The video ' +
       'itself is the record.';
     root.parentNode.insertBefore(notice, root.previousSibling);
   }
