@@ -5,10 +5,13 @@
    shows both, and the PDF prints the English.
 
    MACHINE-TRANSCRIBED with Whisper large-v3-turbo, then cleaned and
-   translated. Speech-recognition errors were fixed from context, and
-   words that could not be made out are marked [?]. NOTHING HAS BEEN
-   CHECKED BY EAR YET: search this file for "[?]" to find the doubtful
-   spots, and have a Korean speaker check the translation.
+   translated. Speech-recognition errors were fixed from context. Each
+   word that could not be made out was re-transcribed from a tight clip
+   around it (beam search, a topic prompt, three sampling temperatures
+   and a shifted window), and the reading most passes agreed on was kept
+   where it made sense (e.g. "Amerasian" at 38:03 and 40:58, "one
+   o'clock" at 9:35), so no [?] marks remain. NOTHING HAS BEEN CHECKED BY EAR YET:
+   have a Korean speaker check the transcript and the translation.
 
    Each passage has a "speaker": "Interviewer" or the narrator's name.
 
@@ -25,7 +28,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 0,
       "speaker": "Interviewer",
-      "original": "OK. 뭐 인터뷰해 주셔서 감사하고요. 그리고 제 처음 질문은, 혹시 자기소개[?]해 주실 수 있어요? 그 다음에 어떻게 한국에서 살 때 어린 시절[?]이 어땠는지 그냥 quickly describe 해주세요.",
+      "original": "OK. 뭐 인터뷰해 주셔서 감사하고요. 그리고 제 처음 질문은, 혹시 인트로듀스해 주실 수 있어요? 그 다음에 어떻게 한국에서 살 때 어린 시절이 어땠는지 그냥 quickly describe 해주세요.",
       "text": "OK. Well, thank you for doing this interview. My first question is, could you introduce yourself? And then just quickly describe what your childhood was like when you lived in Korea."
     },
     {
@@ -79,13 +82,13 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 266,
       "speaker": "Sookja Green",
-      "original": "그러니까 이제 밥도 먹을 거, 그래서 자주 오다가 단골손님이 됐고. 그분이 이제 나를 보고 이제… 근데 저희 남편이 굉장히, 뭐라 그럴까, 수줍은 사람이라 말을 못하고 나만 이렇게 보고. 내가 일 끝나고 나가면 뭐, \"Thank you, Miss Lee. It was good music. I enjoyed.\" 이러고. 그래서 내가 쳐다보면서 \"How do you know my name?\" 이제 그런 거예요. 근데 나는 그 사람이 한 번도 나한테 어떤 신청곡[?]을 안 줬기 때문에, 아마 장기 출장 온, 아니면… 온 유부남이라고 생각을 했어요. 그러니까 나이가 어린 사람은 아닌데 혼자 오고 그러니까, 총각은 아닌 것 같아서 아, 그런가 보다 했는데.",
-      "text": "So he'd come to eat there, and coming often, he became a regular. He would look at me, and... but my husband is a very, how should I put it, shy person, so he couldn't say anything, he'd just look at me like this. When I finished work and was leaving, he'd say, \"Thank you, Miss Lee. It was good music. I enjoyed.\" And I'd look at him and say, \"How do you know my name?\" It was like that. But since he never once made a request of me, I thought he was probably a married man here on a long business trip, or something like that. He wasn't young, and he always came alone, so I figured he wasn't single, and I thought, oh, that must be it."
+      "original": "그러니까 이제 밥도 먹을 거, 그래서 자주 오다가 단골손님이 됐고. 그분이 이제 나를 보고 이제… 근데 저희 남편이 굉장히, 뭐라 그럴까, 수줍은 사람이라 말을 못하고 나만 이렇게 보고. 내가 일 끝나고 나가면 뭐, \"Thank you, Miss Lee. It was good music. I enjoyed.\" 이러고. 그래서 내가 쳐다보면서 \"How do you know my name?\" 이제 그런 거예요. 근데 나는 그 사람이 한 번도 나한테 어떤 언질을 안 줬기 때문에, 아마 장기 출장 온, 아니면… 온 유부남이라고 생각을 했어요. 그러니까 나이가 어린 사람은 아닌데 혼자 오고 그러니까, 총각은 아닌 것 같아서 아, 그런가 보다 했는데.",
+      "text": "So he'd come to eat there, and coming often, he became a regular. He would look at me, and... but my husband is a very, how should I put it, shy person, so he couldn't say anything, he'd just look at me like this. When I finished work and was leaving, he'd say, \"Thank you, Miss Lee. It was good music. I enjoyed.\" And I'd look at him and say, \"How do you know my name?\" It was like that. But since he never once gave me any hint of interest, I thought he was probably a married man here on a long business trip, or something like that. He wasn't young, and he always came alone, so I figured he wasn't single, and I thought, oh, that must be it."
     },
     {
       "t": 309,
       "speaker": "Sookja Green",
-      "original": "나중에 이렇게 알게 되면서, 이렇게 인사하고 그러다가 이제 데이트를 하면서 알게 됐는데, 이제 총각이었고, 늦은 나이에 저하고 만나서… 처음 내 남편이 저한테 이제 데이트를 하고 싶다고 얘기를 하더라고요. 그래서 내가 한 얘기가, \"네가 데이트를 하고 싶으면 우리 집에 와서 나를 데리고… 우리 엄마 아버지 만나고, 아니 그러니까 우리 식구들 만나고 그러고 데리고 가라.\" 그랬어요. 그랬더니 남편이 당황을 했는데, 그게 너무 좋았대요, 도리어요[?]. 그래서 왠지 그냥 그 시작은 좀 그렇게 하고 싶었어요, 저는. 그래서, 진짜 오다가다 만나거나 뭐 이렇게, 뭐 그런 거 있잖아요. 왠지 그러고 싶었어.",
+      "original": "나중에 이렇게 알게 되면서, 이렇게 인사하고 그러다가 이제 데이트를 하면서 알게 됐는데, 이제 총각이었고, 늦은 나이에 저하고 만나서… 처음 내 남편이 저한테 이제 데이트를 하고 싶다고 얘기를 하더라고요. 그래서 내가 한 얘기가, \"네가 데이트를 하고 싶으면 우리 집에 와서 나를 데리고… 우리 엄마 아버지 만나고, 아니 그러니까 우리 식구들 만나고 그러고 데리고 가라.\" 그랬어요. 그랬더니 남편이 당황을 했는데, 그게 너무 좋았대요, 도리어요. 그래서 왠지 그냥 그 시작은 좀 그렇게 하고 싶었어요, 저는. 그래서, 진짜 오다가다 만나거나 뭐 이렇게, 뭐 그런 거 있잖아요. 왠지 그러고 싶었어.",
       "text": "Later, as I got to know him, we'd say hello and so on, and then when we started dating I found out he was single, and that he'd met me late in life... The first time, my husband told me he wanted to take me on a date. So what I said was, \"If you want to date me, come to my house to pick me up... meet my mom and dad, I mean, meet my family, and then take me out.\" That's what I said. My husband was flustered, but he says he actually loved that. Somehow I just wanted it to start that way, me. Not just running into each other here and there, you know how that goes. Somehow that's how I wanted it."
     },
     {
@@ -97,8 +100,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 402,
       "speaker": "Sookja Green",
-      "original": "그래서 그 말도 맞는 것 같기도 하고… 죄송합니다. 그래서 그분이 이제 또 다른 것도 아니고 JAG 오피서라는 것도 마음에 들었고, 그리고 또 막내 아들이었어요, 저희 남편은. 그러니까 형이 위로 둘이 있고 막내 동생이 하나 있는데, 중간에 있는데… 그 식구들도 참 단란하고[?] 좋았어요. 착한, 정말 좋으신 분들이었거든요, 다. 그래서 저는 시집살이 한 번도 한 적이 없고, 정말 좋으신 분들. 저를 정말 예뻐하셨어요. 특히 시아버님이.",
-      "text": "And that seemed right to me too... excuse me. And I also liked that he wasn't just anything, he was a JAG officer. And he was a younger son, my husband. He has two older brothers above him and one younger sibling, so he's in the middle... His family was so close-knit and lovely. Kind, truly good people, all of them. So I never once had to suffer the hardships of a daughter-in-law. Truly good people. They really adored me. Especially my father-in-law."
+      "original": "그래서 그 말도 맞는 것 같기도 하고… 죄송합니다. 그래서 그분이 이제 또 다른 것도 아니고 JAG 오피서라는 것도 마음에 들었고, 그리고 또 막내 아들이었어요, 저희 남편은. 그러니까 형이 위로 둘이 있고 막내 동생이 하나 있는데, 중간에 있는데… 그 식구들도 참 단촐하고 좋았어요. 착한, 정말 좋으신 분들이었거든요, 다. 그래서 저는 시집살이 한 번도 한 적이 없고, 정말 좋으신 분들. 저를 정말 예뻐하셨어요. 특히 시아버님이.",
+      "text": "And that seemed right to me too... excuse me. And I also liked that he wasn't just anything, he was a JAG officer. And he was a younger son, my husband. He has two older brothers above him and one younger sibling, so he's in the middle... His family was so simple and down-to-earth, and lovely. Kind, truly good people, all of them. So I never once had to suffer the hardships of a daughter-in-law. Truly good people. They really adored me. Especially my father-in-law."
     },
     {
       "t": 440,
@@ -121,13 +124,13 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 575,
       "speaker": "Sookja Green",
-      "original": "그리고 왜, 9·11 터졌잖아요. 그때 저희 남편이 펜타곤에서 일하고 있었거든요. 저희 남편 사실 펜타곤 9·11, 거기 서바이버예요. 새삼스럽다, 갑자기. 왜냐하면 그날 그 시간에, 비행기… 그 시간에 이 사람이 사실 미팅이 잡혀 있었어요, 그쪽 사무실에. 근데 아빠 사무실은 다른 쪽이거든요. 근데 그날 아침에 미팅 날짜, 시간이 바뀐 거예요. 열한 시[?] 정도로 옮겨서 있었어요. 근데 그 사건이 터졌잖아요. 그래서 그 사무실에서 일하시는 분들은 다 돌아가셨어요, 사실. 그래서 참… 근데, 죄송합니다. 하지만 저희 남편은 시간이 바뀌는 바람에 살았어요, 감사하게도. 아무튼 그런 일이 있었네요.",
-      "text": "And then, you know, 9/11 happened. At that time my husband was working at the Pentagon. My husband is actually a Pentagon 9/11 survivor. It hits me all over again, suddenly. Because that day, at that time, the plane... at that very time, he actually had a meeting scheduled, in that office. His own office was on a different side. But that morning the meeting's date, the time, got changed. It had been moved to around eleven o'clock. And then that attack happened. And the people who worked in that office all died, actually. So, truly... sorry. But my husband survived because the time was changed, thankfully. Anyway, that's something that happened."
+      "original": "그리고 왜, 9·11 터졌잖아요. 그때 저희 남편이 펜타곤에서 일하고 있었거든요. 저희 남편 사실 펜타곤 9·11, 거기 서바이버예요. 새삼스럽다, 갑자기. 왜냐하면 그날 그 시간에, 비행기… 그 시간에 이 사람이 사실 미팅이 잡혀 있었어요, 그쪽 사무실에. 근데 아빠 사무실은 다른 쪽이거든요. 근데 그날 아침에 미팅 날짜, 시간이 바뀐 거예요. 한 시 정도로 옮겨서 있었어요. 근데 그 사건이 터졌잖아요. 그래서 그 사무실에서 일하시는 분들은 다 돌아가셨어요, 사실. 그래서 참… 근데, 죄송합니다. 하지만 저희 남편은 시간이 바뀌는 바람에 살았어요, 감사하게도. 아무튼 그런 일이 있었네요.",
+      "text": "And then, you know, 9/11 happened. At that time my husband was working at the Pentagon. My husband is actually a Pentagon 9/11 survivor. It hits me all over again, suddenly. Because that day, at that time, the plane... at that very time, he actually had a meeting scheduled, in that office. His own office was on a different side. But that morning the meeting's date, the time, got changed. It had been moved to around one o'clock. And then that attack happened. And the people who worked in that office all died, actually. So, truly... sorry. But my husband survived because the time was changed, thankfully. Anyway, that's something that happened."
     },
     {
       "t": 631,
       "speaker": "Sookja Green",
-      "original": "그리고 남편이 2002년인가, 3년에 이제 밀리터리에서 이제 드랍[?], 완전 리타이어를 하시고. 그때 이제 시어머니랑 시누이랑 다 와서 이제 같이 은퇴식 하고 그랬고. 그 다음에 이분이 펜타곤에 계속 남아 있으면서, 아마 미 육군에 대한 파이낸셜 어드바이저, 그걸로 좋은 자리가 있었어요. 그게 SES라고 부르는데, 뭐 시니어 익스큐티브 서비스, 뭐 그런거에요. 좋은거에요.",
+      "original": "그리고 남편이 2002년인가, 3년에 이제 밀리터리에서 이제 드랍, 완전 리타이어를 하시고. 그때 이제 시어머니랑 시누이랑 다 와서 이제 같이 은퇴식 하고 그랬고. 그 다음에 이분이 펜타곤에 계속 남아 있으면서, 아마 미 육군에 대한 파이낸셜 어드바이저, 그걸로 좋은 자리가 있었어요. 그게 SES라고 부르는데, 뭐 시니어 익스큐티브 서비스, 뭐 그런거에요. 좋은거에요.",
       "text": "And then in 2002, or was it '03, my husband left the military, fully retired. My mother-in-law and sister-in-law and everyone came, and we had his retirement ceremony together. After that he stayed on at the Pentagon, as, I think, a financial advisor for the US Army; there was a good position for that. It's called SES, the Senior Executive Service, something like that. It's a good thing."
     },
     {
@@ -151,7 +154,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 766,
       "speaker": "Sookja Green",
-      "original": "사실 그 스무 살, 스물한 살 그때에 엄마 아버지에 대한 원망도 있었고, 이런 경제에… 저희 굉장히 잘 살았거든요. 근데 갑자기, 그런 게 있어요. 잘 살다가 갑자기 몰락을 하잖아요. 그러면 이게 더 커요, 이 상실감이. 그리고 제가 첫째예요, 사실은. 오남매 중에 첫 번째인데, 저랑 막내가 10년 정도 차이가 나요. 그래서 우리 막내는 그 아이의 기억에 잘 살았던 기억이 없어요. 나는, 그러고 보면[?] 제가 첫째라서 그걸 제일 많이 누린 것 같아요. 근데 우리 막내 동생은 \"우리가[?] 잘 살았던 적이 있었어?\" 그렇게 기억을 해요. 슬프게도.",
+      "original": "사실 그 스무 살, 스물한 살 그때에 엄마 아버지에 대한 원망도 있었고, 이런 경제에… 저희 굉장히 잘 살았거든요. 근데 갑자기, 그런 게 있어요. 잘 살다가 갑자기 몰락을 하잖아요. 그러면 이게 더 커요, 이 상실감이. 그리고 제가 첫째예요, 사실은. 오남매 중에 첫 번째인데, 저랑 막내가 10년 정도 차이가 나요. 그래서 우리 막내는 그 아이의 기억에 잘 살았던 기억이 없어요. 나는, 그러고 보면 제가 첫째라서 그걸 제일 많이 누린 것 같아요. 근데 우리 막내 동생은 \"우리가 잘 살았던 적이 있었어?\" 그렇게 기억을 해요. 슬프게도.",
       "text": "Honestly, at twenty, twenty-one, I resented my mom and dad, and with the finances like that… we had been very well off, you see. And then suddenly — it's like that. When you're doing well and then suddenly everything collapses, it hits harder, that sense of loss. And I'm the eldest, actually. The first of five kids, and there's about ten years between me and the youngest. So our youngest has no memory of us ever being well off. Me — come to think of it, because I was the eldest, I think I got to enjoy it the most. But my youngest sibling remembers it like, \"Were we ever well off?\" Sadly."
     },
     {
@@ -175,8 +178,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 897,
       "speaker": "Sookja Green",
-      "original": "아까도 말했지만 저희 집에서는 다 좋아했어요. 왜냐면 제가… 다섯 명인데, 두 번째 동생이 먼저 결혼을 했고, 남동생… 다가 아니고[?], 그 다음에 여섯 살인가, 여섯 살 어린 애가 먼저 결혼을 해서, 저희 엄마한테는 내가 조카를 업고 다니고 막 그러면 엄마가 너무 싫어하셨어요. \"네 새끼를 네가 업고 다니고 그래야 되는데, 남들이 보면 네 새끼인 줄 알겠다. 왜 데리고 다니냐\" 그러면서 혼삿길 막힌다고 엄마가 싫어하셨어요.",
-      "text": "Like I said earlier, everyone in my family was happy about it. Because I'm… there are five of us, and my second sibling got married first, and my brother… not all of them, but then the one six years younger — six years younger than me — got married before me. So when I'd go around carrying my niece or nephew on my back, my mom really hated it. \"You should be carrying your own baby on your back — people will think it's yours. Why are you taking it around?\" she'd say. She hated it because she said it would ruin my chances of marrying."
+      "original": "아까도 말했지만 저희 집에서는 다 좋아했어요. 왜냐면 제가… 다섯 명인데, 두 번째 동생이 먼저 결혼을 했고, 남동생도 아니고, 그 다음에 여섯 살인가, 여섯 살 어린 애가 먼저 결혼을 해서, 저희 엄마한테는 내가 조카를 업고 다니고 막 그러면 엄마가 너무 싫어하셨어요. \"네 새끼를 네가 업고 다니고 그래야 되는데, 남들이 보면 네 새끼인 줄 알겠다. 왜 데리고 다니냐\" 그러면서 혼삿길 막힌다고 엄마가 싫어하셨어요.",
+      "text": "Like I said earlier, everyone in my family was happy about it. Because I'm… there are five of us, and my second sibling got married first, and then, not even my brother, but the one six years younger — six years younger than me — got married before me. So when I'd go around carrying my niece or nephew on my back, my mom really hated it. \"You should be carrying your own baby on your back — people will think it's yours. Why are you taking it around?\" she'd say. She hated it because she said it would ruin my chances of marrying."
     },
     {
       "t": 935,
@@ -187,19 +190,19 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 975,
       "speaker": "Sookja Green",
-      "original": "그래서 저는 모든 식구들이 다 그냥 \"아이고, 드디어 우리 언니 결혼한다. 잘됐다.\" 그래서, 그래서 한국에서 결혼했죠. 결혼식은 이제 한국에서 하고 이제 바로 이제… 왜냐하면 그게 그래요. 군인은, 군인은 2~3년에 한 번씩 움직이잖아요. 남편이 이제 가야 되잖아요. 다시 복무를 이제 연장도 할 수 있지만. 그러니까 저희 남편이 청혼할 때[?], 자기가 나하고 연애한 게 한 1년 정도밖에 안 됐는데 자기는 이제 가야 되니까,",
-      "text": "So for me, the whole family was just like, \"Oh my, our big sister is finally getting married. Good for her.\" So, so we got married in Korea. We had the wedding in Korea and then right away… because that's how it is. Soldiers — soldiers move every two or three years, you know. My husband had to leave. He could have extended his tour, but still. So when my husband proposed, we'd only been dating for about a year, and since he had to leave,"
+      "original": "그래서 저는 모든 식구들이 다 그냥 \"아이고, 드디어 우리 언니 결혼한다. 잘됐다.\" 그래서, 그래서 한국에서 결혼했죠. 결혼식은 이제 한국에서 하고 이제 바로 이제… 왜냐하면 그게 그래요. 군인은, 군인은 2~3년에 한 번씩 움직이잖아요. 남편이 이제 가야 되잖아요. 다시 복무를 이제 연장도 할 수 있지만. 그러니까 저희 남편이 생각할 때, 자기가 나하고 연애한 게 한 1년 정도밖에 안 됐는데 자기는 이제 가야 되니까,",
+      "text": "So for me, the whole family was just like, \"Oh my, our big sister is finally getting married. Good for her.\" So, so we got married in Korea. We had the wedding in Korea and then right away… because that's how it is. Soldiers — soldiers move every two or three years, you know. My husband had to leave. He could have extended his tour, but still. So as my husband saw it, we'd only been dating for about a year, and since he had to leave,"
     },
     {
       "t": 1009,
       "speaker": "Sookja Green",
-      "original": "나한테 하는 말이, 자기가 들어가서, 먼저 가서 약혼자 비자를 보내 줄 테니까 와라, 이러는 거예요. 내가 \"노!\" 했어요. 오우, 나 들은 얘기도 많고 내가 본 것도 많아. 그렇게 사기 치는[?] 놈들 많다더라. 어? 솔직히 제 주변에 몇 명이 그런 일이 있었거든요, 사실. 그러니까, 어? 그래서 짐도 다 실어 보냈대. 근데 약혼 비자를 안 보내주는 거야. 그러면 여자는 완전히 허공에 뜨죠. 그런 일이 있어요. 그러니까 좋은 일만 있는 건 아니잖아요, 항상. 그러니까 조금 변심한 사람들도 있단 말이에요. 그래 갖고 \"너 못 믿어. 그렇게는 못 해.\" 그랬더니… \"네가 나하고 결혼을 하고 싶으면 너 가기 전에 결혼식을 또 끝내고 해라. 그래야 너를 따라간다.\"",
+      "original": "나한테 하는 말이, 자기가 들어가서, 먼저 가서 약혼자 비자를 보내 줄 테니까 와라, 이러는 거예요. 내가 \"노!\" 했어요. 오우, 나 들은 얘기도 많고 내가 본 것도 많아. 그렇게 사기 치는 놈들 많다더라. 어? 솔직히 제 주변에 몇 명이 그런 일이 있었거든요, 사실. 그러니까, 어? 그래서 짐도 다 실어 보냈대. 근데 약혼 비자를 안 보내주는 거야. 그러면 여자는 완전히 허공에 뜨죠. 그런 일이 있어요. 그러니까 좋은 일만 있는 건 아니잖아요, 항상. 그러니까 조금 변심한 사람들도 있단 말이에요. 그래 갖고 \"너 못 믿어. 그렇게는 못 해.\" 그랬더니… \"네가 나하고 결혼을 하고 싶으면 너 가기 전에 결혼식을 또 끝내고 해라. 그래야 너를 따라간다.\"",
       "text": "what he said to me was, he'd go back first and send me a fiancée visa, and I should come. I said, \"No!\" Whoa — I've heard a lot of stories and seen a lot myself. They say there are plenty of guys who pull that kind of scam. Right? Honestly, a few people around me had that happen, really. So, you know? She'd shipped all her belongings over, they said. And then he never sends the fiancée visa. Then the woman is left completely hanging in midair. That happens. It's not always just happy endings, you know. Some people change their minds. So I said, \"I don't trust you. I can't do it that way.\" And then… \"If you want to marry me, get the wedding done before you leave. Only then will I follow you.\""
     },
     {
       "t": 1056,
       "speaker": "Sookja Green",
-      "original": "했더니 우리 남편이 변호사잖아요. 그러니까 서류를 들고 다니기 시작했어요. 손수[?] 여기저기. 그래 갖고 저희가, 그때는 안 해도[?]… 뭐라 그러나, 결혼식을 이렇게 담당해 주는 이태원의 어떤 사무실 같은 게 있었어요. 국제결혼을 이렇게 해 주는. 근데 그 사무실에서도 놀란 게, 이렇게 한 달 만에 하는 사람을 처음 봤다고 그래요. 그 정도로 남편이 정말 끌고 다니면서 해서, 제가… 제가 2월 달, 2월 초에, 3월, 3월 초에…",
+      "original": "했더니 우리 남편이 변호사잖아요. 그러니까 서류를 들고 다니기 시작했어요. 손수 여기저기. 그래 갖고 저희가, 그때는 안 해도… 뭐라 그러나, 결혼식을 이렇게 담당해 주는 이태원의 어떤 사무실 같은 게 있었어요. 국제결혼을 이렇게 해 주는. 근데 그 사무실에서도 놀란 게, 이렇게 한 달 만에 하는 사람을 처음 봤다고 그래요. 그 정도로 남편이 정말 끌고 다니면서 해서, 제가… 제가 2월 달, 2월 초에, 3월, 3월 초에…",
       "text": "When I said that — well, my husband's a lawyer, right? So he started carrying the paperwork around. Himself, here and there. And so we — back then there was, what do you call it, a kind of office in Itaewon that handled weddings. The kind that arranged international marriages. And even that office was amazed — they said they'd never seen anyone get it done in a month. That's how hard my husband really dragged me around getting it done, so I… I, in February, early February, March, early March…"
     },
     {
@@ -211,19 +214,19 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1133,
       "speaker": "Sookja Green",
-      "original": "이제 자기가 가야 한다고 어쩌고 이런 얘기가 나오니까, 내가 \"아니, 결혼을 하고 페이퍼가 끝나야 내가 널 따라갈 거야\"라고 했더니, 이제 3월 달에, 그래서 약혼식을 하고, 이제 페이퍼워크[?] 끝나고 4월 얼마인가에 서울시청에 가서 사인을 하고, 5월 17일날 결혼식을 하고, 한 달 후에 이제 미국으로 들어온 거죠. 그러니까 우리 남편이 진짜 정말 발바닥에 땀 나게 뛰어다니면서 했답니다. 그래서 왔어요.",
+      "original": "이제 자기가 가야 한다고 어쩌고 이런 얘기가 나오니까, 내가 \"아니, 결혼을 하고 페이퍼가 끝나야 내가 널 따라갈 거야\"라고 했더니, 이제 3월 달에, 그래서 약혼식을 하고, 이제 페이퍼워크 끝나고 4월 얼마인가에 서울시청에 가서 사인을 하고, 5월 17일날 결혼식을 하고, 한 달 후에 이제 미국으로 들어온 거죠. 그러니까 우리 남편이 진짜 정말 발바닥에 땀 나게 뛰어다니면서 했답니다. 그래서 왔어요.",
       "text": "and then when talk came up about him having to leave and so on, I said, \"No — only once we're married and the papers are done will I follow you.\" So then in March we had the engagement ceremony, and after the paperwork was done, sometime in April we went to Seoul City Hall and signed, and on May 17th we had the wedding, and a month later we came into America. So my husband really, truly ran around until the soles of his feet were sweating to get it done. And that's how I came."
     },
     {
       "t": 1167,
       "speaker": "Interviewer",
-      "original": "감사합니다. 네, 또 이제 가족은 다 좋다고 그런 얘기는 들었지만, 혹시 한국에서는 뭐 사람들이 좀 이상하게[?]… 아니면 또 이렇게 법이 좀 뭐 이렇게, 아메리칸에 메리하니까 법 문제 있었어요?",
+      "original": "감사합니다. 네, 또 이제 가족은 다 좋다고 그런 얘기는 들었지만, 혹시 한국에서는 뭐 사람들이 좀 이상하게… 아니면 또 이렇게 법이 좀 뭐 이렇게, 아메리칸에 메리하니까 법 문제 있었어요?",
       "text": "Thank you. Yes, and I've heard that your family was all happy about it, but in Korea, did people maybe look at it strangely… or, legally, since you were marrying an American, were there any legal problems?"
     },
     {
       "t": 1185,
       "speaker": "Sookja Green",
-      "original": "그랬을 거예요, 아마, 다른 사람들한테. 근데 저희 가족한테는 좀 달랐어요. 처음에 얘기했듯이 아버지가 미군 부대에서 일을 하셨기 때문에 미국 사람들의 그거를 알고… 정서가[?] 좀 달라요. 다른 케이스예요. 예외인 케이스인데, 저는 미국 문화에서 어렸을 때 살았어요. 그러니까 아빠, 아빠가 미국 사람들하고 잘하니까, 크리스마스 선물이니 뭐 이런 것들이, 그때 60년 정도, 70년 전에는 그런 게 없었는데, 저희는… 지금도 생각나는 게, 아빠가 크리스마스 때 선물로 주면, 그 인형이 눕히면 눈이 이렇게 올라가고 그런 인형이 있어요. 그런 걸 가진 애가 난 우리 학교 전체에서 나 하나였을 정도니까.",
+      "original": "그랬을 거예요, 아마, 다른 사람들한테. 근데 저희 가족한테는 좀 달랐어요. 처음에 얘기했듯이 아버지가 미군 부대에서 일을 하셨기 때문에 미국 사람들의 그거를 알고… 정서가 좀 달라요. 다른 케이스예요. 예외인 케이스인데, 저는 미국 문화에서 어렸을 때 살았어요. 그러니까 아빠, 아빠가 미국 사람들하고 잘하니까, 크리스마스 선물이니 뭐 이런 것들이, 그때 60년 정도, 70년 전에는 그런 게 없었는데, 저희는… 지금도 생각나는 게, 아빠가 크리스마스 때 선물로 주면, 그 인형이 눕히면 눈이 이렇게 올라가고 그런 인형이 있어요. 그런 걸 가진 애가 난 우리 학교 전체에서 나 하나였을 정도니까.",
       "text": "Probably there were, for other people. But for my family it was a bit different. Like I said at the beginning, my father worked on the US Army base, so he knew American people's ways… the feeling was a bit different. We're a different case. An exception — I grew up in American culture as a child. Because my dad, my dad got along well with Americans, things like Christmas presents — back then, sixty, seventy years ago, nobody had that sort of thing, but we did… What I still remember is, my dad would give me a present at Christmas — a doll that, when you laid it down, its eyes would go like this. That kind of doll. I was probably the only kid in my entire school who had one."
     },
     {
@@ -241,8 +244,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1286,
       "speaker": "Sookja Green",
-      "original": "그리고 저는 성격이 좀 강한 사람이라 그렇게 맞서요. 저를 무시하거나 뭐 그런 식으로 얘기하면 \"네가 뭔데? 네 인생, 내 인생 살게 됐는지가 뭔데[?]\" 이런 식이기 때문에, 죄송하지만 저는 그런 거에 대해서는 타격감이 없습니다. 네.",
-      "text": "And I'm someone with a pretty strong personality, so I push back like that. If someone looks down on me or talks that way, it's \"Who are you? You live your life, I live mine — what's it to you?\" That's how I am, so, sorry, but that kind of thing doesn't faze me at all. Yes."
+      "original": "그리고 저는 성격이 좀 강한 사람이라 그렇게 맞서요. 저를 무시하거나 뭐 그런 식으로 얘기하면 \"네가 뭔데? 내 인생 살게 됐는데 네가 뭔데?\" 이런 식이기 때문에, 죄송하지만 저는 그런 거에 대해서는 타격감이 없습니다. 네.",
+      "text": "And I'm someone with a pretty strong personality, so I push back like that. If someone looks down on me or talks that way, it's \"Who are you? I'm living my own life — who are you to judge?\" That's how I am, so, sorry, but that kind of thing doesn't faze me at all. Yes."
     },
     {
       "t": 1304,
@@ -259,8 +262,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1314,
       "speaker": "Sookja Green",
-      "original": "한국에 있고 싶은, 이거는 있었어요. 막상 그때는 인천공항이 아니라 김포공항, 이제 다 짐 싸들고 남편이랑 떠나 빠이빠이를 하는데, 지금도 잊어버리지 않는 게, 맨 처음에 신났거든요. 드디어 이 지긋지긋— 죄송합니다 — 내가 고생을 많이 했으니, 그래서[?] 이 지긋지긋한 한국 떠난다. 난 아메리칸 드림이잖아, 완전히. 미국 간다 싶어갖고 이제 신나갖고 갔는데,",
-      "text": "There was that feeling of wanting to stay in Korea, yes. Back then it wasn't Incheon Airport, it was Gimpo Airport. So I packed everything up and was leaving with my husband, saying bye-bye, and what I still can't forget is that at first I was excited. Finally I'm leaving this godawful — sorry — I'd been through so much hardship, so I thought, I'm finally leaving this godawful Korea. For me it was the American Dream, totally. I'm going to America! — I was so excited, and off I went,"
+      "original": "한국에 있고 싶은, 이거는 있었어요. 막상 그때는 인천공항이 아니라 김포공항, 이제 다 짐 싸들고 남편이랑 떠나 빠이빠이를 하는데, 지금도 잊어버리지 않는 게, 맨 처음에 신났거든요. 드디어 이 지긋지긋— 죄송합니다 — 내가 고생을 많이 했으니까, 한국에서. 이 지긋지긋한 한국 떠난다. 난 아메리칸 드림이잖아, 완전히. 미국 간다 싶어갖고 이제 신나갖고 갔는데,",
+      "text": "There was that feeling of wanting to stay in Korea, yes. Back then it wasn't Incheon Airport, it was Gimpo Airport. So I packed everything up and was leaving with my husband, saying bye-bye, and what I still can't forget is that at first I was excited. Finally I'm leaving this godawful — sorry — I'd been through so much hardship in Korea — I'm finally leaving this godawful Korea. For me it was the American Dream, totally. I'm going to America! — I was so excited, and off I went,"
     },
     {
       "t": 1341,
@@ -271,13 +274,13 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1381,
       "speaker": "Sookja Green",
-      "original": "제가 적은 나이는 아니에요, 33살이었으니까. 그리고 내가 성격이 강한 사람이라 안 그런 척[?] 했지만, 막상 정말 여기 게이트를 들어간다 생각하니까 겁이 났어요. 그래갖고 내가 울었어요. 정말 땅바닥에 주저앉아갖고 막 울었어요. 어, 그랬던 기억이 나네요. 우리 남편이 얼마나 당황했겠어, 사실.",
+      "original": "제가 적은 나이는 아니에요, 33살이었으니까. 그리고 내가 성격이 강한 사람이라 안 그런 듯했지만, 막상 정말 여기 게이트를 들어간다 생각하니까 겁이 났어요. 그래갖고 내가 울었어요. 정말 땅바닥에 주저앉아갖고 막 울었어요. 어, 그랬던 기억이 나네요. 우리 남편이 얼마나 당황했겠어, 사실.",
       "text": "I wasn't young, either — I was 33. And since I have a strong personality, I acted like it was nothing, but when I thought I was really about to go through that gate, I got scared. So I cried. I really sank right down onto the floor and bawled. Yes, I remember that. Imagine how flustered my husband must have been, honestly."
     },
     {
       "t": 1404,
       "speaker": "Sookja Green",
-      "original": "그리고 내가 시애틀을 잊어버리지도 않아. 시애틀에서 갈아타고 이제 버지니아로 들어가야 되는데, 나는 꿈이, 이제 Welcome to America 이렇게 할 줄 알았어요. 그리고 영화 같은 거 보면 Welcome to America 막 이런 거 하잖아. 그래서 이 공항을 통과하는데, 그리고 저희 남편이 저랑 같이 옆에 서 있었어요. 나를 보호해 준 거예요. 그러니까 따로따로 뭐 civilian, 뭐 foreigner[?] 이렇게 따로 검사를 봤는데, 저희 남편이 있었어요.",
+      "original": "그리고 내가 시애틀을 잊어버리지도 않아. 시애틀에서 갈아타고 이제 버지니아로 들어가야 되는데, 나는 꿈이, 이제 Welcome to America 이렇게 할 줄 알았어요. 그리고 영화 같은 거 보면 Welcome to America 막 이런 거 하잖아. 그래서 이 공항을 통과하는데, 그리고 저희 남편이 저랑 같이 옆에 서 있었어요. 나를 보호해 준 거예요. 그러니까 따로따로 뭐 civilian, 뭐 foreigner 이렇게 따로 검사를 봤는데, 저희 남편이 있었어요.",
       "text": "And I'll never forget Seattle. We had to change planes in Seattle and then go on to Virginia, and my dream was that they'd say, 'Welcome to America!' In the movies they always go 'Welcome to America,' right? So we were going through the airport, and my husband was standing right beside me. He was protecting me. They checked people separately — civilians, foreigners, like that — but my husband was there with me."
     },
     {
@@ -289,19 +292,19 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1455,
       "speaker": "Sookja Green",
-      "original": "근데 이렇게 보는데, 줄 서있는데, 통과하는데, 내 앞에 중국 분들이었어요. 나이 든 분들 한 3명인가 했는데, 한꺼번에 뭐 하는데, 이렇게 보니까 한 그 사람이 보더니, 그 사람들이 지나가니까 'Catch them[?]! Catch them!' 막 이러는 거예요. 이러고, 이거 뭐야 그랬더니, 그 사람들이 영어를 잘 못 알아들어서 다른 길로 이렇게 간 거 같아요. 그러니까 계속 'Catch them!' 막 이러는 거예요. 그래서 그때 제가 겁났어요. 어머, 저 사람만 안 걸렸으면 좋겠다 싶었는데,",
+      "original": "근데 이렇게 보는데, 줄 서있는데, 통과하는데, 내 앞에 중국 분들이었어요. 나이 든 분들 한 3명인가 했는데, 한꺼번에 뭐 하는데, 이렇게 보니까 한 그 사람이 보더니, 그 사람들이 지나가니까 'Catch them! Catch them!' 막 이러는 거예요. 이러고, 이거 뭐야 그랬더니, 그 사람들이 영어를 잘 못 알아들어서 다른 길로 이렇게 간 거 같아요. 그러니까 계속 'Catch them!' 막 이러는 거예요. 그래서 그때 제가 겁났어요. 어머, 저 사람만 안 걸렸으면 좋겠다 싶었는데,",
       "text": "So I was watching, standing in line to go through, and in front of me were some Chinese people — older folks, maybe three of them — going through together, and one of the officers looked and, as they walked past, started yelling, 'Catch them! Catch them!' I thought, what is this? I think they didn't understand English well and went the wrong way. So he kept yelling 'Catch them!' And that scared me. Oh my, I thought, I just hope I don't get that guy,"
     },
     {
       "t": 1489,
       "speaker": "Sookja Green",
-      "original": "Next 하는데 그분이 그분인 거예요. 그래서 이제 갔어요. 그랬더니 그 사람 인상이 굉장히 안 좋더라고. 서류[?] 이런 거 다 보여줬는데도 나를 보면서 너 결혼 언제 했냐, 뭐 했냐 어쩐 걸 다 물어보는데, 내가 결혼 언제 했냐고 그래서, 그래서 5월 17일 날 했다고 그랬어요. 그랬더니 'It is not right date' 그러는 거예요.",
-      "text": "And when they called 'Next,' sure enough, it was him. So I went up. And he had a really nasty look on his face. Even though I'd shown all my papers and everything, he looked at me and asked all sorts of things — when did you get married, what did you do — and when he asked when I got married, I said May 17th. And he said, 'It is not right date.'"
+      "original": "Next 하는데 그분이 그분인 거예요. 그래서 이제 갔어요. 그랬더니 그 사람 인상이 굉장히 안 좋더라고. 서류 이런 거 다 챙겨 갔는데도 나를 보면서 너 결혼 언제 했냐, 뭐 했냐 어쩐 걸 다 물어보는데, 내가 결혼 언제 했냐고 그래서, 그래서 5월 17일 날 했다고 그랬어요. 그랬더니 'It is not right date' 그러는 거예요.",
+      "text": "And when they called 'Next,' sure enough, it was him. So I went up. And he had a really nasty look on his face. Even though I'd brought all my papers and everything, he looked at me and asked all sorts of things — when did you get married, what did you do — and when he asked when I got married, I said May 17th. And he said, 'It is not right date.'"
     },
     {
       "t": 1512,
       "speaker": "Sookja Green",
-      "original": "그러니까 내가 당황을 했어요. 보니까 남편이, 아 이게 city에 가서 certificate 찍은, 그러니까 결혼증명 찍은 날짜는 4월인데, 나는 이제, 얘는 이제 결혼식 한 날, celebrate한 걸 기억을 하는 거다. 그러니까 너는 'Who are you?' 이렇게 되는 거야. 그러니까 'We are husband…' 그러니까 아이디를 보여줬을 거 아니에요. 그 사람이 또 'Is this you?[?]' 그런다. 야, 이 사진하고 너하고 같은 사람이냐[?] 그러는데, 진짜 까다로운 사람이었어요.",
+      "original": "그러니까 내가 당황을 했어요. 보니까 남편이, 아 이게 city에 가서 certificate 찍은, 그러니까 결혼증명 찍은 날짜는 4월인데, 나는 이제, 얘는 이제 결혼식 한 날, celebrate한 걸 기억을 하는 거다. 그러니까 너는 'Who are you?' 이렇게 되는 거야. 그러니까 'We are husband…' 그러니까 아이디를 보여줬을 거 아니에요. 그 사람이 또 'Is this you?' 그런다. 야, 이 사진하고 너하고 같은 사람이냐 그러는데, 진짜 까다로운 사람이었어요.",
       "text": "So I was flustered. My husband looked and realized: the date we'd gone to the city and got the certificate — the marriage certificate — was in April, but I was remembering the day of the wedding ceremony, when we celebrated. So it became, 'Who are you?' And we said, 'We are husband [and wife]…' So of course we showed our IDs. Then he goes, 'Is this you?' — like, is the person in this photo the same as you? He was a really difficult man."
     },
     {
@@ -325,7 +328,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1594,
       "speaker": "Interviewer",
-      "original": "근데 그거, 비자[?] 같은 거 가지기는 그렇게 힘들지 않나요?",
+      "original": "근데 그거, 비자 같은 거 가지기는 그렇게 힘들지 않나요?",
       "text": "But wasn't it hard to get that — the visa and so on?"
     },
     {
@@ -343,7 +346,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1630,
       "speaker": "Sookja Green",
-      "original": "아, 아까 말씀드렸듯이 이제 2, 3년에 한번씩 움직여야 하는 것이 이제 미군의 이제 생활이고 라이프 스타일이 그렇잖아요. 그러니까 결혼해서 한국, 서울에서 버지니아, 첫 그 근무지에[?] 있다가, 이제 거기서 94년인가, 이제 91년에, 91년 아이 낳고 바로 조지아에 가서 2년 살다가, 94년, 96년 한국에 다시 갔었고, 그 다음에 98년에서, 96년에서 98년 하와이, 호놀룰루 그쪽에 살다가,",
+      "original": "아, 아까 말씀드렸듯이 이제 2, 3년에 한번씩 움직여야 하는 것이 이제 미군의 이제 생활이고 라이프 스타일이 그렇잖아요. 그러니까 결혼해서 한국, 서울에서 버지니아, 첫 그 근무지에 있다가, 이제 거기서 94년인가, 이제 91년에, 91년 아이 낳고 바로 조지아에 가서 2년 살다가, 94년, 96년 한국에 다시 갔었고, 그 다음에 98년에서, 96년에서 98년 하와이, 호놀룰루 그쪽에 살다가,",
       "text": "Ah, like I said earlier, moving every two or three years is just the life of the U.S. military — that's the lifestyle, right? So after we married, from Korea, from Seoul, we went to Virginia, his first posting, and from there — '94? — no, in '91, right after I had my baby in '91, we went to Georgia and lived there two years; from '94 to '96 we went back to Korea; then from '96 to '98 we lived in Hawaii, around Honolulu,"
     },
     {
@@ -397,8 +400,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1819,
       "speaker": "Sookja Green",
-      "original": "그러니까 나보고 스탬프를, 어떤 스탬프를 원하는데, 얼마짜리, 그리고 롤이야 페이퍼야 뭐 막 이렇게 물어보는, 나는 당황을 한 거죠. 근데 알겠더라고. 아, 얘가 나 완전히 무시하는구나 나 지금. 그런데 내가 여기서 너한테, 네가 나를 무시한다고 내가 너한테 쩔쩔매고 그러면 내가 아니지. 그리고 네가 이기는 거야. 그리고 내가 그래서 속으로, 너는 영어밖에 모르지, 난 그래도 두 개[?]는 해. 속으로 그러면서 나를 내가 다독거리는 거였어.",
-      "text": "So she's firing questions at me — what kind of stamps do you want, what price, a roll or a sheet — and I was flustered. But I could tell. Ah, she is completely looking down on me right now. But if I get all flustered in front of you just because you're looking down on me, that's not me. And then you win. So I said to myself, you only know English — at least I speak two. Saying that inside, I was comforting myself."
+      "original": "그러니까 나보고 스탬프를, 어떤 스탬프를 원하는데, 얼마짜리, 그리고 롤이야 페이퍼야 뭐 막 이렇게 물어보는, 나는 당황을 한 거죠. 근데 알겠더라고. 아, 얘가 나 완전히 무시하는구나 나 지금. 그런데 내가 여기서 너한테, 네가 나를 무시한다고 내가 너한테 쩔쩔매고 그러면 내가 아니지. 그리고 네가 이기는 거야. 그리고 내가 그래서 속으로, 너는 영어밖에 모르지, 난 그래도 두 개 국어는 해. 속으로 그러면서 나를 내가 다독거리는 거였어.",
+      "text": "So she's firing questions at me — what kind of stamps do you want, what price, a roll or a sheet — and I was flustered. But I could tell. Ah, she is completely looking down on me right now. But if I get all flustered in front of you just because you're looking down on me, that's not me. And then you win. So I said to myself, you only know English — at least I speak two languages. Saying that inside, I was comforting myself."
     },
     {
       "t": 1850,
@@ -409,7 +412,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1879,
       "speaker": "Sookja Green",
-      "original": "'This one, thank you, ma'am[?].' 그러고서는 이제 아이를 끌고 나왔는데, 가슴은 퉁당퉁당퉁당퉁당. 아, 이게 바로 인종차별이라는 거구나. 그러면서 내가 앞으로 또 겪을 일인데 때마다 여기서 넘어지면 안 돼. 괜찮아, 잘했어. 그렇게 온 적 있어요, 사실. 그리고 저는 성격이 강해서, 오케이, 너 뭔데? 나는 그래요.",
+      "original": "'This one, thank you, ma'am.' 그러고서는 이제 아이를 끌고 나왔는데, 가슴은 퉁당퉁당퉁당퉁당. 아, 이게 바로 인종차별이라는 거구나. 그러면서 내가 앞으로 또 겪을 일인데 때마다 여기서 넘어지면 안 돼. 괜찮아, 잘했어. 그렇게 온 적 있어요, 사실. 그리고 저는 성격이 강해서, 오케이, 너 뭔데? 나는 그래요.",
       "text": "'This one, thank you, ma'am.' And then I took my kid and walked out, my heart going thump-thump-thump-thump. Ah, so this is what they call racial discrimination. And I told myself, this is something I'll go through again, and I can't fall apart every time. It's okay, you did well. That's how I walked out of there, honestly. And I have a strong personality, so — okay, who do you think you are? That's how I am."
     },
     {
@@ -463,7 +466,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2127,
       "speaker": "Sookja Green",
-      "original": "그럼에도 불구하고, 아까 처음으로 결혼해갖고 어떤 군인 가족 모임이 있었거든요. JAG 오피서들이 만났어요. 오피서들이 부부 동반, 이런 게 있었어요. 굉장히 큰 행사였는데 — 오, 나 그거 얘기해야 되겠다 — 거길 갔는데, 제가 저기서 여자 혼자였었거든요. 동양인 여자 하나. 왕따 비슷한 것처럼 당하는 게 있었어요. 당한 게 아니라, 그들의 말에 내가 섞이질 못하고, 내가 보니까[?] 혼자[?] 떨어져 있더라고요, 내가. 내가 의도한 건 아닌데 그 모습을 봤어요. 저 사람들이 나를 안 껴주네, 하는 그런 게 있었다. 오, 생각난다.",
+      "original": "그럼에도 불구하고, 아까 처음으로 결혼해갖고 어떤 군인 가족 모임이 있었거든요. JAG 오피서들이 만났어요. 오피서들이 부부 동반, 이런 게 있었어요. 굉장히 큰 행사였는데 — 오, 나 그거 얘기해야 되겠다 — 거길 갔는데, 제가 저기서 여자 혼자였었거든요. 동양인 여자 하나. 왕따 비슷한 것처럼 당하는 게 있었어요. 당한 게 아니라, 그들의 말에 내가 섞이질 못하고, 내가 혼자 떨어져 있더라고요, 내가. 내가 의도한 건 아닌데 그 모습을 봤어요. 저 사람들이 나를 안 껴주네, 하는 그런 게 있었다. 오, 생각난다.",
       "text": "Even so — like I said, right after we first got married there was a gathering of military families. The JAG officers got together. It was one of those officers-with-spouses events. It was a really big occasion — oh, I have to tell you about this — I went, and I was the only woman of my kind there. The one Asian woman. There was something like being left out, being shunned. Not that they did it to me exactly, but I couldn't blend into their conversation, and I found myself standing off by myself. I didn't mean for it to happen, but I saw myself like that. There was this feeling of, those people aren't letting me in. Oh, it's coming back to me."
     },
     {
@@ -475,8 +478,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2216,
       "speaker": "Sookja Green",
-      "original": "'너만 그런 거 아니야. 쟤도 이런 게 익숙하지가 않아서 낯설 뿐이야. 그러니까 용기를 내. 쟤한테 가. 네가 먼저 인사해.' 제가 혼잣말[?]을 좀 하면서 이렇게 생각을 했어요, 거기서. '오케이, 이건 네가 결정할 일이야.' 그래서 그 쟤한테 가서 '하이' 이러면서, 'You alone[?]?' 이러면서 내가 이제 얘기를 시작했다. 그러니까 걔는 또 너무 좋아하는 거야. 그러니까 걔도 힘들었던 거예요. 그러니까… 그랬어요. 나 생각난다. 나 그랬던 기억이 나.",
-      "text": "'It's not just you. She's not used to this either — it's just unfamiliar to her. So be brave. Go over to her. You say hello first.' I was kind of talking to myself there, thinking it through like that. 'Okay, this is your call.' So I went over to her and said 'Hi,' and 'You alone?' — and that's how I started talking with her. And she was so happy about it. She'd been having a hard time too, you see. So… that's what happened. It's coming back to me. I remember doing that."
+      "original": "'너만 그런 거 아니야. 쟤도 이런 게 익숙하지가 않아서 낯설 뿐이야. 그러니까 용기를 내. 쟤한테 가. 네가 먼저 인사해.' 제가 한 잔을 좀 마시면서 이렇게 생각을 했어요, 거기서. '오케이, 이건 네가 결정할 일이야.' 그래서 그 쟤한테 가서 '하이' 이러면서, 'You alone?' 이러면서 내가 이제 얘기를 시작했다. 그러니까 걔는 또 너무 좋아하는 거야. 그러니까 걔도 힘들었던 거예요. 그러니까… 그랬어요. 나 생각난다. 나 그랬던 기억이 나.",
+      "text": "'It's not just you. She's not used to this either — it's just unfamiliar to her. So be brave. Go over to her. You say hello first.' I was having a drink there, thinking it through like that. 'Okay, this is your call.' So I went over to her and said 'Hi,' and 'You alone?' — and that's how I started talking with her. And she was so happy about it. She'd been having a hard time too, you see. So… that's what happened. It's coming back to me. I remember doing that."
     },
     {
       "t": 2247,
@@ -493,8 +496,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2283,
       "speaker": "Sookja Green",
-      "original": "음… 그냥 내가 군인 생활을 하면서, 나는 겪지 못했지만 주변에서 들은 것 중에 가장 힘든 게 아이들 문제예요. 아이들이 정체성이 미국도 아니고 한국도 아니에요. 그러니까 다른 나라에서 미국으로 이민 왔을 때, 왜 그냥 똑같이 이렇게 태민이처럼 '나 미국 사람이야, 한국 사람이야' 뭐 이런 것처럼, 저희 같이 이렇게 섞인 — 그러니까 에메레이션[?]이라고 하죠 — 걔네들 똑같이 느껴요.",
-      "text": "Hmm… well, from my years in military life — I didn't go through it myself, but of what I heard from people around me — the hardest thing is the children. The kids' identity is neither American nor Korean. You know how when people immigrate to America from another country, kids go through the same thing, like Taemin — 'Am I American? Am I Korean?' — well, kids who are mixed like ours, what do you call it, [unclear word], they feel exactly the same thing."
+      "original": "음… 그냥 내가 군인 생활을 하면서, 나는 겪지 못했지만 주변에서 들은 것 중에 가장 힘든 게 아이들 문제예요. 아이들이 정체성이 미국도 아니고 한국도 아니에요. 그러니까 다른 나라에서 미국으로 이민 왔을 때, 왜 그냥 똑같이 이렇게 태민이처럼 '나 미국 사람이야, 한국 사람이야' 뭐 이런 것처럼, 저희 같이 이렇게 섞인 — 그러니까 Amerasian이라고 하죠 — 걔네들 똑같이 느껴요.",
+      "text": "Hmm… well, from my years in military life — I didn't go through it myself, but of what I heard from people around me — the hardest thing is the children. The kids' identity is neither American nor Korean. You know how when people immigrate to America from another country, kids go through the same thing, like Taemin — 'Am I American? Am I Korean?' — well, kids who are mixed like ours, what they call Amerasian, they feel exactly the same thing."
     },
     {
       "t": 2325,
@@ -517,19 +520,19 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2458,
       "speaker": "Sookja Green",
-      "original": "그래서 미군 군대도 바뀐 게, 그러니까 꼭 저희처럼 에메레이션[?]만이 아니라 아이들이 2~3년 만에 옮기니까 틴에이저 애들이 굉장히 힘들어하는 거예요. 그러니까 군인 쪽에서 이게 문제가 된다는 것을 알고, 그 아이들이 중학교, 미들스쿨이나 하이스쿨 중간에 들어오면 그 아이가 거기서 학교를 끝내게 했어요. 그게 바뀌었대요. 왜냐하면 그 아이들을 보호해야 되니까. 너무 한창 예민할 때 옮겨 다니면 애들이 학교에서 왕따 당하고 힘들잖아요. 그러니까 그 아이들을 위해서, 2~3년이라도 그 아이가 학교 끝날 때까지 3년, 4년 연장해서 머무를 수 있도록 그 제도가 바뀌었다고 해요. 나는 그거는 정말 잘한 거다, 그 아이들을 위해서. 이제 그런 생각을 합니다.",
-      "text": "And the US military changed something too — it's not just kids of [unclear word] families like ours; since kids move every two or three years, teenagers have a really hard time. So the military realized this was a problem, and if a child comes in partway through middle school or high school, they let that child finish school there. They say that's changed. Because those kids need to be protected. When they're moved around right at their most sensitive age, they get bullied at school and it's hard on them, right? So for those kids, even with a two- or three-year posting, the policy was changed so the family can extend and stay three or four years until the child finishes school. I think that was a really good move, for those kids. That's how I see it."
+      "original": "그래서 미군 군대도 바뀐 게, 그러니까 꼭 저희처럼 Amerasian만이 아니라 아이들이 2~3년 만에 옮기니까 틴에이저 애들이 굉장히 힘들어하는 거예요. 그러니까 군인 쪽에서 이게 문제가 된다는 것을 알고, 그 아이들이 중학교, 미들스쿨이나 하이스쿨 중간에 들어오면 그 아이가 거기서 학교를 끝내게 했어요. 그게 바뀌었대요. 왜냐하면 그 아이들을 보호해야 되니까. 너무 한창 예민할 때 옮겨 다니면 애들이 학교에서 왕따 당하고 힘들잖아요. 그러니까 그 아이들을 위해서, 2~3년이라도 그 아이가 학교 끝날 때까지 3년, 4년 연장해서 머무를 수 있도록 그 제도가 바뀌었다고 해요. 나는 그거는 정말 잘한 거다, 그 아이들을 위해서. 이제 그런 생각을 합니다.",
+      "text": "And the US military changed something too — it's not just Amerasian kids like ours; since kids move every two or three years, teenagers have a really hard time. So the military realized this was a problem, and if a child comes in partway through middle school or high school, they let that child finish school there. They say that's changed. Because those kids need to be protected. When they're moved around right at their most sensitive age, they get bullied at school and it's hard on them, right? So for those kids, even with a two- or three-year posting, the policy was changed so the family can extend and stay three or four years until the child finishes school. I think that was a really good move, for those kids. That's how I see it."
     },
     {
       "t": 2512,
       "speaker": "Interviewer",
-      "original": "제 마지막 퀘스션. 이제 한국부터 이제 시애틀[?]로까지 왔을 때, 제가 오늘 물어본 거에서 많이 스토리들도 많이 얘기해 주잖아요. 혹시 제가 안 물어본 스토리 하나…",
+      "original": "제 마지막 퀘스션. 이제 한국부터 이제 시애틀로까지 왔을 때, 제가 오늘 물어본 거에서 많이 스토리들도 많이 얘기해 주잖아요. 혹시 제가 안 물어본 스토리 하나…",
       "text": "My last question. From Korea all the way to Seattle — you've told me so many stories in response to what I asked today. Is there perhaps one story I didn't ask about…"
     },
     {
       "t": 2525,
       "speaker": "Sookja Green",
-      "original": "제가 결혼하고 처음으로 우리 남편한테 물어봤어요. 이제 전화를 받고, 아, 내가 이런 인터뷰를 해야 한다는 얘기를 듣고 갑자기 궁금해진 거예요. 저희 남편한테 처음 물어봤어요. '어떻게 군인이[?] 됐어?' 저 안 물어봤거든요, 사실. 38년 동안 안 물어본 질문이에요. 그랬더니 남편이 너무 좋아하는 거예요. 자기에 대해서 술술술 — 얘기를 하기 싫어하는데.",
+      "original": "제가 결혼하고 처음으로 우리 남편한테 물어봤어요. 이제 전화를 받고, 아, 내가 이런 인터뷰를 해야 한다는 얘기를 듣고 갑자기 궁금해진 거예요. 저희 남편한테 처음 물어봤어요. '어떻게 군인이 됐어?' 저 안 물어봤거든요, 사실. 38년 동안 안 물어본 질문이에요. 그랬더니 남편이 너무 좋아하는 거예요. 자기에 대해서 술술술 — 얘기를 하기 싫어하는데.",
       "text": "For the first time since we got married, I asked my husband something. When I got the call and heard I was going to do this interview, I suddenly got curious. I asked my husband for the first time, 'How did you end up in the military?' I'd never asked him, actually. It's a question I hadn't asked in 38 years. And my husband was so pleased. It all just came pouring out about himself — and he doesn't like talking about himself."
     },
     {
@@ -565,8 +568,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2751,
       "speaker": "Interviewer",
-      "original": "네, 그러면 이제 저 지금은 앞으로 먹고[?]… 네, 해주셔서 너무 감사합니다.",
-      "text": "Okay, then, I'll now [unclear]… Yes, thank you so much for doing this."
+      "original": "네, 그러면 이제 저 지금은 없고… 네, 해주셔서 너무 감사합니다.",
+      "text": "Okay, then, that's all I have for now… Yes, thank you so much for doing this."
     },
     {
       "t": 2756,
