@@ -13,7 +13,6 @@
      - 25:35 "Mrs. Locke," his mother's friend, is as heard. Spelling unknown.
      - 31:42 He says the statues were of Kim Jong-il; in 1991 North Korea
              was led by Kim Il Sung. Left as spoken.
-     - 37:31 "in every thought" is as heard, marked [?].
    If the YouTube upload is not this same cut, the timings will drift.
 
    Each passage has a "speaker": "Interviewer" or the narrator's name.
@@ -335,7 +334,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2231,
       "speaker": "Charley Smith",
-      "text": "Because, you know, in large part it explains the resiliency of Koreans, and it explains this incredible transformation that Korea has made since the war. I mean, if you look at South Korea and compare it to North Korea, you got to be proud of the fact that South Korea has done so well, has progressed in every thought [?], you know, the technology, the impact on society, you know, throughout the world. It's impressive."
+      "text": "Because, you know, in large part it explains the resiliency of Koreans, and it explains this incredible transformation that Korea has made since the war. I mean, if you look at South Korea and compare it to North Korea, you got to be proud of the fact that South Korea has done so well, has progressed in every thought, you know, the technology, the impact on society, you know, throughout the world. It's impressive."
     },
     {
       "t": 2286,
