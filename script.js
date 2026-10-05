@@ -452,7 +452,7 @@ var KWMBPdf = (function () {
         notice: data.reviewed === false
           ? 'Auto-generated transcript. Produced by speech recognition and not ' +
             'yet checked against the recording, so it contains errors and should ' +
-            'not be quoted as her exact words. The video itself is the record.'
+            'not be quoted as the narrator’s exact words. The video itself is the record.'
           : '',
         footer: location.host + location.pathname,
         // Always the whole transcript, never just what a search left showing.

@@ -143,31 +143,31 @@ window.KWMB_TRANSCRIPT = {
       "t": 709,
       "speaker": "Interviewer",
       "original": "한국에 살았을 때 하나가 꼭 뭐… what was the clearest sort of memory, 아니면 어떤 커뮤니티에서 뭐가 제일 remember 해요?",
-      "text": "When you lived in Korea, if there's one thing — what was the clearest sort of memory? Or, from your community, what do you remember most?"
+      "text": "When you lived in Korea, if there's one thing… what was the clearest sort of memory? Or, from your community, what do you remember most?"
     },
     {
       "t": 722,
       "speaker": "Sookja Green",
       "original": "이러면서… 음, 근데 참 애석하게도 한국에서의 삶이 제가 그렇게 좋지가 않았어요. 음, 아버지 사업 뭐… 아버지 저희 식구 버리고 이래가 굉장히… 제가 다니던 학교도 고만두어야 했고, 대학교 3학년 때 휴학을 해야 했고, 그 다음부터는 경제적으로 힘이 들어서 제가 고생을 많이 했어요, 사실. 그리고 제가 전공을 한 게, 제가 중앙대학교 연극영화과를 갔었거든요. 들어갔었는데 그때 저는 연극을 하고 싶었어요. 근데 음, 연극을 해서 이렇게 돈이 되지는 않잖아요. 그래서, 그래서 제가 이제 그때부터 조금 많이 방황을 했어요.",
-      "text": "Well… sadly, my life in Korea wasn't all that good. Hmm, my father's business, and… my father abandoned our family, and so things got really… I had to quit the school I was attending — I had to take a leave from college in my third year — and from then on things were hard financially, and honestly I went through a lot. And what I majored in — I had gone to Chung-Ang University, the Theater and Film department. I got in, and back then I wanted to do theater. But, hmm, you don't exactly make money doing theater, do you? So, so from then on I wandered quite a bit, lost."
+      "text": "Well… sadly, my life in Korea wasn't all that good. Hmm, my father's business, and… my father abandoned our family, and so things got really… I had to quit the school I was attending, I had to take a leave from college in my third year, and from then on things were hard financially, and honestly I went through a lot. And what I majored in… I had gone to Chung-Ang University, the Theater and Film department. I got in, and back then I wanted to do theater. But, hmm, you don't exactly make money doing theater, do you? So, so from then on I wandered quite a bit, lost."
     },
     {
       "t": 766,
       "speaker": "Sookja Green",
       "original": "사실 그 스무 살, 스물한 살 그때에 엄마 아버지에 대한 원망도 있었고, 이런 경제에… 저희 굉장히 잘 살았거든요. 근데 갑자기, 그런 게 있어요. 잘 살다가 갑자기 몰락을 하잖아요. 그러면 이게 더 커요, 이 상실감이. 그리고 제가 첫째예요, 사실은. 오남매 중에 첫 번째인데, 저랑 막내가 10년 정도 차이가 나요. 그래서 우리 막내는 그 아이의 기억에 잘 살았던 기억이 없어요. 나는, 그러고 보면 제가 첫째라서 그걸 제일 많이 누린 것 같아요. 근데 우리 막내 동생은 \"우리가 잘 살았던 적이 있었어?\" 그렇게 기억을 해요. 슬프게도.",
-      "text": "Honestly, at twenty, twenty-one, I resented my mom and dad, and with the finances like that… we had been very well off, you see. And then suddenly — it's like that. When you're doing well and then suddenly everything collapses, it hits harder, that sense of loss. And I'm the eldest, actually. The first of five kids, and there's about ten years between me and the youngest. So our youngest has no memory of us ever being well off. Me — come to think of it, because I was the eldest, I think I got to enjoy it the most. But my youngest sibling remembers it like, \"Were we ever well off?\" Sadly."
+      "text": "Honestly, at twenty, twenty-one, I resented my mom and dad, and with the finances like that… we had been very well off, you see. And then suddenly… it's like that. When you're doing well and then suddenly everything collapses, it hits harder, that sense of loss. And I'm the eldest, actually. The first of five kids, and there's about ten years between me and the youngest. So our youngest has no memory of us ever being well off. Me, come to think of it, because I was the eldest, I think I got to enjoy it the most. But my youngest sibling remembers it like, \"Were we ever well off?\" Sadly."
     },
     {
       "t": 808,
       "speaker": "Sookja Green",
       "original": "그래서, 그리고 음, 제가 좀 삶의 좀 방황 속에 방탕도 들어가요. 그러니까 삶이 힘드니까 나이 젊을 때 이렇게 다른 쪽으로 폭발도 하고 그러죠. 지금 생각하면 참 어리석긴 하지만 그때는 그냥 그랬어요. 그래서 제가 좀 나를 좀 힘들게 살았어요, 내가. 그래서 한국에서의 기억이 그렇게 좋지 않아요, 솔직히. 저는 남편을 만나서 미국으로 오면서 너무 좋았어요.",
-      "text": "So, and, hmm, in all that wandering I also fell into a bit of a wild, dissolute life. Because life was hard, when you're young you blow up in other directions, you know. Thinking about it now it was really foolish, but back then that's just how it was. So I made life hard on myself — I did. That's why my memories of Korea aren't that good, honestly. When I met my husband and came to America, I was so happy."
+      "text": "So, and, hmm, in all that wandering I also fell into a bit of a wild, dissolute life. Because life was hard, when you're young you blow up in other directions, you know. Thinking about it now it was really foolish, but back then that's just how it was. So I made life hard on myself, I did. That's why my memories of Korea aren't that good, honestly. When I met my husband and came to America, I was so happy."
     },
     {
       "t": 846,
       "speaker": "Sookja Green",
       "original": "그러니까 경제적인 것을 바꾼 것만이 아니라, 그러니까 뭐라 그럴까, 남편한테 사랑받으면서 내가 그냥 한 집안의 아내고 엄마인 게 너무 좋았어요. 저는 현모양처가 꿈이었던 사람이에요, 사실은. 가정 꾸리면서 사는 게 참 좋았었거든요. 근데 한국에서는 그거를 못했잖아요. 근데 아빠 만나고 그걸 할 수 있어. 인생의 전환점이 된 거라… 지금 갑자기 그거 질문을 들으니까 내가 좀 슬퍼요. 어머, 내가 한국에 대해서 좋은 기억이 그렇게 없구나. 내가 너무 힘들었구나. 그래서… 응. 그러네. 응.",
-      "text": "I mean, it wasn't just that my finances changed — how should I put it — being loved by my husband, just being the wife and mother of a household, I loved it so much. Being a good wife and wise mother was my dream, actually. I really loved making a home and living that life. But in Korea I couldn't do that. Then after I met him — the kids' dad — I could. It became the turning point of my life… Hearing that question just now, all of a sudden, I feel a little sad. Oh my, I don't really have many good memories of Korea. I really had it hard. So… yeah. That's right. Yeah."
+      "text": "I mean, it wasn't just that my finances changed, how should I put it, being loved by my husband, just being the wife and mother of a household, I loved it so much. Being a good wife and wise mother was my dream, actually. I really loved making a home and living that life. But in Korea I couldn't do that. Then after I met him, the kids' dad, I could. It became the turning point of my life… Hearing that question just now, all of a sudden, I feel a little sad. Oh my, I don't really have many good memories of Korea. I really had it hard. So… yeah. That's right. Yeah."
     },
     {
       "t": 890,
@@ -179,43 +179,43 @@ window.KWMB_TRANSCRIPT = {
       "t": 897,
       "speaker": "Sookja Green",
       "original": "아까도 말했지만 저희 집에서는 다 좋아했어요. 왜냐면 제가… 다섯 명인데, 두 번째 동생이 먼저 결혼을 했고, 남동생도 아니고, 그 다음에 여섯 살인가, 여섯 살 어린 애가 먼저 결혼을 해서, 저희 엄마한테는 내가 조카를 업고 다니고 막 그러면 엄마가 너무 싫어하셨어요. \"네 새끼를 네가 업고 다니고 그래야 되는데, 남들이 보면 네 새끼인 줄 알겠다. 왜 데리고 다니냐\" 그러면서 혼삿길 막힌다고 엄마가 싫어하셨어요.",
-      "text": "Like I said earlier, everyone in my family was happy about it. Because I'm… there are five of us, and my second sibling got married first, and then, not even my brother, but the one six years younger — six years younger than me — got married before me. So when I'd go around carrying my niece or nephew on my back, my mom really hated it. \"You should be carrying your own baby on your back — people will think it's yours. Why are you taking it around?\" she'd say. She hated it because she said it would ruin my chances of marrying."
+      "text": "Like I said earlier, everyone in my family was happy about it. Because I'm… there are five of us, and my second sibling got married first, and then, not even my brother, but the one six years younger, six years younger than me, got married before me. So when I'd go around carrying my niece or nephew on my back, my mom really hated it. \"You should be carrying your own baby on your back. People will think it's yours. Why are you taking it around?\" she'd say. She hated it because she said it would ruin my chances of marrying."
     },
     {
       "t": 935,
       "speaker": "Sookja Green",
       "original": "그렇기 때문에 내가 결혼할 때 저희 엄마가 너무 좋아하셨어요. 그 또 이유는, 저희 남편이 처음 인사하러 왔다… 나 첫날 첫 데이트할 때 와서 인사했다고 그랬잖아요. 저희 남편을 보고 우리 엄마가 너무 좋아했어요. 왜냐하면 엄마 이상형이래요. 저희 남편이 잘생긴 사람은 아닌데, 막 뿔테 한 게 이따만한 거 쓰고, 눈도 되게 나빠요. 근데 사람이 굉장히 뭐라고, 차분하고 조용하고 그런 분이에요. 근데 우리 엄마, 학자 타입이라 그러나, 옛날에 엄마들 그런 말을 하죠. 저희 엄마가 너무 좋아하셨어요. 그랬답니다.",
-      "text": "That's why, when I got married, my mom was so happy. And another reason — my husband came to greet her the first time… I told you he came and said hello on our very first date, right? My mom saw my husband and just loved him. Because he was her ideal type, she said. My husband isn't a handsome man — he wears these big horn-rimmed glasses this big, and his eyesight is really bad. But as a person he's very, what's the word, calm and quiet, that kind of man. And my mom — the scholarly type, you'd call it, the way moms in the old days used to say. My mom was so fond of him. That's how it was."
+      "text": "That's why, when I got married, my mom was so happy. And another reason… my husband came to greet her the first time… I told you he came and said hello on our very first date, right? My mom saw my husband and just loved him. Because he was her ideal type, she said. My husband isn't a handsome man. He wears these big horn-rimmed glasses this big, and his eyesight is really bad. But as a person he's very, what's the word, calm and quiet, that kind of man. And my mom, the scholarly type, you'd call it, the way moms in the old days used to say. My mom was so fond of him. That's how it was."
     },
     {
       "t": 975,
       "speaker": "Sookja Green",
       "original": "그래서 저는 모든 식구들이 다 그냥 \"아이고, 드디어 우리 언니 결혼한다. 잘됐다.\" 그래서, 그래서 한국에서 결혼했죠. 결혼식은 이제 한국에서 하고 이제 바로 이제… 왜냐하면 그게 그래요. 군인은, 군인은 2~3년에 한 번씩 움직이잖아요. 남편이 이제 가야 되잖아요. 다시 복무를 이제 연장도 할 수 있지만. 그러니까 저희 남편이 생각할 때, 자기가 나하고 연애한 게 한 1년 정도밖에 안 됐는데 자기는 이제 가야 되니까,",
-      "text": "So for me, the whole family was just like, \"Oh my, our big sister is finally getting married. Good for her.\" So, so we got married in Korea. We had the wedding in Korea and then right away… because that's how it is. Soldiers — soldiers move every two or three years, you know. My husband had to leave. He could have extended his tour, but still. So as my husband saw it, we'd only been dating for about a year, and since he had to leave,"
+      "text": "So for me, the whole family was just like, \"Oh my, our big sister is finally getting married. Good for her.\" So, so we got married in Korea. We had the wedding in Korea and then right away… because that's how it is. Soldiers, soldiers move every two or three years, you know. My husband had to leave. He could have extended his tour, but still. So as my husband saw it, we'd only been dating for about a year, and since he had to leave,"
     },
     {
       "t": 1009,
       "speaker": "Sookja Green",
       "original": "나한테 하는 말이, 자기가 들어가서, 먼저 가서 약혼자 비자를 보내 줄 테니까 와라, 이러는 거예요. 내가 \"노!\" 했어요. 오우, 나 들은 얘기도 많고 내가 본 것도 많아. 그렇게 사기 치는 놈들 많다더라. 어? 솔직히 제 주변에 몇 명이 그런 일이 있었거든요, 사실. 그러니까, 어? 그래서 짐도 다 실어 보냈대. 근데 약혼 비자를 안 보내주는 거야. 그러면 여자는 완전히 허공에 뜨죠. 그런 일이 있어요. 그러니까 좋은 일만 있는 건 아니잖아요, 항상. 그러니까 조금 변심한 사람들도 있단 말이에요. 그래 갖고 \"너 못 믿어. 그렇게는 못 해.\" 그랬더니… \"네가 나하고 결혼을 하고 싶으면 너 가기 전에 결혼식을 또 끝내고 해라. 그래야 너를 따라간다.\"",
-      "text": "what he said to me was, he'd go back first and send me a fiancée visa, and I should come. I said, \"No!\" Whoa — I've heard a lot of stories and seen a lot myself. They say there are plenty of guys who pull that kind of scam. Right? Honestly, a few people around me had that happen, really. So, you know? She'd shipped all her belongings over, they said. And then he never sends the fiancée visa. Then the woman is left completely hanging in midair. That happens. It's not always just happy endings, you know. Some people change their minds. So I said, \"I don't trust you. I can't do it that way.\" And then… \"If you want to marry me, get the wedding done before you leave. Only then will I follow you.\""
+      "text": "what he said to me was, he'd go back first and send me a fiancée visa, and I should come. I said, \"No!\" Whoa, I've heard a lot of stories and seen a lot myself. They say there are plenty of guys who pull that kind of scam. Right? Honestly, a few people around me had that happen, really. So, you know? She'd shipped all her belongings over, they said. And then he never sends the fiancée visa. Then the woman is left completely hanging in midair. That happens. It's not always just happy endings, you know. Some people change their minds. So I said, \"I don't trust you. I can't do it that way.\" And then… \"If you want to marry me, get the wedding done before you leave. Only then will I follow you.\""
     },
     {
       "t": 1056,
       "speaker": "Sookja Green",
       "original": "했더니 우리 남편이 변호사잖아요. 그러니까 서류를 들고 다니기 시작했어요. 손수 여기저기. 그래 갖고 저희가, 그때는 안 해도… 뭐라 그러나, 결혼식을 이렇게 담당해 주는 이태원의 어떤 사무실 같은 게 있었어요. 국제결혼을 이렇게 해 주는. 근데 그 사무실에서도 놀란 게, 이렇게 한 달 만에 하는 사람을 처음 봤다고 그래요. 그 정도로 남편이 정말 끌고 다니면서 해서, 제가… 제가 2월 달, 2월 초에, 3월, 3월 초에…",
-      "text": "When I said that — well, my husband's a lawyer, right? So he started carrying the paperwork around. Himself, here and there. And so we — back then there was, what do you call it, a kind of office in Itaewon that handled weddings. The kind that arranged international marriages. And even that office was amazed — they said they'd never seen anyone get it done in a month. That's how hard my husband really dragged me around getting it done, so I… I, in February, early February, March, early March…"
+      "text": "When I said that… well, my husband's a lawyer, right? So he started carrying the paperwork around. Himself, here and there. And so we… back then there was, what do you call it, a kind of office in Itaewon that handled weddings. The kind that arranged international marriages. And even that office was amazed. They said they'd never seen anyone get it done in a month. That's how hard my husband really dragged me around getting it done, so I… I, in February, early February, March, early March…"
     },
     {
       "t": 1092,
       "speaker": "Sookja Green",
       "original": "그러니까 그게 결혼하게 된 게, 2월, 우리가 발렌타인, 2월 14일인가 그렇죠? 2월 14일날 발렌타인 카드를 보고 내가 이 사람하고 결혼을 해야 되겠다 생각을 한 이유가, 몇 장을 받았어요, 다른 사람들한테도. 근데 유독 우리 브렌트예요, 남편이. 브렌트의 카드에는 진정성이 있었어요. 카드를 읽어 보면 사람의 마음이 느껴지잖아요. 다른 사람들 카드에서는 못 느꼈는데 이 남자한테서는, 그 카드에서 이 사람이 정말 날 좋아하는구나, 진정성이 느껴져서, 아, 이 사람이 나한테 청혼을 하면 결혼을 해야 되겠다라고 생각을 하고 있었는데,",
-      "text": "I mean, how it came to marriage — February, we had Valentine's, February 14th, isn't it? On February 14th I looked at the Valentine's cards, and the reason I decided I should marry this man — I got several cards, from other people too. But only our Brent — that's my husband — only Brent's card had sincerity in it. When you read a card, you can feel the person's heart, right? I didn't feel it in the other people's cards, but from this man, in that card, I could feel his sincerity — this man really likes me — so I was thinking, ah, if this man proposes to me, I should marry him,"
+      "text": "I mean, how it came to marriage… February, we had Valentine's, February 14th, isn't it? On February 14th I looked at the Valentine's cards, and the reason I decided I should marry this man… I got several cards, from other people too. But only our Brent, that's my husband, only Brent's card had sincerity in it. When you read a card, you can feel the person's heart, right? I didn't feel it in the other people's cards, but from this man, in that card, I could feel his sincerity, this man really likes me, so I was thinking, ah, if this man proposes to me, I should marry him,"
     },
     {
       "t": 1133,
       "speaker": "Sookja Green",
       "original": "이제 자기가 가야 한다고 어쩌고 이런 얘기가 나오니까, 내가 \"아니, 결혼을 하고 페이퍼가 끝나야 내가 널 따라갈 거야\"라고 했더니, 이제 3월 달에, 그래서 약혼식을 하고, 이제 페이퍼워크 끝나고 4월 얼마인가에 서울시청에 가서 사인을 하고, 5월 17일날 결혼식을 하고, 한 달 후에 이제 미국으로 들어온 거죠. 그러니까 우리 남편이 진짜 정말 발바닥에 땀 나게 뛰어다니면서 했답니다. 그래서 왔어요.",
-      "text": "and then when talk came up about him having to leave and so on, I said, \"No — only once we're married and the papers are done will I follow you.\" So then in March we had the engagement ceremony, and after the paperwork was done, sometime in April we went to Seoul City Hall and signed, and on May 17th we had the wedding, and a month later we came into America. So my husband really, truly ran around until the soles of his feet were sweating to get it done. And that's how I came."
+      "text": "and then when talk came up about him having to leave and so on, I said, \"No. Only once we're married and the papers are done will I follow you.\" So then in March we had the engagement ceremony, and after the paperwork was done, sometime in April we went to Seoul City Hall and signed, and on May 17th we had the wedding, and a month later we came into America. So my husband really, truly ran around until the soles of his feet were sweating to get it done. And that's how I came."
     },
     {
       "t": 1167,
@@ -227,13 +227,13 @@ window.KWMB_TRANSCRIPT = {
       "t": 1185,
       "speaker": "Sookja Green",
       "original": "그랬을 거예요, 아마, 다른 사람들한테. 근데 저희 가족한테는 좀 달랐어요. 처음에 얘기했듯이 아버지가 미군 부대에서 일을 하셨기 때문에 미국 사람들의 그거를 알고… 정서가 좀 달라요. 다른 케이스예요. 예외인 케이스인데, 저는 미국 문화에서 어렸을 때 살았어요. 그러니까 아빠, 아빠가 미국 사람들하고 잘하니까, 크리스마스 선물이니 뭐 이런 것들이, 그때 60년 정도, 70년 전에는 그런 게 없었는데, 저희는… 지금도 생각나는 게, 아빠가 크리스마스 때 선물로 주면, 그 인형이 눕히면 눈이 이렇게 올라가고 그런 인형이 있어요. 그런 걸 가진 애가 난 우리 학교 전체에서 나 하나였을 정도니까.",
-      "text": "Probably there were, for other people. But for my family it was a bit different. Like I said at the beginning, my father worked on the US Army base, so he knew American people's ways… the feeling was a bit different. We're a different case. An exception — I grew up in American culture as a child. Because my dad, my dad got along well with Americans, things like Christmas presents — back then, sixty, seventy years ago, nobody had that sort of thing, but we did… What I still remember is, my dad would give me a present at Christmas — a doll that, when you laid it down, its eyes would go like this. That kind of doll. I was probably the only kid in my entire school who had one."
+      "text": "Probably there were, for other people. But for my family it was a bit different. Like I said at the beginning, my father worked on the US Army base, so he knew American people's ways… the feeling was a bit different. We're a different case. An exception. I grew up in American culture as a child. Because my dad, my dad got along well with Americans, things like Christmas presents, back then, sixty, seventy years ago, nobody had that sort of thing, but we did… What I still remember is, my dad would give me a present at Christmas, a doll that, when you laid it down, its eyes would go like this. That kind of doll. I was probably the only kid in my entire school who had one."
     },
     {
       "t": 1233,
       "speaker": "Sookja Green",
       "original": "그리고 지금 생각하면 우리 아버지가 뒤로 블랙마켓을 하신 것 같아요. 예. 그러니까 돈을 좀… 그래서 생각할 때, 트럭으로 우리 집에 군인들이 짐을 날랐어요. 그러니까 그 안에 이제 그런 미국 물건들이 있었던 것 같아서, 저희 집엔 우리 엄마 그… 그릇 이런 거는 다 미제가 많았답니다.",
-      "text": "And thinking about it now, I think my father was doing black-market business on the side. Yes. So, some money… that's why, as I think back, soldiers used to haul things to our house by truck. I think there were American goods in there, so at our house, my mom's — dishes and things like that — a lot of it was American-made."
+      "text": "And thinking about it now, I think my father was doing black-market business on the side. Yes. So, some money… that's why, as I think back, soldiers used to haul things to our house by truck. I think there were American goods in there, so at our house, my mom's, dishes and things like that, a lot of it was American-made."
     },
     {
       "t": 1257,
@@ -245,7 +245,7 @@ window.KWMB_TRANSCRIPT = {
       "t": 1286,
       "speaker": "Sookja Green",
       "original": "그리고 저는 성격이 좀 강한 사람이라 그렇게 맞서요. 저를 무시하거나 뭐 그런 식으로 얘기하면 \"네가 뭔데? 내 인생 살게 됐는데 네가 뭔데?\" 이런 식이기 때문에, 죄송하지만 저는 그런 거에 대해서는 타격감이 없습니다. 네.",
-      "text": "And I'm someone with a pretty strong personality, so I push back like that. If someone looks down on me or talks that way, it's \"Who are you? I'm living my own life — who are you to judge?\" That's how I am, so, sorry, but that kind of thing doesn't faze me at all. Yes."
+      "text": "And I'm someone with a pretty strong personality, so I push back like that. If someone looks down on me or talks that way, it's \"Who are you? I'm living my own life, who are you to judge?\" That's how I am, so, sorry, but that kind of thing doesn't faze me at all. Yes."
     },
     {
       "t": 1304,
@@ -262,26 +262,26 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1314,
       "speaker": "Sookja Green",
-      "original": "한국에 있고 싶은, 이거는 있었어요. 막상 그때는 인천공항이 아니라 김포공항, 이제 다 짐 싸들고 남편이랑 떠나 빠이빠이를 하는데, 지금도 잊어버리지 않는 게, 맨 처음에 신났거든요. 드디어 이 지긋지긋— 죄송합니다 — 내가 고생을 많이 했으니까, 한국에서. 이 지긋지긋한 한국 떠난다. 난 아메리칸 드림이잖아, 완전히. 미국 간다 싶어갖고 이제 신나갖고 갔는데,",
-      "text": "There was that feeling of wanting to stay in Korea, yes. Back then it wasn't Incheon Airport, it was Gimpo Airport. So I packed everything up and was leaving with my husband, saying bye-bye, and what I still can't forget is that at first I was excited. Finally I'm leaving this godawful — sorry — I'd been through so much hardship in Korea — I'm finally leaving this godawful Korea. For me it was the American Dream, totally. I'm going to America! — I was so excited, and off I went,"
+      "original": "한국에 있고 싶은, 이거는 있었어요. 막상 그때는 인천공항이 아니라 김포공항, 이제 다 짐 싸들고 남편이랑 떠나 빠이빠이를 하는데, 지금도 잊어버리지 않는 게, 맨 처음에 신났거든요. 드디어 이 지긋지긋… 죄송합니다. 내가 고생을 많이 했으니까, 한국에서. 이 지긋지긋한 한국 떠난다. 난 아메리칸 드림이잖아, 완전히. 미국 간다 싶어갖고 이제 신나갖고 갔는데,",
+      "text": "There was that feeling of wanting to stay in Korea, yes. Back then it wasn't Incheon Airport, it was Gimpo Airport. So I packed everything up and was leaving with my husband, saying bye-bye, and what I still can't forget is that at first I was excited. Finally I'm leaving this miserable… sorry. I'd been through so much hardship in Korea. I'm finally leaving this miserable Korea. For me it was the American Dream, totally. I'm going to America! I was so excited, and off I went,"
     },
     {
       "t": 1341,
       "speaker": "Sookja Green",
       "original": "막상 헤어지려고 그러고 이제 공항을 들어가는데, 뭐 여기 들어가면 한국 떠나는 거잖아요. 갑자기 우리 남편을 보는데 내가 갑자기 주저앉아서 울었어요, 거기서. 엄마… 아니 왜 이러냐 하니까, 내가 저 사람을 어떻게 믿고 가지? 갑자기 드는 그때 생각이, 갑자기 두려움이. 신났었는데, 그날 공항으로 갈 때마다 드디어 떠난다 이랬는데, 막상 떠나는 그 순간이 되니까 두렵더라고요. 한국은 한국이니까 내 마음대로 할 수 있어. 하지만 미국은 저 남자 하나 보고 가는 건데, 과연 내가 미국에서 어떻게 살아낼까 하는 겁이 났어요.",
-      "text": "But when it came time to actually say goodbye and go into the airport — once you go in there, you're leaving Korea, right? Suddenly I looked at my husband and I just sank down and cried, right there. 'Mom…' — and when he asked what was wrong, I thought, how can I trust that man and go? That was the thought that suddenly hit me, a sudden fear. I had been so excited, the whole way to the airport that day I'd been thinking, finally I'm leaving — but when the actual moment of leaving came, I was scared. Korea is Korea, so I can do things my own way. But America — I'm going there relying on that one man alone. I got scared, wondering how on earth I would manage to live in America."
+      "text": "But when it came time to actually say goodbye and go into the airport, once you go in there, you're leaving Korea, right? Suddenly I looked at my husband and I just sank down and cried, right there. 'Mom…' And when he asked what was wrong, I thought, how can I trust that man and go? That was the thought that suddenly hit me, a sudden fear. I had been so excited, the whole way to the airport that day I'd been thinking, finally I'm leaving, but when the actual moment of leaving came, I was scared. Korea is Korea, so I can do things my own way. But America… I'm going there relying on that one man alone. I got scared, wondering how on earth I would manage to live in America."
     },
     {
       "t": 1381,
       "speaker": "Sookja Green",
       "original": "제가 적은 나이는 아니에요, 33살이었으니까. 그리고 내가 성격이 강한 사람이라 안 그런 듯했지만, 막상 정말 여기 게이트를 들어간다 생각하니까 겁이 났어요. 그래갖고 내가 울었어요. 정말 땅바닥에 주저앉아갖고 막 울었어요. 어, 그랬던 기억이 나네요. 우리 남편이 얼마나 당황했겠어, 사실.",
-      "text": "I wasn't young, either — I was 33. And since I have a strong personality, I acted like it was nothing, but when I thought I was really about to go through that gate, I got scared. So I cried. I really sank right down onto the floor and bawled. Yes, I remember that. Imagine how flustered my husband must have been, honestly."
+      "text": "I wasn't young, either. I was 33. And since I have a strong personality, I acted like it was nothing, but when I thought I was really about to go through that gate, I got scared. So I cried. I really sank right down onto the floor and bawled. Yes, I remember that. Imagine how flustered my husband must have been, honestly."
     },
     {
       "t": 1404,
       "speaker": "Sookja Green",
       "original": "그리고 내가 시애틀을 잊어버리지도 않아. 시애틀에서 갈아타고 이제 버지니아로 들어가야 되는데, 나는 꿈이, 이제 Welcome to America 이렇게 할 줄 알았어요. 그리고 영화 같은 거 보면 Welcome to America 막 이런 거 하잖아. 그래서 이 공항을 통과하는데, 그리고 저희 남편이 저랑 같이 옆에 서 있었어요. 나를 보호해 준 거예요. 그러니까 따로따로 뭐 civilian, 뭐 foreigner 이렇게 따로 검사를 봤는데, 저희 남편이 있었어요.",
-      "text": "And I'll never forget Seattle. We had to change planes in Seattle and then go on to Virginia, and my dream was that they'd say, 'Welcome to America!' In the movies they always go 'Welcome to America,' right? So we were going through the airport, and my husband was standing right beside me. He was protecting me. They checked people separately — civilians, foreigners, like that — but my husband was there with me."
+      "text": "And I'll never forget Seattle. We had to change planes in Seattle and then go on to Virginia, and my dream was that they'd say, 'Welcome to America!' In the movies they always go 'Welcome to America,' right? So we were going through the airport, and my husband was standing right beside me. He was protecting me. They checked people separately, civilians, foreigners, like that, but my husband was there with me."
     },
     {
       "t": 1436,
@@ -293,19 +293,19 @@ window.KWMB_TRANSCRIPT = {
       "t": 1455,
       "speaker": "Sookja Green",
       "original": "근데 이렇게 보는데, 줄 서있는데, 통과하는데, 내 앞에 중국 분들이었어요. 나이 든 분들 한 3명인가 했는데, 한꺼번에 뭐 하는데, 이렇게 보니까 한 그 사람이 보더니, 그 사람들이 지나가니까 'Catch them! Catch them!' 막 이러는 거예요. 이러고, 이거 뭐야 그랬더니, 그 사람들이 영어를 잘 못 알아들어서 다른 길로 이렇게 간 거 같아요. 그러니까 계속 'Catch them!' 막 이러는 거예요. 그래서 그때 제가 겁났어요. 어머, 저 사람만 안 걸렸으면 좋겠다 싶었는데,",
-      "text": "So I was watching, standing in line to go through, and in front of me were some Chinese people — older folks, maybe three of them — going through together, and one of the officers looked and, as they walked past, started yelling, 'Catch them! Catch them!' I thought, what is this? I think they didn't understand English well and went the wrong way. So he kept yelling 'Catch them!' And that scared me. Oh my, I thought, I just hope I don't get that guy,"
+      "text": "So I was watching, standing in line to go through, and in front of me were some Chinese people, older folks, maybe three of them, going through together, and one of the officers looked and, as they walked past, started yelling, 'Catch them! Catch them!' I thought, what is this? I think they didn't understand English well and went the wrong way. So he kept yelling 'Catch them!' And that scared me. Oh my, I thought, I just hope I don't get that guy,"
     },
     {
       "t": 1489,
       "speaker": "Sookja Green",
       "original": "Next 하는데 그분이 그분인 거예요. 그래서 이제 갔어요. 그랬더니 그 사람 인상이 굉장히 안 좋더라고. 서류 이런 거 다 챙겨 갔는데도 나를 보면서 너 결혼 언제 했냐, 뭐 했냐 어쩐 걸 다 물어보는데, 내가 결혼 언제 했냐고 그래서, 그래서 5월 17일 날 했다고 그랬어요. 그랬더니 'It is not right date' 그러는 거예요.",
-      "text": "And when they called 'Next,' sure enough, it was him. So I went up. And he had a really nasty look on his face. Even though I'd brought all my papers and everything, he looked at me and asked all sorts of things — when did you get married, what did you do — and when he asked when I got married, I said May 17th. And he said, 'It is not right date.'"
+      "text": "And when they called 'Next,' sure enough, it was him. So I went up. And he had a really nasty look on his face. Even though I'd brought all my papers and everything, he looked at me and asked all sorts of things, when did you get married, what did you do, and when he asked when I got married, I said May 17th. And he said, 'It is not right date.'"
     },
     {
       "t": 1512,
       "speaker": "Sookja Green",
       "original": "그러니까 내가 당황을 했어요. 보니까 남편이, 아 이게 city에 가서 certificate 찍은, 그러니까 결혼증명 찍은 날짜는 4월인데, 나는 이제, 얘는 이제 결혼식 한 날, celebrate한 걸 기억을 하는 거다. 그러니까 너는 'Who are you?' 이렇게 되는 거야. 그러니까 'We are husband…' 그러니까 아이디를 보여줬을 거 아니에요. 그 사람이 또 'Is this you?' 그런다. 야, 이 사진하고 너하고 같은 사람이냐 그러는데, 진짜 까다로운 사람이었어요.",
-      "text": "So I was flustered. My husband looked and realized: the date we'd gone to the city and got the certificate — the marriage certificate — was in April, but I was remembering the day of the wedding ceremony, when we celebrated. So it became, 'Who are you?' And we said, 'We are husband [and wife]…' So of course we showed our IDs. Then he goes, 'Is this you?' — like, is the person in this photo the same as you? He was a really difficult man."
+      "text": "So I was flustered. My husband looked and realized: the date we'd gone to the city and got the certificate, the marriage certificate, was in April, but I was remembering the day of the wedding ceremony, when we celebrated. So it became, 'Who are you?' And we said, 'We are husband [and wife]…' So of course we showed our IDs. Then he goes, 'Is this you?' Like, is the person in this photo the same as you? He was a really difficult man."
     },
     {
       "t": 1546,
@@ -323,13 +323,13 @@ window.KWMB_TRANSCRIPT = {
       "t": 1567,
       "speaker": "Sookja Green",
       "original": "1988. 1988년에 결혼해 들어왔지만, 내가 시민권을 따게 된 거는 92년인가, 아, 93년인가 그럴 거예요. 제가 조지아에 있을 때. 그러니까 몇 년 걸리죠. 제일 빠른 기간이긴 하지만, 시간이긴 하지만. 남편하고 결혼을 해서 애틀랜타, 조지아 애틀랜타에서 이거 선서한 거 생각나네요, 시민권.",
-      "text": "1988. I married and came over in 1988, but I got my citizenship in '92 — oh, maybe '93. When I was in Georgia. So it took a few years. That's the fastest it can go, but still. Because I was married to my husband — I remember taking the oath in Atlanta, Atlanta, Georgia. For citizenship."
+      "text": "1988. I married and came over in 1988, but I got my citizenship in '92, oh, maybe '93. When I was in Georgia. So it took a few years. That's the fastest it can go, but still. Because I was married to my husband… I remember taking the oath in Atlanta, Atlanta, Georgia. For citizenship."
     },
     {
       "t": 1594,
       "speaker": "Interviewer",
       "original": "근데 그거, 비자 같은 거 가지기는 그렇게 힘들지 않나요?",
-      "text": "But wasn't it hard to get that — the visa and so on?"
+      "text": "But wasn't it hard to get that, the visa and so on?"
     },
     {
       "t": 1598,
@@ -347,13 +347,13 @@ window.KWMB_TRANSCRIPT = {
       "t": 1630,
       "speaker": "Sookja Green",
       "original": "아, 아까 말씀드렸듯이 이제 2, 3년에 한번씩 움직여야 하는 것이 이제 미군의 이제 생활이고 라이프 스타일이 그렇잖아요. 그러니까 결혼해서 한국, 서울에서 버지니아, 첫 그 근무지에 있다가, 이제 거기서 94년인가, 이제 91년에, 91년 아이 낳고 바로 조지아에 가서 2년 살다가, 94년, 96년 한국에 다시 갔었고, 그 다음에 98년에서, 96년에서 98년 하와이, 호놀룰루 그쪽에 살다가,",
-      "text": "Ah, like I said earlier, moving every two or three years is just the life of the U.S. military — that's the lifestyle, right? So after we married, from Korea, from Seoul, we went to Virginia, his first posting, and from there — '94? — no, in '91, right after I had my baby in '91, we went to Georgia and lived there two years; from '94 to '96 we went back to Korea; then from '96 to '98 we lived in Hawaii, around Honolulu,"
+      "text": "Ah, like I said earlier, moving every two or three years is just the life of the U.S. military, that's the lifestyle, right? So after we married, from Korea, from Seoul, we went to Virginia, his first posting, and from there… '94? No, in '91, right after I had my baby in '91, we went to Georgia and lived there two years; from '94 to '96 we went back to Korea; then from '96 to '98 we lived in Hawaii, around Honolulu,"
     },
     {
       "t": 1667,
       "speaker": "Sookja Green",
       "original": "네, 마지막으로 옮긴 게 98년에서 2000년도까지 애리조나 투산에, 아, 투산이 아니라 시에라비스타라는, 육군부대가 있었고요. 거기서 다시 버지니아 와서, 그러니까 2000년에 와서, 남편이 이제 다음해인가, 2년 후에 제대를 하고, 다시 그다음부터 civilian으로 이제 펜타곤에서 일을 했죠.",
-      "text": "Yes, and the last move was from '98 to 2000, to Tucson, Arizona — oh, not Tucson, a place called Sierra Vista, where there was an Army post. From there we came back to Virginia — that was in 2000 — and my husband retired from the service the next year, or two years later, and after that he worked at the Pentagon as a civilian."
+      "text": "Yes, and the last move was from '98 to 2000, to Tucson, Arizona, oh, not Tucson, a place called Sierra Vista, where there was an Army post. From there we came back to Virginia, that was in 2000, and my husband retired from the service the next year, or two years later, and after that he worked at the Pentagon as a civilian."
     },
     {
       "t": 1689,
@@ -377,7 +377,7 @@ window.KWMB_TRANSCRIPT = {
       "t": 1704,
       "speaker": "Sookja Green",
       "original": "아, 아, 힘든 건 아무래도 언어 같아요. 그러니까 저는 문화가 어렵지 않았어요. 왜냐하면 저 어렸을 때부터 이렇게 좀 미국식으로 살았기 때문에. 음, AFKN이라고 있었어요, 옛날에 한국에. 이제 한국 TV가 있기 전에, 방송국이 있기 전에 AFKN이라는 미군 방송이 있었단 말이에요. 근데 거기에서 제가 드라마도 많이 봤고 뭐 그랬기 때문에, 그리고 저희 아버지가 미국 사람들하고 좀 친해서 미국 문화는 저는 어렵지 않았는데, 아무래도 언어 장벽이죠. 아무래도 언어 장벽이 제일 큰 것 같아요. 문화적인 건 없었어요.",
-      "text": "Ah, ah — the hard part, I think, was the language, after all. Culture wasn't hard for me, because since I was young I'd lived in a somewhat American way. Um, back in Korea there was something called AFKN. Before there was Korean TV, before there were Korean broadcasters, there was the U.S. military station called AFKN. I watched a lot of dramas on it and so on, and my father was fairly close with Americans, so American culture wasn't hard for me — but the language barrier, that's the thing. The language barrier was the biggest, I think. Culturally there was nothing."
+      "text": "Ah, ah, the hard part, I think, was the language, after all. Culture wasn't hard for me, because since I was young I'd lived in a somewhat American way. Um, back in Korea there was something called AFKN. Before there was Korean TV, before there were Korean broadcasters, there was the U.S. military station called AFKN. I watched a lot of dramas on it and so on, and my father was fairly close with Americans, so American culture wasn't hard for me, but the language barrier, that's the thing. The language barrier was the biggest, I think. Culturally there was nothing."
     },
     {
       "t": 1751,
@@ -389,7 +389,7 @@ window.KWMB_TRANSCRIPT = {
       "t": 1759,
       "speaker": "Sookja Green",
       "original": "있죠. 왜 없어요. 있어요. 당연히 있는데, 제가 다른 사람들에 비해서 그런 걸 많이 경험을 해보지는 않았지만, 한 번은 지금도 저한테 기억나는 일이 있었어요. 조지아에 살 때인데, 저희 아들이 두 살, 그 정도 됐을 때 걔를 데리고 제가 이제 한국에 편지를 붙이러 가서 우체국, post office를 갔을 거 아니에요?",
-      "text": "Of course. Why wouldn't there be? There were. Naturally there were, though compared to other people I didn't experience that much of it — but there's one time I still remember. It was when we lived in Georgia; my son was about two, and I took him with me to mail a letter to Korea, so I went to the post office, right?"
+      "text": "Of course. Why wouldn't there be? There were. Naturally there were, though compared to other people I didn't experience that much of it, but there's one time I still remember. It was when we lived in Georgia; my son was about two, and I took him with me to mail a letter to Korea, so I went to the post office, right?"
     },
     {
       "t": 1784,
@@ -401,61 +401,61 @@ window.KWMB_TRANSCRIPT = {
       "t": 1819,
       "speaker": "Sookja Green",
       "original": "그러니까 나보고 스탬프를, 어떤 스탬프를 원하는데, 얼마짜리, 그리고 롤이야 페이퍼야 뭐 막 이렇게 물어보는, 나는 당황을 한 거죠. 근데 알겠더라고. 아, 얘가 나 완전히 무시하는구나 나 지금. 그런데 내가 여기서 너한테, 네가 나를 무시한다고 내가 너한테 쩔쩔매고 그러면 내가 아니지. 그리고 네가 이기는 거야. 그리고 내가 그래서 속으로, 너는 영어밖에 모르지, 난 그래도 두 개 국어는 해. 속으로 그러면서 나를 내가 다독거리는 거였어.",
-      "text": "So she's firing questions at me — what kind of stamps do you want, what price, a roll or a sheet — and I was flustered. But I could tell. Ah, she is completely looking down on me right now. But if I get all flustered in front of you just because you're looking down on me, that's not me. And then you win. So I said to myself, you only know English — at least I speak two languages. Saying that inside, I was comforting myself."
+      "text": "So she's firing questions at me, what kind of stamps do you want, what price, a roll or a sheet, and I was flustered. But I could tell. Ah, she is completely looking down on me right now. But if I get all flustered in front of you just because you're looking down on me, that's not me. And then you win. So I said to myself, you only know English. At least I speak two languages. Saying that inside, I was comforting myself."
     },
     {
       "t": 1850,
       "speaker": "Sookja Green",
       "original": "여기서 물러나면 안 돼. 쟤가 너를 무시한다고 네가 여기서 같이 무너지면 너는 쟤한테 지는 거야. 그럴 필요 없어. 그러니까 그래놓고는 내가 당당하게 'I'm sorry, I didn't understand what you're saying' 그래갖고 'Would you please tell me one more time' 이렇게 얘기를 했었더니, 그 여자가 당황을 갑자기 하니까, 뒤에 사람들이 보고 있잖아요, customer들이. 그러니까 그 여자가 자기 attitude를 바꿔서 이거, 이거, 이거 이렇게 보여주더라고. 이렇게 이거 있는데 어떤 거? 그러더라고.",
-      "text": "Don't back down here. If you fall apart just because she's looking down on you, you lose to her. No need for that. So after that, I said confidently, 'I'm sorry, I didn't understand what you're saying — would you please tell me one more time?' And suddenly she got flustered, because the people behind me were watching, the customers. So she changed her attitude and showed me — this one, this one, this one — we have these, which would you like?"
+      "text": "Don't back down here. If you fall apart just because she's looking down on you, you lose to her. No need for that. So after that, I said confidently, 'I'm sorry, I didn't understand what you're saying, would you please tell me one more time?' And suddenly she got flustered, because the people behind me were watching, the customers. So she changed her attitude and showed me, this one, this one, this one, we have these, which would you like?"
     },
     {
       "t": 1879,
       "speaker": "Sookja Green",
       "original": "'This one, thank you, ma'am.' 그러고서는 이제 아이를 끌고 나왔는데, 가슴은 퉁당퉁당퉁당퉁당. 아, 이게 바로 인종차별이라는 거구나. 그러면서 내가 앞으로 또 겪을 일인데 때마다 여기서 넘어지면 안 돼. 괜찮아, 잘했어. 그렇게 온 적 있어요, 사실. 그리고 저는 성격이 강해서, 오케이, 너 뭔데? 나는 그래요.",
-      "text": "'This one, thank you, ma'am.' And then I took my kid and walked out, my heart going thump-thump-thump-thump. Ah, so this is what they call racial discrimination. And I told myself, this is something I'll go through again, and I can't fall apart every time. It's okay, you did well. That's how I walked out of there, honestly. And I have a strong personality, so — okay, who do you think you are? That's how I am."
+      "text": "'This one, thank you, ma'am.' And then I took my kid and walked out, my heart going thump-thump-thump-thump. Ah, so this is what they call racial discrimination. And I told myself, this is something I'll go through again, and I can't fall apart every time. It's okay, you did well. That's how I walked out of there, honestly. And I have a strong personality, so, okay, who do you think you are? That's how I am."
     },
     {
       "t": 1906,
       "speaker": "Interviewer",
       "original": "감사합니다. 이게 미국에 왔을 때, 미국에 살고 미국 사람들이 많이 옆에 있었을 텐데, 어떻게 한국의 tradition, culture 이런 걸 어떻게 좀 keep했어요?",
-      "text": "Thank you. When you came to America — living in America with lots of Americans around you — how did you keep up Korean traditions and culture?"
+      "text": "Thank you. When you came to America, living in America with lots of Americans around you, how did you keep up Korean traditions and culture?"
     },
     {
       "t": 1920,
       "speaker": "Sookja Green",
       "original": "그런 게 있죠. 그러니까 미국적인 문화와 한국적인 문화를 같이 갖고 있다는 거는 솔직히 저는 강점이라고 생각을 해요. 그러니까 솔직히 뭐 한국에는 설날이나 음력설날, Chinese New Year 이런 거 있잖아요. 그러니까 그것도 두 번씩이나 celebrating 할 수 있고, 양쪽 나라의 문화를 좋은 걸 다 이렇게 해서, 저는 추석이고 뭐고 그럴 때마다 또 음식도 좀 새롭게 하고,",
-      "text": "There's that, sure. Honestly, I think having both American culture and Korean culture is a strength. In Korea there's Seollal, the Lunar New Year — Chinese New Year — right? So you get to celebrate New Year twice, and you get all the good things from both countries' cultures. For Chuseok and holidays like that, I'd make special food too,"
+      "text": "There's that, sure. Honestly, I think having both American culture and Korean culture is a strength. In Korea there's Seollal, the Lunar New Year, Chinese New Year, right? So you get to celebrate New Year twice, and you get all the good things from both countries' cultures. For Chuseok and holidays like that, I'd make special food too,"
     },
     {
       "t": 1952,
       "speaker": "Sookja Green",
       "original": "그리고 아이가 태어났을 때 뭐 백일잔치 이런 거 안 하잖아요, 미국에는 없죠. 그리고 뭐 one year birthday가 뭐 이렇게 크게 해요. 하지만 우리는 그렇지 않잖아요. 저는 그거 다 했어요. 그러니까 주변에 있는 사람들을 다 불러다가, 이건 한국식에서 이렇게 celebrating 하는 거야, 그러니까 하자. 그런 식으로 해서 저는 양쪽 문화를 다 이렇게 잘 흡수해서 잘 누렸다고 생각합니다, 저는. 네, 그래서 저는 좋아요.",
-      "text": "And when a baby is born — they don't do a hundred-day party here, there's no such thing in America. And the first birthday isn't a big deal here, but for us it is, right? I did all of that. I invited everyone around us — this is how we celebrate it the Korean way, so let's do it. That way, I think I absorbed both cultures well and really enjoyed them. Yes, so it's been good for me."
+      "text": "And when a baby is born… they don't do a hundred-day party here, there's no such thing in America. And the first birthday isn't a big deal here, but for us it is, right? I did all of that. I invited everyone around us, this is how we celebrate it the Korean way, so let's do it. That way, I think I absorbed both cultures well and really enjoyed them. Yes, so it's been good for me."
     },
     {
       "t": 1976,
       "speaker": "Interviewer",
       "original": "음, 혹시 뭐 애리조나, 조지아, 버지니아 이런 데서 한국 spouse 같은, 한국 military bride도 같이 옆에 있었어요? 아니면 뭐 어떤 커뮤니티가 있었어요?",
-      "text": "Mm, in places like Arizona, Georgia, Virginia, were there other Korean spouses — other Korean military brides — around you? Or was there some kind of community?"
+      "text": "Mm, in places like Arizona, Georgia, Virginia, were there other Korean spouses, other Korean military brides, around you? Or was there some kind of community?"
     },
     {
       "t": 1991,
       "speaker": "Sookja Green",
       "original": "근데 그건 어쩔 수가 없어요. 뭐 모여야 돼요, 저희는. 네, 그러니까 이 미국 공동체, 또 군인이니까 한국 부인들이 많아요, 굉장히 많은데, 그분들하고 같이 뭉쳐야 돼요, 사실. 그쪽에서도 외로우니까, 또 우리 같이 모여서 김치도 먹고 같이 먹어야 되잖아요. 한국말도 하고 싶고, 이제 그러니까.",
-      "text": "Well, that's just how it is. We have to get together. Yes — in these American communities, and military ones especially, there are lots of Korean wives, really a lot, and you have to stick together with them, honestly. They're lonely too, so we get together and eat kimchi — we've got to eat together, right? And we want to speak Korean, too."
+      "text": "Well, that's just how it is. We have to get together. Yes, in these American communities, and military ones especially, there are lots of Korean wives, really a lot, and you have to stick together with them, honestly. They're lonely too, so we get together and eat kimchi, we've got to eat together, right? And we want to speak Korean, too."
     },
     {
       "t": 2015,
       "speaker": "Sookja Green",
       "original": "근데 그것이 이제 교회 중심으로 모이죠, 아무래도. 그러니까 저는 교회에서 만난 한국 부인들이 꽤 많아요. 그래서 버지니아에서도 미국 교회를 따로따로 다녔지만, 저희끼리 만나서, 그러니까 이제 얘기는, 타이틀은 이제 뭐 성경 공부 모임 뭐 이렇게 하지만, 저하고 똑같이 같은 이제 미국 사람이랑 사는 아줌마들끼리 모여서 하는 그런 모임이 항상 있었어요. 음, 어쩔 수가 없어요.",
-      "text": "And naturally those gatherings center on church. So a lot of the Korean wives I know, I met at church. Even in Virginia, we each went to our own American churches, but we'd meet among ourselves — officially it was called a Bible study group or something, but it was really a gathering of women like me, married to Americans. There was always a group like that. Mm, that's just how it is."
+      "text": "And naturally those gatherings center on church. So a lot of the Korean wives I know, I met at church. Even in Virginia, we each went to our own American churches, but we'd meet among ourselves, officially it was called a Bible study group or something, but it was really a gathering of women like me, married to Americans. There was always a group like that. Mm, that's just how it is."
     },
     {
       "t": 2047,
       "speaker": "Sookja Green",
       "original": "물론 저는 이제 그 미국 군인들 사회에서도 굉장히 이게 조금 좀 상류라고 할 수 있나… 어쩔 수가 없어요, 정말 어쩔 수가 없는 게, 군인은 계급 사회이기 때문에, 계급이기 때문에. 근데 참 이런 말을 하면 제가 어떨지 모르겠지만, 다행히도, 아니면 고맙다는 말은 아니지만, 아무튼 저의 위치가, 좀 높은 지위에 있던 남편 덕에 도리어 저는 아마 덜 무시를 당했던 것 같고요, 보면.",
-      "text": "Of course, within American military society I was, you could say, somewhat upper-tier… It can't be helped, it really can't, because the military is a society of rank — it's all rank. I don't know how this will sound, but fortunately — or, I don't mean I'm grateful for it, but anyway, because of my position, thanks to my husband holding a fairly high rank, I think I was actually looked down on less, looking back."
+      "text": "Of course, within American military society I was, you could say, somewhat upper-tier… It can't be helped, it really can't, because the military is a society of rank, it's all rank. I don't know how this will sound, but fortunately… or, I don't mean I'm grateful for it, but anyway, because of my position, thanks to my husband holding a fairly high rank, I think I was actually looked down on less, looking back."
     },
     {
       "t": 2083,
@@ -466,26 +466,26 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2127,
       "speaker": "Sookja Green",
-      "original": "그럼에도 불구하고, 아까 처음으로 결혼해갖고 어떤 군인 가족 모임이 있었거든요. JAG 오피서들이 만났어요. 오피서들이 부부 동반, 이런 게 있었어요. 굉장히 큰 행사였는데 — 오, 나 그거 얘기해야 되겠다 — 거길 갔는데, 제가 저기서 여자 혼자였었거든요. 동양인 여자 하나. 왕따 비슷한 것처럼 당하는 게 있었어요. 당한 게 아니라, 그들의 말에 내가 섞이질 못하고, 내가 혼자 떨어져 있더라고요, 내가. 내가 의도한 건 아닌데 그 모습을 봤어요. 저 사람들이 나를 안 껴주네, 하는 그런 게 있었다. 오, 생각난다.",
-      "text": "Even so — like I said, right after we first got married there was a gathering of military families. The JAG officers got together. It was one of those officers-with-spouses events. It was a really big occasion — oh, I have to tell you about this — I went, and I was the only woman of my kind there. The one Asian woman. There was something like being left out, being shunned. Not that they did it to me exactly, but I couldn't blend into their conversation, and I found myself standing off by myself. I didn't mean for it to happen, but I saw myself like that. There was this feeling of, those people aren't letting me in. Oh, it's coming back to me."
+      "original": "그럼에도 불구하고, 아까 처음으로 결혼해갖고 어떤 군인 가족 모임이 있었거든요. JAG 오피서들이 만났어요. 오피서들이 부부 동반, 이런 게 있었어요. 굉장히 큰 행사였는데, 오, 나 그거 얘기해야 되겠다, 거길 갔는데, 제가 저기서 여자 혼자였었거든요. 동양인 여자 하나. 왕따 비슷한 것처럼 당하는 게 있었어요. 당한 게 아니라, 그들의 말에 내가 섞이질 못하고, 내가 혼자 떨어져 있더라고요, 내가. 내가 의도한 건 아닌데 그 모습을 봤어요. 저 사람들이 나를 안 껴주네, 하는 그런 게 있었다. 오, 생각난다.",
+      "text": "Even so, like I said, right after we first got married there was a gathering of military families. The JAG officers got together. It was one of those officers-with-spouses events. It was a really big occasion. Oh, I have to tell you about this. I went, and I was the only woman of my kind there. The one Asian woman. There was something like being left out, being shunned. Not that they did it to me exactly, but I couldn't blend into their conversation, and I found myself standing off by myself. I didn't mean for it to happen, but I saw myself like that. There was this feeling of, those people aren't letting me in. Oh, it's coming back to me."
     },
     {
       "t": 2172,
       "speaker": "Sookja Green",
       "original": "그랬는데, 그때 있잖아요, 제가 한 행동이, 바텐더한테 가서 진 토닉 한 잔 달라고 했어요. 주고, 제가 이 창문을 보는 게 생각이 나요. 창문을 보면서 홀짝홀짝 마시면서 생각. '숙자야, 너 여기 왜 와 있니. 괜찮아. 주눅 들 필요 없어. 괜찮아. 할 수 있어. 저들을 봐. 저들이 다 저렇지는 않아.' 그러면서, '괜찮아.' 그러고 보는데, 저쪽에 한 미국 여자가, 혼자, 나처럼 혼자 있는 여자가 보여요.",
-      "text": "And then, you know what I did? I went to the bartender and asked for a gin and tonic. He gave it to me, and I remember looking out this window. Looking out the window, sipping away, thinking: 'Sookja, why are you here? It's okay. No need to be intimidated. It's okay. You can do this. Look at them. They're not all like that.' And telling myself, 'It's okay.' And as I looked around, over there I could see an American woman, alone — a woman standing by herself, just like me."
+      "text": "And then, you know what I did? I went to the bartender and asked for a gin and tonic. He gave it to me, and I remember looking out this window. Looking out the window, sipping away, thinking: 'Sookja, why are you here? It's okay. No need to be intimidated. It's okay. You can do this. Look at them. They're not all like that.' And telling myself, 'It's okay.' And as I looked around, over there I could see an American woman, alone, a woman standing by herself, just like me."
     },
     {
       "t": 2216,
       "speaker": "Sookja Green",
       "original": "'너만 그런 거 아니야. 쟤도 이런 게 익숙하지가 않아서 낯설 뿐이야. 그러니까 용기를 내. 쟤한테 가. 네가 먼저 인사해.' 제가 한 잔을 좀 마시면서 이렇게 생각을 했어요, 거기서. '오케이, 이건 네가 결정할 일이야.' 그래서 그 쟤한테 가서 '하이' 이러면서, 'You alone?' 이러면서 내가 이제 얘기를 시작했다. 그러니까 걔는 또 너무 좋아하는 거야. 그러니까 걔도 힘들었던 거예요. 그러니까… 그랬어요. 나 생각난다. 나 그랬던 기억이 나.",
-      "text": "'It's not just you. She's not used to this either — it's just unfamiliar to her. So be brave. Go over to her. You say hello first.' I was having a drink there, thinking it through like that. 'Okay, this is your call.' So I went over to her and said 'Hi,' and 'You alone?' — and that's how I started talking with her. And she was so happy about it. She'd been having a hard time too, you see. So… that's what happened. It's coming back to me. I remember doing that."
+      "text": "'It's not just you. She's not used to this either, it's just unfamiliar to her. So be brave. Go over to her. You say hello first.' I was having a drink there, thinking it through like that. 'Okay, this is your call.' So I went over to her and said 'Hi,' and 'You alone?' And that's how I started talking with her. And she was so happy about it. She'd been having a hard time too, you see. So… that's what happened. It's coming back to me. I remember doing that."
     },
     {
       "t": 2247,
       "speaker": "Sookja Green",
-      "original": "근데 속으로는 이게 얼마나 떨렸는지 몰라요. 근데 내가, '나 여기서 이겨내야 돼. 내가 이겨내야 돼. 내가 여기서 이렇게 주눅이 들면 앞으로 너 어떻게 살 건데.' 이제 그런 생각이 들었어요. 그러고 나니까 이제 다른 사람들도, 내가 먼저 이렇게 가서 — 네가 나한테 인사를 안 하면 내가 너한테 가서 먼저 인사하면 되는 거야, 뭐 이런 식으로, 뭐 이런 식으로 했네요. 그러니까… 아휴, 참 수고했다. 나 진짜. 어머, 수고했다.",
-      "text": "But inside, you have no idea how much I was trembling. But I told myself, 'I have to get through this here. I have to overcome this. If I cower like this here, how are you going to live from now on?' That's what went through my head. And after that, with other people too, I'd go up to them first — if you won't say hello to me, then I'll just come over and say hello to you first, that kind of thing. That's how I did it. So… oh my, I really did well. I really did. Wow, well done, me."
+      "original": "근데 속으로는 이게 얼마나 떨렸는지 몰라요. 근데 내가, '나 여기서 이겨내야 돼. 내가 이겨내야 돼. 내가 여기서 이렇게 주눅이 들면 앞으로 너 어떻게 살 건데.' 이제 그런 생각이 들었어요. 그러고 나니까 이제 다른 사람들도, 내가 먼저 이렇게 가서, 네가 나한테 인사를 안 하면 내가 너한테 가서 먼저 인사하면 되는 거야, 뭐 이런 식으로, 뭐 이런 식으로 했네요. 그러니까… 아휴, 참 수고했다. 나 진짜. 어머, 수고했다.",
+      "text": "But inside, you have no idea how much I was trembling. But I told myself, 'I have to get through this here. I have to overcome this. If I cower like this here, how are you going to live from now on?' That's what went through my head. And after that, with other people too, I'd go up to them first, if you won't say hello to me, then I'll just come over and say hello to you first, that kind of thing. That's how I did it. So… oh my, I really did well. I really did. Wow, well done, me."
     },
     {
       "t": 2275,
@@ -496,74 +496,74 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2283,
       "speaker": "Sookja Green",
-      "original": "음… 그냥 내가 군인 생활을 하면서, 나는 겪지 못했지만 주변에서 들은 것 중에 가장 힘든 게 아이들 문제예요. 아이들이 정체성이 미국도 아니고 한국도 아니에요. 그러니까 다른 나라에서 미국으로 이민 왔을 때, 왜 그냥 똑같이 이렇게 태민이처럼 '나 미국 사람이야, 한국 사람이야' 뭐 이런 것처럼, 저희 같이 이렇게 섞인 — 그러니까 Amerasian이라고 하죠 — 걔네들 똑같이 느껴요.",
-      "text": "Hmm… well, from my years in military life — I didn't go through it myself, but of what I heard from people around me — the hardest thing is the children. The kids' identity is neither American nor Korean. You know how when people immigrate to America from another country, kids go through the same thing, like Taemin — 'Am I American? Am I Korean?' — well, kids who are mixed like ours, what they call Amerasian, they feel exactly the same thing."
+      "original": "음… 그냥 내가 군인 생활을 하면서, 나는 겪지 못했지만 주변에서 들은 것 중에 가장 힘든 게 아이들 문제예요. 아이들이 정체성이 미국도 아니고 한국도 아니에요. 그러니까 다른 나라에서 미국으로 이민 왔을 때, 왜 그냥 똑같이 이렇게 태민이처럼 '나 미국 사람이야, 한국 사람이야' 뭐 이런 것처럼, 저희 같이 이렇게 섞인, 그러니까 Amerasian이라고 하죠, 걔네들 똑같이 느껴요.",
+      "text": "Hmm… well, from my years in military life, I didn't go through it myself, but of what I heard from people around me, the hardest thing is the children. The kids' identity is neither American nor Korean. You know how when people immigrate to America from another country, kids go through the same thing, like Taemin, 'Am I American? Am I Korean?' Well, kids who are mixed like ours, what they call Amerasian, they feel exactly the same thing."
     },
     {
       "t": 2325,
       "speaker": "Sookja Green",
       "original": "그걸 제가 몰랐었는데, 우리 아들이 6th grade일 때 한 번은 학교 갔다 와갖고 나를 붙들고 울더라고요. '엄마, 나 아메리칸이야? 엄마, 나 한국 사람이야?' 그래요. 그래서 내가 '너 아메리칸이지?' 그랬더니, 울면서 그런 말을 한 적이 있어요. '엄마, 나는 엄마를 너무 사랑하지만, 가끔은 엄마가 미국 사람이었으면 좋겠어.' 그런 생각을 했대요. 그래서 내가 너무 내가 놀란 거예요. 그러니까 아이가 겪는 게 그런 게… 나만 혼자 여기서 미국 사람들 때문에 힘들어하는 게 아니라, 뭐 얘는… 저는 아들이 그런 것에 대해서 힘들어할 거라곤 전혀 생각을 못 해요. 얘는 완전히 그냥 미국 사람이라고 생각할 줄 알았거든요. 근데 그게 아니더라고요. 그래갖고 내가 그때 정말 놀랬고, 같이 부둥켜안고 울었어요.",
-      "text": "I didn't know that, but when my son was in 6th grade, one time he came home from school, held on to me and cried. 'Mom, am I American? Mom, am I Korean?' he said. So I said, 'You're American, aren't you?' and then, crying, he said something to me. 'Mom, I love you so much, but sometimes I wish you were American.' That's what he'd been thinking. And I was so shocked. So that's what a child goes through… It wasn't just me alone here having a hard time because of Americans — he was too… I never imagined my son would struggle with something like that. I thought he'd just see himself as completely American. But that wasn't the case. So I was truly shocked then, and we held each other tight and cried together."
+      "text": "I didn't know that, but when my son was in 6th grade, one time he came home from school, held on to me and cried. 'Mom, am I American? Mom, am I Korean?' he said. So I said, 'You're American, aren't you?' and then, crying, he said something to me. 'Mom, I love you so much, but sometimes I wish you were American.' That's what he'd been thinking. And I was so shocked. So that's what a child goes through… It wasn't just me alone here having a hard time because of Americans, he was too… I never imagined my son would struggle with something like that. I thought he'd just see himself as completely American. But that wasn't the case. So I was truly shocked then, and we held each other tight and cried together."
     },
     {
       "t": 2378,
       "speaker": "Sookja Green",
       "original": "그러면서, 그랬는데, 그 다음부터 나는 아들한테 보여준 게 아니라, 너는 아메리칸이면서 한국 사람이기 때문에 더 너의 강점, 장점이 더 많은 아이예요. 넌 그럴 수 있으니까. 두 나라의 장점을 더 갖고 있기 때문에 너는 더 특별한 아이야, 라고 얘기하기 시작했어요, 솔직히. 그러니까 한국에서 우수성도 있고 미국에서 우수성도 있잖아요. 그러니까 좋은 것만 더 이렇게 너는 더블로 갖고 있는 아이야. 난 그렇게 이 아이를 키웠고, 그렇게 더 얘기를 해줬고, 미국에서 살지만 내가 한국에 대한 컬처나 그런 것을 잊지 않게 해주려고 노력했던 것도 있어요.",
-      "text": "And so, after that, from then on, rather than just showing my son — I started telling him that because he's both American and Korean, he's a child with more strengths, more advantages. Because he can be both. Because he has the best of two countries, he's an even more special child — that's what I started telling him, honestly. I mean, there's excellence in Korea and excellence in America, right? So you're a kid who has the good things doubled. That's how I raised him, that's what I kept telling him, and even though we live in America, I also made an effort not to let him forget Korean culture and things like that."
+      "text": "And so, after that, from then on, rather than just showing my son… I started telling him that because he's both American and Korean, he's a child with more strengths, more advantages. Because he can be both. Because he has the best of two countries, he's an even more special child, that's what I started telling him, honestly. I mean, there's excellence in Korea and excellence in America, right? So you're a kid who has the good things doubled. That's how I raised him, that's what I kept telling him, and even though we live in America, I also made an effort not to let him forget Korean culture and things like that."
     },
     {
       "t": 2421,
       "speaker": "Sookja Green",
       "original": "그러니까 이 아이는 어쩔 수 없이 한국 엄마, 미국 아빠지만, 아빠니까, 두 나라에 대한 좋은 것을 합치면 사실은 더 강해지는 거 아니에요, 더 좋은 거 아니에요. 그래서 그런 식으로 했고, 요즘에 또 K컬처가 또 떴잖아요. 음악이니 영화 난리가 났잖아요, 음식이니. 그러니까 얘는 더 좋아해요. 그래서 자기가 한국 사람의 반이 있다는 게 좋대요. 그래서 저랑 같이 한국 드라마도 같이 보고 예능프로도 굉장히 많이 봐요. 그래서 좋아해요. 그런 건 좀 있었네요.",
-      "text": "So this child can't help having a Korean mom and an American dad, but if you put together the good things of both countries, doesn't that actually make you stronger, isn't that better? So that's how I went about it. And these days K-culture has taken off too, right? Music, movies — it's all the rage — and food. So he loves it even more. He says he likes that he's half Korean. So he watches Korean dramas with me, and we watch a lot of variety shows too. He loves it. So there was that."
+      "text": "So this child can't help having a Korean mom and an American dad, but if you put together the good things of both countries, doesn't that actually make you stronger, isn't that better? So that's how I went about it. And these days K-culture has taken off too, right? Music, movies, it's all the rage, and food. So he loves it even more. He says he likes that he's half Korean. So he watches Korean dramas with me, and we watch a lot of variety shows too. He loves it. So there was that."
     },
     {
       "t": 2458,
       "speaker": "Sookja Green",
       "original": "그래서 미군 군대도 바뀐 게, 그러니까 꼭 저희처럼 Amerasian만이 아니라 아이들이 2~3년 만에 옮기니까 틴에이저 애들이 굉장히 힘들어하는 거예요. 그러니까 군인 쪽에서 이게 문제가 된다는 것을 알고, 그 아이들이 중학교, 미들스쿨이나 하이스쿨 중간에 들어오면 그 아이가 거기서 학교를 끝내게 했어요. 그게 바뀌었대요. 왜냐하면 그 아이들을 보호해야 되니까. 너무 한창 예민할 때 옮겨 다니면 애들이 학교에서 왕따 당하고 힘들잖아요. 그러니까 그 아이들을 위해서, 2~3년이라도 그 아이가 학교 끝날 때까지 3년, 4년 연장해서 머무를 수 있도록 그 제도가 바뀌었다고 해요. 나는 그거는 정말 잘한 거다, 그 아이들을 위해서. 이제 그런 생각을 합니다.",
-      "text": "And the US military changed something too — it's not just Amerasian kids like ours; since kids move every two or three years, teenagers have a really hard time. So the military realized this was a problem, and if a child comes in partway through middle school or high school, they let that child finish school there. They say that's changed. Because those kids need to be protected. When they're moved around right at their most sensitive age, they get bullied at school and it's hard on them, right? So for those kids, even with a two- or three-year posting, the policy was changed so the family can extend and stay three or four years until the child finishes school. I think that was a really good move, for those kids. That's how I see it."
+      "text": "And the US military changed something too, it's not just Amerasian kids like ours; since kids move every two or three years, teenagers have a really hard time. So the military realized this was a problem, and if a child comes in partway through middle school or high school, they let that child finish school there. They say that's changed. Because those kids need to be protected. When they're moved around right at their most sensitive age, they get bullied at school and it's hard on them, right? So for those kids, even with a two- or three-year posting, the policy was changed so the family can extend and stay three or four years until the child finishes school. I think that was a really good move, for those kids. That's how I see it."
     },
     {
       "t": 2512,
       "speaker": "Interviewer",
       "original": "제 마지막 퀘스션. 이제 한국부터 이제 시애틀로까지 왔을 때, 제가 오늘 물어본 거에서 많이 스토리들도 많이 얘기해 주잖아요. 혹시 제가 안 물어본 스토리 하나…",
-      "text": "My last question. From Korea all the way to Seattle — you've told me so many stories in response to what I asked today. Is there perhaps one story I didn't ask about…"
+      "text": "My last question. From Korea all the way to Seattle, you've told me so many stories in response to what I asked today. Is there perhaps one story I didn't ask about…"
     },
     {
       "t": 2525,
       "speaker": "Sookja Green",
-      "original": "제가 결혼하고 처음으로 우리 남편한테 물어봤어요. 이제 전화를 받고, 아, 내가 이런 인터뷰를 해야 한다는 얘기를 듣고 갑자기 궁금해진 거예요. 저희 남편한테 처음 물어봤어요. '어떻게 군인이 됐어?' 저 안 물어봤거든요, 사실. 38년 동안 안 물어본 질문이에요. 그랬더니 남편이 너무 좋아하는 거예요. 자기에 대해서 술술술 — 얘기를 하기 싫어하는데.",
-      "text": "For the first time since we got married, I asked my husband something. When I got the call and heard I was going to do this interview, I suddenly got curious. I asked my husband for the first time, 'How did you end up in the military?' I'd never asked him, actually. It's a question I hadn't asked in 38 years. And my husband was so pleased. It all just came pouring out about himself — and he doesn't like talking about himself."
+      "original": "제가 결혼하고 처음으로 우리 남편한테 물어봤어요. 이제 전화를 받고, 아, 내가 이런 인터뷰를 해야 한다는 얘기를 듣고 갑자기 궁금해진 거예요. 저희 남편한테 처음 물어봤어요. '어떻게 군인이 됐어?' 저 안 물어봤거든요, 사실. 38년 동안 안 물어본 질문이에요. 그랬더니 남편이 너무 좋아하는 거예요. 자기에 대해서 술술술, 얘기를 하기 싫어하는데.",
+      "text": "For the first time since we got married, I asked my husband something. When I got the call and heard I was going to do this interview, I suddenly got curious. I asked my husband for the first time, 'How did you end up in the military?' I'd never asked him, actually. It's a question I hadn't asked in 38 years. And my husband was so pleased. It all just came pouring out about himself, and he doesn't like talking about himself."
     },
     {
       "t": 2557,
       "speaker": "Sookja Green",
-      "original": "그러니까 남편이 대학교 때 징집이 있기는 했어요, 베트남 전쟁 때문에. 자기는 징집이 되느니 내가 자원을 하겠다, 지원을 하겠다, 그런 마음이 있었고, 그 전부터 형들이 ROTC를 했기 때문에 자기는 당연히 ROTC가 된다고 생각을 했대요. 그래서 군인이니까 — 군인이, 직업군인은 아니지만 나라에 봉사를 해야 한다, 남자로서. 거기 때문에 군에 지원하는 것이 어렵지 않았다고 해요. 애국자긴 하죠. 그래서 시작을 했대요. 22살? 그때쯤에. 그래서 지원을 했고, ROTC를 했고, 그런 얘기를 쭉 하는데, 그래갖고 한 40년 정도를 한 거예요. 거의 일생을 다 마쳤잖아요.",
-      "text": "So when my husband was in college, there was a draft, because of the Vietnam War. He felt that rather than get drafted, he'd volunteer — he'd sign up. And since his older brothers had done ROTC before him, he just assumed he'd do ROTC too. So, as a soldier — not a career soldier, but he felt he had to serve his country, as a man. Because of that, he said signing up wasn't a hard decision. He is a patriot, after all. So that's how he started. At 22? Around then. So he signed up, did ROTC — he went on telling me all that — and he ended up doing it for about 40 years. He practically spent his whole working life at it."
+      "original": "그러니까 남편이 대학교 때 징집이 있기는 했어요, 베트남 전쟁 때문에. 자기는 징집이 되느니 내가 자원을 하겠다, 지원을 하겠다, 그런 마음이 있었고, 그 전부터 형들이 ROTC를 했기 때문에 자기는 당연히 ROTC가 된다고 생각을 했대요. 그래서 군인이니까, 군인이, 직업군인은 아니지만 나라에 봉사를 해야 한다, 남자로서. 거기 때문에 군에 지원하는 것이 어렵지 않았다고 해요. 애국자긴 하죠. 그래서 시작을 했대요. 22살? 그때쯤에. 그래서 지원을 했고, ROTC를 했고, 그런 얘기를 쭉 하는데, 그래갖고 한 40년 정도를 한 거예요. 거의 일생을 다 마쳤잖아요.",
+      "text": "So when my husband was in college, there was a draft, because of the Vietnam War. He felt that rather than get drafted, he'd volunteer, he'd sign up. And since his older brothers had done ROTC before him, he just assumed he'd do ROTC too. So, as a soldier, not a career soldier, but he felt he had to serve his country, as a man. Because of that, he said signing up wasn't a hard decision. He is a patriot, after all. So that's how he started. At 22? Around then. So he signed up, did ROTC, he went on telling me all that, and he ended up doing it for about 40 years. He practically spent his whole working life at it."
     },
     {
       "t": 2607,
       "speaker": "Sookja Green",
       "original": "그래서… 근데 그건 그렇고, 군인에서 좋았던 게 뭐냐고 물어봤더니 이런 말을 해요. 여행 다니는 게 좋았대. 여러 나라를, 여러 곳을 다니는 게 좋았대요. '그래서 그게 좋았어?' 그랬더니, 자기는 미국을 떠나본 적이 없대요. 여행을 그렇게 가본 적이 없는데, 군인 되면 여러 군데를 다니니까 그게 좋아서 괜찮겠다 싶었고. 자기가 법을 공부한 것도 군대에 있었기 때문에 지원이 있었다고 해요. 그래서 학교 공부를 하면서 주말에만 가서 훈련 받고, 뭐 그런 거를 했대요. 그러니까 자기가 로여가 될 수 있었던 것도 군인 덕분이라고, 군대 덕분이라고 굉장히 그러고.",
-      "text": "So… anyway, when I asked him what he liked about the military, he said this. He liked the traveling. He liked going to many countries, many places. I said, 'So you liked that?' and he said he'd never been outside America. He'd never really traveled, and as a soldier you get to go to lots of places, so he liked that and figured it would be good. And even his studying law — he said he had support for it because he was in the military. So while he was studying at school, he'd go train only on weekends, that sort of thing. So he says very much that he was able to become a lawyer thanks to the military, thanks to the army."
+      "text": "So… anyway, when I asked him what he liked about the military, he said this. He liked the traveling. He liked going to many countries, many places. I said, 'So you liked that?' and he said he'd never been outside America. He'd never really traveled, and as a soldier you get to go to lots of places, so he liked that and figured it would be good. And even his studying law… he said he had support for it because he was in the military. So while he was studying at school, he'd go train only on weekends, that sort of thing. So he says very much that he was able to become a lawyer thanks to the military, thanks to the army."
     },
     {
       "t": 2652,
       "speaker": "Sookja Green",
-      "original": "자기는 군대에서 정말 여러 사람들을 만났고, 여러 상황에 접했기 때문에 사람 만나는 것이 두렵지가 않다고 얘기를 했어요. 그래서 자기가 성격이 내성적이고 좀 예민한 사람이긴 하지만, 그럼에도 불구하고 지금 아빠는 굉장히 봉사를 많이 해요. 그러니까 지금 뭐 하고 있는 게 뭐냐면, 그 유니언 가스펠 — 그러니까 홈리스 사역을 많이 하는데, 거기에 정말 많은 사람들이, 사연이 있는 사람들이 많이 오잖아요. 그럼에도 그런 사람들하고 잘 밍글링을 할 수 있는 것은 자기가 훈련을 받았기 때문에, 많은 사람들을 만나봤기 때문이라고 얘기를 하더라고요, 나한테.",
-      "text": "He said that because he met so many different people in the military and was exposed to so many situations, he isn't afraid of meeting people. So even though he's introverted by nature and a somewhat sensitive person, despite that, my husband now does a great deal of volunteering. What he's doing now is at the Union Gospel Mission — he does a lot of ministry with the homeless — and so many people come there, people with all kinds of stories, right? And he told me the reason he can mingle well with people like that is because he was trained, because he's met so many people."
+      "original": "자기는 군대에서 정말 여러 사람들을 만났고, 여러 상황에 접했기 때문에 사람 만나는 것이 두렵지가 않다고 얘기를 했어요. 그래서 자기가 성격이 내성적이고 좀 예민한 사람이긴 하지만, 그럼에도 불구하고 지금 아빠는 굉장히 봉사를 많이 해요. 그러니까 지금 뭐 하고 있는 게 뭐냐면, 그 유니언 가스펠, 그러니까 홈리스 사역을 많이 하는데, 거기에 정말 많은 사람들이, 사연이 있는 사람들이 많이 오잖아요. 그럼에도 그런 사람들하고 잘 밍글링을 할 수 있는 것은 자기가 훈련을 받았기 때문에, 많은 사람들을 만나봤기 때문이라고 얘기를 하더라고요, 나한테.",
+      "text": "He said that because he met so many different people in the military and was exposed to so many situations, he isn't afraid of meeting people. So even though he's introverted by nature and a somewhat sensitive person, despite that, my husband now does a great deal of volunteering. What he's doing now is at the Union Gospel Mission, he does a lot of ministry with the homeless, and so many people come there, people with all kinds of stories, right? And he told me the reason he can mingle well with people like that is because he was trained, because he's met so many people."
     },
     {
       "t": 2696,
       "speaker": "Sookja Green",
       "original": "그래서 정말 여러 인종의 사람들, 여러 천태만상의 성품을 갖고 있는 사람들을… 희한한 보스, 좋은 보스도 많지만 나쁜 보스도 많고, 그 사람들 밑에서 어떻게 살아남아야 하는지를 배웠기 때문에, 지금도 자기가 이렇게 봉사를 할 수 있고, 다른 사람들을 만나서 그렇게 사람들하고 만나는 게 어렵지 않다. 그래서 자기가 좀 건강해졌다라고 얘기를 하는 거예요. 그래서 처음으로 그런 얘기를 나눠보게 됐어요, 남편하고.",
-      "text": "So people of every race, people with every kind of character under the sun… strange bosses — there were plenty of good bosses, but plenty of bad ones too — and because he learned how to survive under them, he can volunteer like this even now, and meeting other people, getting along with people like that, isn't hard for him. So he said it made him a healthier person, in a way. So that was the first time we ever talked about things like that, my husband and I."
+      "text": "So people of every race, people with every kind of character under the sun… strange bosses, there were plenty of good bosses, but plenty of bad ones too, and because he learned how to survive under them, he can volunteer like this even now, and meeting other people, getting along with people like that, isn't hard for him. So he said it made him a healthier person, in a way. So that was the first time we ever talked about things like that, my husband and I."
     },
     {
       "t": 2729,
       "speaker": "Sookja Green",
       "original": "그래서 감사한 일이다, 그랬죠. 그래서 저한테는… 남편이 되게 좋아했어요, 자기 얘기 물어봐 주니까. 남자들은 왜 군대 얘기하면 좋아한다면서요. 갑자기 그냥 뭐 이랬는데 저런 일도 있었고, 막 그랬답니다. 진작 물어봤을걸 그랬죠.",
-      "text": "So I said, that's something to be thankful for. And for me… my husband was really pleased that I asked about his story. You know how they say men love to talk about their army days. All of a sudden it was, oh, this happened, and that happened too — on and on he went. I should have asked him a long time ago."
+      "text": "So I said, that's something to be thankful for. And for me… my husband was really pleased that I asked about his story. You know how they say men love to talk about their army days. All of a sudden it was, oh, this happened, and that happened too, on and on he went. I should have asked him a long time ago."
     },
     {
       "t": 2751,

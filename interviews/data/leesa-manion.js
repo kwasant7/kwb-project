@@ -43,7 +43,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 118,
       "speaker": "Leesa Manion",
-      "text": "When my mom came to Kentucky to live with my dad's parents, it is fair to say she was the only Asian person in our entire neighborhood. Most of the neighborhood was white, and what my family has shared with me is that through a lot of hard research, they were able to find, like, one Asian grocery store, like, far away, on the outskirts of Cincinnati, Ohio — because I grew up in Covington, Kentucky, across the river from Cincinnati, Ohio. But, you know, it was lonely. And of course, she was there by herself and adapting to a brand new family and a brand new culture."
+      "text": "When my mom came to Kentucky to live with my dad's parents, it is fair to say she was the only Asian person in our entire neighborhood. Most of the neighborhood was white, and what my family has shared with me is that through a lot of hard research, they were able to find, like, one Asian grocery store, like, far away, on the outskirts of Cincinnati, Ohio, because I grew up in Covington, Kentucky, across the river from Cincinnati, Ohio. But, you know, it was lonely. And of course, she was there by herself and adapting to a brand new family and a brand new culture."
     },
     {
       "t": 161,
@@ -58,7 +58,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 225,
       "speaker": "Leesa Manion",
-      "text": "Now, there was a time when I was young, maybe about three years old or so, my dad was stationed in Colorado. So my mom and my dad and my brother, who's about 18 months younger than I am, we all lived near the base in Colorado. And so there were more Asian people there — like, my mother had other friends who were Asian, and I think even Korean."
+      "text": "Now, there was a time when I was young, maybe about three years old or so, my dad was stationed in Colorado. So my mom and my dad and my brother, who's about 18 months younger than I am, we all lived near the base in Colorado. And so there were more Asian people there, like, my mother had other friends who were Asian, and I think even Korean."
     },
     {
       "t": 255,
@@ -68,7 +68,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 312,
       "speaker": "Interviewer",
-      "text": "Yeah. Expanding on your experience, where you briefly talked about your grandmother — how did your father's family generally treat your mother, and what did you think specifically about that, and why do you think that happened?"
+      "text": "Yeah. Expanding on your experience, where you briefly talked about your grandmother, how did your father's family generally treat your mother, and what did you think specifically about that, and why do you think that happened?"
     },
     {
       "t": 327,
@@ -78,7 +78,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 370,
       "speaker": "Interviewer",
-      "text": "And how was your mother's situation shaped by having no legal footing, limited English, and no family in the US? And after she was thrown out when you were four years old — I know you reconnected with her later on, but do you know how she survived in the US?"
+      "text": "And how was your mother's situation shaped by having no legal footing, limited English, and no family in the US? And after she was thrown out when you were four years old, I know you reconnected with her later on, but do you know how she survived in the US?"
     },
     {
       "t": 386,
@@ -88,7 +88,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 438,
       "speaker": "Leesa Manion",
-      "text": "My dad — he filed for divorce, and he filed for sole custody, and she really wasn't in a position to fight back, because she was so far away. She didn't have a lot of money. She didn't speak English. I think by that point she was probably afraid of my dad's family as well."
+      "text": "My dad, he filed for divorce, and he filed for sole custody, and she really wasn't in a position to fight back, because she was so far away. She didn't have a lot of money. She didn't speak English. I think by that point she was probably afraid of my dad's family as well."
     },
     {
       "t": 460,
@@ -98,7 +98,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 477,
       "speaker": "Leesa Manion",
-      "text": "Yeah, you know, there was definitely an acknowledgement that I was half Korean. Like, my family would say, \"You're half Korean,\" but beyond that, there wasn't any kind of acknowledgement about what that meant. There was no one in the home who understood Korean culture, who had access or had any interest in learning about Korean culture. I don't think people in my family understood what it was like for my brother and I to be biracial. Inside of our home, the phrase that folks used in the '70s was \"You are American,\" right? Not white, not Asian — people used the phrase \"Oriental\" back then, too."
+      "text": "Yeah, you know, there was definitely an acknowledgement that I was half Korean. Like, my family would say, \"You're half Korean,\" but beyond that, there wasn't any kind of acknowledgement about what that meant. There was no one in the home who understood Korean culture, who had access or had any interest in learning about Korean culture. I don't think people in my family understood what it was like for my brother and I to be biracial. Inside of our home, the phrase that folks used in the '70s was \"You are American,\" right? Not white, not Asian. People used the phrase \"Oriental\" back then, too."
     },
     {
       "t": 513.6,
@@ -128,7 +128,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 616,
       "speaker": "Leesa Manion",
-      "text": "You know, gosh, I was on my first trip to Seattle. I was 11 years old, and we had traveled from Kentucky to Seattle to visit my aunt, who had just moved to Seattle. And my brother and I were in a little convenience store, and the store owner said to both of us, \"You are Korean.\" And it was the first time that my brother and I had an experience where someone knew that we were Korean. It was profound for us — and I think the store owner was like, \"Are you going to buy that gum?\" I mean, it was not profound for him."
+      "text": "You know, gosh, I was on my first trip to Seattle. I was 11 years old, and we had traveled from Kentucky to Seattle to visit my aunt, who had just moved to Seattle. And my brother and I were in a little convenience store, and the store owner said to both of us, \"You are Korean.\" And it was the first time that my brother and I had an experience where someone knew that we were Korean. It was profound for us, and I think the store owner was like, \"Are you going to buy that gum?\" I mean, it was not profound for him."
     },
     {
       "t": 648,
@@ -143,7 +143,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 691,
       "speaker": "Leesa Manion",
-      "text": "Oh, it was very emotional. So when I was growing up, both my brother and I would ask about our mother, and we were always told that my parents — my dad, my grandmother — didn't know where she was or didn't have any way to contact her. And so the only thing I had was a copy of my birth certificate with her Korean name on it and her date of birth. And this was, of course, pre-internet. It was really hard to find her. Even post-internet, it was really hard to find her."
+      "text": "Oh, it was very emotional. So when I was growing up, both my brother and I would ask about our mother, and we were always told that my parents, my dad, my grandmother, didn't know where she was or didn't have any way to contact her. And so the only thing I had was a copy of my birth certificate with her Korean name on it and her date of birth. And this was, of course, pre-internet. It was really hard to find her. Even post-internet, it was really hard to find her."
     },
     {
       "t": 721,
@@ -153,7 +153,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 759,
       "speaker": "Leesa Manion",
-      "text": "So my brother and I agreed that I would write to her, and I wrote her a letter letting her know who we were and how we were doing. And I mailed it on Monday, and she called me at work on Friday. And so it was really emotional. And when I picked up the phone — this sounds crazy — but the sound of her voice sounded so very familiar to me. And it was a very emotional phone call. And then the following Friday, my brother flew out from Kentucky and I flew out from Seattle, and we flew to Colorado to meet her, to reunite with her, and then to meet my half-brother."
+      "text": "So my brother and I agreed that I would write to her, and I wrote her a letter letting her know who we were and how we were doing. And I mailed it on Monday, and she called me at work on Friday. And so it was really emotional. And when I picked up the phone, this sounds crazy, but the sound of her voice sounded so very familiar to me. And it was a very emotional phone call. And then the following Friday, my brother flew out from Kentucky and I flew out from Seattle, and we flew to Colorado to meet her, to reunite with her, and then to meet my half-brother."
     },
     {
       "t": 799,
@@ -163,7 +163,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 810,
       "speaker": "Leesa Manion",
-      "text": "One, I learned her story about the YWCA and how she earned money to get on a plane to Colorado Springs. I learned that she later remarried a man who was in the Air Force, and that she had a son who was nine years younger than I am — so, my half-brother. I learned that she raised my half-brother, whose name is Daniel — she raised him to know that we were out there somewhere and that she hoped to someday find us. I learned, of course, that she missed us, and it broke her heart to be away from us."
+      "text": "One, I learned her story about the YWCA and how she earned money to get on a plane to Colorado Springs. I learned that she later remarried a man who was in the Air Force, and that she had a son who was nine years younger than I am, so, my half-brother. I learned that she raised my half-brother, whose name is Daniel, she raised him to know that we were out there somewhere and that she hoped to someday find us. I learned, of course, that she missed us, and it broke her heart to be away from us."
     },
     {
       "t": 856,
@@ -183,12 +183,12 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 947,
       "speaker": "Leesa Manion",
-      "text": "My mother's story did not influence my decision to go to law school. That was just a decision that I made, and I was already a lawyer when we reunited with my mother. I will say that my experience has shaped it — that when you see and experience struggle, and when you see someone who's so close to you struggle, and you experience firsthand what happens when you don't have power, and how really important things can be taken away from you… And I lost my mother because of someone else's decision. It's not a leap to imagine how that must feel for others, and then to feel a call to do whatever you can to protect people from experiencing that."
+      "text": "My mother's story did not influence my decision to go to law school. That was just a decision that I made, and I was already a lawyer when we reunited with my mother. I will say that my experience has shaped it, that when you see and experience struggle, and when you see someone who's so close to you struggle, and you experience firsthand what happens when you don't have power, and how really important things can be taken away from you… And I lost my mother because of someone else's decision. It's not a leap to imagine how that must feel for others, and then to feel a call to do whatever you can to protect people from experiencing that."
     },
     {
       "t": 996,
       "speaker": "Leesa Manion",
-      "text": "And then I think that it also inspires a lot of empathy. So you can imagine, especially after I had my children — I suddenly, as a mother, could experience and imagine in a much more real and deep way how it would feel to lose your children. Like, how emotional that would be, how upsetting that would be, how angry I would feel, how sad, how lost I would feel. And then on top of that, to feel powerless would be heartbreaking. You know, it takes quite a bit of strength and stamina to withstand that sort of loss."
+      "text": "And then I think that it also inspires a lot of empathy. So you can imagine, especially after I had my children, I suddenly, as a mother, could experience and imagine in a much more real and deep way how it would feel to lose your children. Like, how emotional that would be, how upsetting that would be, how angry I would feel, how sad, how lost I would feel. And then on top of that, to feel powerless would be heartbreaking. You know, it takes quite a bit of strength and stamina to withstand that sort of loss."
     },
     {
       "t": 1040,
@@ -198,7 +198,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1057,
       "speaker": "Leesa Manion",
-      "text": "No, I think that there are definitely some themes, and it follows the pattern, right? You have an immigrant woman — women already, like in my generation, in the '70s, were already considered and often treated as less powerful than men — and on top of it, a language barrier. It's really easy to keep people from resources or to hide information from someone. I think that it becomes really easy to stereotype. And, you know, the thing about stereotypes is that they reinforce certain systemic decisions. Like when the entire legal system is like, \"You are a bad mother because you left your children in the house by themselves,\" for example — there may have been really interesting and compelling cultural reasons why she did that, but no one knows, because no one asked."
+      "text": "No, I think that there are definitely some themes, and it follows the pattern, right? You have an immigrant woman, women already, like in my generation, in the '70s, were already considered and often treated as less powerful than men, and on top of it, a language barrier. It's really easy to keep people from resources or to hide information from someone. I think that it becomes really easy to stereotype. And, you know, the thing about stereotypes is that they reinforce certain systemic decisions. Like when the entire legal system is like, \"You are a bad mother because you left your children in the house by themselves,\" for example. There may have been really interesting and compelling cultural reasons why she did that, but no one knows, because no one asked."
     },
     {
       "t": 1118,
@@ -223,12 +223,12 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1260,
       "speaker": "Interviewer",
-      "text": "And lastly, if there's one story that you really want to share about yourself or your mother — is there some story that you think is really interesting, or that would be good to have out in the public, about you or your mother?"
+      "text": "And lastly, if there's one story that you really want to share about yourself or your mother, is there some story that you think is really interesting, or that would be good to have out in the public, about you or your mother?"
     },
     {
       "t": 1277,
       "speaker": "Leesa Manion",
-      "text": "You know, I will say, as someone who lost my mother when I was really young — when you're growing up, you cling to what few memories you have. And so I had this memory of her from when we lived in Colorado. So I would have been maybe three, no more than four, but probably three years old. And we were running down a grassy hill, and I remember I fell. And when I looked down, there were a bunch of ladybugs on the ground right in front of me. And I remember that it scared me. I remember crying. And I remember how comforting it felt when my mother came and picked me up and held me and put a ladybug on her finger to let me know that it was safe. And it's not a remarkable story, but it was a memory that I had of her growing up, simply because I didn't have that many."
+      "text": "You know, I will say, as someone who lost my mother when I was really young, when you're growing up, you cling to what few memories you have. And so I had this memory of her from when we lived in Colorado. So I would have been maybe three, no more than four, but probably three years old. And we were running down a grassy hill, and I remember I fell. And when I looked down, there were a bunch of ladybugs on the ground right in front of me. And I remember that it scared me. I remember crying. And I remember how comforting it felt when my mother came and picked me up and held me and put a ladybug on her finger to let me know that it was safe. And it's not a remarkable story, but it was a memory that I had of her growing up, simply because I didn't have that many."
     },
     {
       "t": 1334,
