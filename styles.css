@@ -832,6 +832,14 @@ mark {
   font-style: italic;
 }
 
+/* A caption's link to the oral history it belongs with. */
+.item-link {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 /* Korean breaks between words, not inside them. */
 [lang="ko"] { word-break: keep-all; }
 
@@ -849,6 +857,7 @@ mark {
 }
 
 .doc-list strong { display: block; color: var(--text); }
+.doc-list .meta { margin-bottom: 0; }
 .doc-list p { margin: 0.35rem 0 0; color: var(--muted); font-size: 0.95rem; }
 
 /* Subheadings that split the reading list into groups. */

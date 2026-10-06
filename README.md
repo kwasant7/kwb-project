@@ -108,7 +108,9 @@ straight from disk; use the local server below.
    800px-wide copy with the same name to `images/source/thumbs/`
 2. In `archive.html`, copy a `<figure class="item">` block into the right section
 3. Point `href` at the full-size file and `src` at the thumbnail, set `width` and `height`
-   to the thumbnail's size, write a real `alt` description, edit the caption and credit
+   to the thumbnail's size, write a real `alt` description, then the title and credit.
+   Captions are citations only, a title and a credit with no description; an item that
+   belongs with an interview can add an `<a class="item-link">` line pointing to it
 
 Use `class="item item-doc"` for a document page, so the thumbnail shows the top of the
 page, and `class="item item-fit"` for a chart, so nothing is cropped.
