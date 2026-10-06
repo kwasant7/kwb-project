@@ -14,9 +14,10 @@ no dependencies, no framework.
 | `interviews/*.html` | Interview pages | One page per interview; copy `interviews/template.html` |
 | `archive.html` | Archive | Photographs, secondary footage, documents |
 | `about.html` | About | Origins, method, credits, contact details |
+| `search.html` | Search | Searches everything above; nothing to fill in (see below) |
 
-Shared across all four: `styles.css`, `script.js`, and the header/footer markup
-inside each page.
+Shared across every page: `styles.css`, `script.js`, and the header/footer markup
+inside each page. A new page needs a Search link in its menu like the others.
 
 ## Adding an oral history
 
@@ -73,6 +74,33 @@ yt-dlp --write-auto-subs --sub-langs "en.*" --sub-format json3 --skip-download "
 
 Expect errors in names and Korean words especially — that draft is a scaffold to
 correct, never something to publish as someone's exact words.
+
+## Search
+
+`search.html` (with `search.js`) searches the oral histories, every passage of
+their transcripts in English and Korean, and each photograph, document, video, and
+reading on Source Material. It reads `oral-histories.html`, each interview page and
+its transcript, and `archive.html` when someone opens it, so a new interview or
+archive item is searchable as soon as it is on the site. There is no index to rebuild.
+
+Several words must all appear, in any order; words in quotation marks must appear
+together. Results can be narrowed to one kind (Oral histories, Photographs, Documents,
+Video, Reading) or one Source Material section, and the search is kept in the address
+bar, so it can be shared as a link. Documents are items with the `item-doc` or
+`item-fit` class, anything titled with a headline in quotation marks, and brochures;
+every other image counts as a photograph.
+
+Results link straight to what they found:
+
+- `interviews/<slug>.html#t=982` opens an interview at the passage spoken at 16:22,
+  and Play starts the video there
+- `interviews/<slug>.html?q=kimchi` opens an interview with its transcript search
+  filled in
+- `archive.html#item-<image file name>` (or `#video-<YouTube ID>`) goes to one item on
+  Source Material and outlines it
+
+Search reads the pages over the web, so it does not work when a page is opened
+straight from disk; use the local server below.
 
 ## Adding an archive item
 

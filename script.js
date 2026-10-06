@@ -15,9 +15,10 @@
 
 // -- YouTube thumbnails.
 //    Anything with data-youtube="VIDEO_ID" gets that video's still image as its
-//    background, so interview cards need no separate photo uploaded. --
-(function () {
-  Array.prototype.forEach.call(document.querySelectorAll('[data-youtube], [data-cover]'), function (el) {
+//    background, so interview cards need no separate photo uploaded. The search
+//    page calls this again on the results it builds. --
+var KWMBThumbs = function (root) {
+  Array.prototype.forEach.call(root.querySelectorAll('[data-youtube], [data-cover]'), function (el) {
     // data-cover="path/to/photo.jpg" wins, for interviews that should lead with
     // a photograph rather than a still lifted from the video.
     var cover = el.getAttribute('data-cover');
@@ -29,7 +30,8 @@
     if (!id || id === 'VIDEO_ID') return;
     el.style.backgroundImage = "url('https://i.ytimg.com/vi/" + id + "/hqdefault.jpg')";
   });
-})();
+};
+KWMBThumbs(document);
 
 // -- Video player.
 //    The player is only built once someone presses play, so pages stay fast and
@@ -44,6 +46,8 @@ var KWMBVideo = (function () {
   var apiRequested = false;
   var handlers = [];
   var timer = null;
+  // Where the play button starts from; a link to a passage (#t=) moves it.
+  var startAt = 0;
 
   var ALLOW = 'accelerometer; autoplay; clipboard-write; encrypted-media; ' +
               'gyroscope; picture-in-picture';
@@ -66,7 +70,7 @@ var KWMBVideo = (function () {
     if (!id || !button) return;
 
     button.addEventListener('click', function () {
-      if (synced && frame === main) mount(0);
+      if (synced && frame === main) mount(startAt);
       else plainEmbed(frame, id);
     });
   });
@@ -127,8 +131,75 @@ var KWMBVideo = (function () {
   return {
     synced: synced,
     seek: function (t) { mount(t); },
+    startFrom: function (t) { startAt = t; },
+    // For video frames added after the page loaded, such as search results.
+    play: function (frame) { plainEmbed(frame, frame.getAttribute('data-youtube')); },
     onTime: function (fn) { handlers.push(fn); }
   };
+})();
+
+// -- Search queries.
+//    Shared by every search box: each word must appear somewhere, in any order,
+//    and "quoted words" must appear together. An English word matches from the
+//    start of a word, so "act" finds "acts" but not "fact"; Korean matches
+//    anywhere, since particles and compounds attach to the word (부인회 finds
+//    대한부인회는). Curly and straight quotes match each other, so "women's"
+//    finds "women’s". --
+var KWMBQuery = (function () {
+  function norm(s) {
+    return String(s || '').toLowerCase().replace(/[‘’ʼ]/g, "'").replace(/[“”]/g, '"');
+  }
+
+  function escape(t) {
+    return t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  // Terms starting with a letter or digit of the Latin alphabet.
+  function latin(t) {
+    return /^[a-z0-9]/.test(t);
+  }
+
+  function parse(q) {
+    var terms = [];
+    norm(q).replace(/"([^"]+)"|(\S+)/g, function (_, phrase, word) {
+      var t = (phrase || word).trim();
+      if (t) terms.push(t);
+    });
+    return terms;
+  }
+
+  var compiled = {};
+  function finder(t) {
+    if (!compiled[t]) compiled[t] = latin(t) ? new RegExp('(^|[^a-z0-9])' + escape(t)) : null;
+    return compiled[t];
+  }
+
+  function matches(text, terms) {
+    var hay = norm(text);
+    for (var i = 0; i < terms.length; i++) {
+      var re = finder(terms[i]);
+      if (re ? !re.test(hay) : hay.indexOf(terms[i]) === -1) return false;
+    }
+    return true;
+  }
+
+  // Lookbehind keeps highlights to word starts; browsers too old for it
+  // highlight the term anywhere instead.
+  var lookbehind = (function () {
+    try { new RegExp('(?<=a)b'); return true; } catch (e) { return false; }
+  })();
+
+  // A pattern that finds any of the terms in original text, for highlighting.
+  function pattern(terms) {
+    if (!terms.length) return null;
+    var parts = terms.slice().sort(function (a, b) { return b.length - a.length; }).map(function (t) {
+      var body = escape(t).replace(/'/g, "['‘’ʼ]").replace(/"/g, '["“”]');
+      return (latin(t) && lookbehind ? '(?<![A-Za-z0-9])' : '') + body;
+    });
+    return new RegExp(parts.join('|'), 'gi');
+  }
+
+  return { norm: norm, parse: parse, matches: matches, pattern: pattern };
 })();
 
 // -- Transcript PDF.
@@ -417,10 +488,11 @@ var KWMBPdf = (function () {
 
   if (search) {
     search.addEventListener('input', function () {
-      var q = search.value.trim().toLowerCase();
+      var q = search.value.trim();
+      var terms = KWMBQuery.parse(q);
       var shown = 0;
       nodes.forEach(function (node, i) {
-        var hit = !q || (cues[i].text + ' ' + (cues[i].original || '') + ' ' + (cues[i].speaker || '')).toLowerCase().indexOf(q) !== -1;
+        var hit = !terms.length || KWMBQuery.matches(cues[i].text + ' ' + (cues[i].original || '') + ' ' + (cues[i].speaker || ''), terms);
         node.hidden = !hit;
         if (hit) shown += 1;
       });
@@ -429,6 +501,27 @@ var KWMBPdf = (function () {
         : shown === 0 ? 'Nothing in the transcript matches \u201C' + search.value.trim() + '\u201D.'
         : shown + (shown === 1 ? ' passage' : ' passages') + ' shown.';
     });
+  }
+
+  // Links from the search page: ?q= fills in the transcript search, and #t=
+  // (seconds) marks the passage at that moment and starts the video there.
+  var params = new URLSearchParams(location.search);
+  if (search && params.get('q')) {
+    search.value = params.get('q');
+    search.dispatchEvent(new Event('input'));
+  }
+  var jump = /^#t=(\d+(?:\.\d+)?)$/.exec(location.hash);
+  if (jump) {
+    var at = indexAt(parseFloat(jump[1]));
+    if (at > -1) {
+      var target = nodes[at];
+      target.classList.add('is-active');
+      active = at;
+      KWMBVideo.startFrom(cues[at].t);
+      // Jump rather than glide: arriving from a link should land at once.
+      root.scrollTo({ top: target.offsetTop - root.clientHeight / 2 + target.offsetHeight / 2, behavior: 'instant' });
+      root.closest('section').scrollIntoView({ behavior: 'instant' });
+    }
   }
 
   // Build the PDF and hand it straight over as a download. A print dialog
@@ -508,6 +601,32 @@ var KWMBPdf = (function () {
 
   input.addEventListener('input', apply);
   apply();
+})();
+
+// -- Archive item links.
+//    Every item on Source Material gets an id from its file name (or video ID),
+//    so a link such as archive.html#item-1951-blue-morgan-arrives-seattle goes
+//    straight to it. Items with an id already keep theirs. --
+var KWMBItemId = function (item) {
+  if (item.id) return item.id;
+  var link = item.querySelector('.item-image');
+  if (link) return 'item-' + link.getAttribute('href').split('/').pop().replace(/\.[^.]+$/, '');
+  var video = item.querySelector('[data-youtube]');
+  if (video) return 'video-' + video.getAttribute('data-youtube');
+  return '';
+};
+
+(function () {
+  var items = document.querySelectorAll('.archive-section .item');
+  if (!items.length) return;
+  Array.prototype.forEach.call(items, function (item) { item.id = KWMBItemId(item); });
+
+  // The ids arrive after the browser looked for the #fragment, so go there now.
+  var target = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+  if (target && target.classList.contains('item')) {
+    target.classList.add('is-target');
+    target.scrollIntoView({ behavior: 'instant' });
+  }
 })();
 
 // -- Footer year. --

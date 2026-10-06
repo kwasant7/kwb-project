@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Search | Korean Women History Project</title>
+  <meta name="description" content="Search the oral histories, their full transcripts in English and Korean, and the photographs, documents, and footage on the Source Material page." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img class="brand-logo" src="images/logo.png" alt="" width="512" height="512" />
+      <span class="brand-name">Korean Women History Project</span>
+    </a>
+    <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="oral-histories.html">Oral Histories</a>
+      <a href="archive.html">Source Material</a>
+      <a href="about.html">About</a>
+      <a href="search.html" aria-current="page">Search</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <h1>Search</h1>
+      <p class="lede">
+        Search the oral histories, every line of their transcripts, and the photographs,
+        documents, videos, and reading on the Source Material page. Transcripts can be
+        searched in English or Korean.
+      </p>
+
+      <!-- Everything here is read from the published pages: oral-histories.html,
+           each interview page and its transcript, and archive.html. A new
+           interview or archive item is searchable as soon as it is added there. -->
+      <form id="site-search" class="site-search" role="search">
+        <label class="search-box">
+          <span class="visually-hidden">Search the project</span>
+          <input id="q" name="q" type="search" placeholder="Try a name, place, or topic, like Fort Lewis or kimchi" autocomplete="off" />
+        </label>
+
+        <div class="search-filters">
+          <fieldset class="chips">
+            <legend class="visually-hidden">Show</legend>
+            <label class="chip"><input type="radio" name="type" value="all" checked /><span>All <span class="chip-count" data-count="all"></span></span></label>
+            <label class="chip"><input type="radio" name="type" value="interview" /><span>Oral histories <span class="chip-count" data-count="interview"></span></span></label>
+            <label class="chip"><input type="radio" name="type" value="photo" /><span>Photographs <span class="chip-count" data-count="photo"></span></span></label>
+            <label class="chip"><input type="radio" name="type" value="doc" /><span>Documents <span class="chip-count" data-count="doc"></span></span></label>
+            <label class="chip"><input type="radio" name="type" value="video" /><span>Video <span class="chip-count" data-count="video"></span></span></label>
+            <label class="chip"><input type="radio" name="type" value="reading" /><span>Reading <span class="chip-count" data-count="reading"></span></span></label>
+          </fieldset>
+
+          <label class="search-section">
+            <span class="visually-hidden">Source Material section</span>
+            <select id="section" name="section">
+              <option value="">Any section</option>
+            </select>
+          </label>
+        </div>
+      </form>
+
+      <p id="search-status" class="filter-status" role="status"></p>
+
+      <div id="search-hints" class="search-hints">
+        <p>Try one of these, or pick a type above to browse everything of that kind:</p>
+        <div class="search-hint-list">
+          <button type="button">Fort Lewis</button>
+          <button type="button">War Brides Act</button>
+          <button type="button">Tacoma</button>
+          <button type="button">shelter</button>
+          <button type="button">kimchi</button>
+          <button type="button">citizenship</button>
+          <button type="button">hanbok</button>
+          <button type="button">Wonju</button>
+          <button type="button" lang="ko">부인회</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="results" class="results"></div>
+  </main>
+
+  <footer>
+    <p>© <span data-year>2026</span> Korean Women History Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="search.js"></script>
+</body>
+</html>
