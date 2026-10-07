@@ -3,3 +3,6 @@ node_modules/
 *.log
 .vscode/
 .idea/
+
+# Working folder of unsorted research images; Source Material holds the published copies.
+NEW pics/
