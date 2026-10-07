@@ -6,3 +6,9 @@ node_modules/
 
 # Working folder of unsorted research images; Source Material holds the published copies.
 NEW pics/
+
+# Raw interview recordings. The site plays interviews from YouTube, never from these files.
+*.mp4
+*.MP4
+*.mov
+*.MOV
