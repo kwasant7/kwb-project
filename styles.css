@@ -1008,6 +1008,25 @@ footer {
   font-size: 0.9rem;
 }
 
+/* "With support from" credit. The logo is a JPEG on white; multiply lets
+   the page background show through so it doesn't sit in a white box. */
+.support {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+.support:hover span { text-decoration: underline; }
+.support img {
+  display: block;
+  height: 56px;
+  width: auto;
+  mix-blend-mode: multiply;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .btn, .video-play, .interview-card, .chip > span { transition: none; }
