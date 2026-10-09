@@ -1,30 +1,33 @@
 /* Transcript for the Charley Smith interview (video 9M1f10lg8So).
    ---------------------------------------------------------------
-   MACHINE-TRANSCRIBED with Whisper large-v3-turbo from the final cut of
-   the recording (41:44), then lightly cleaned: filler words, repeated
-   words, and small false starts were dropped, and misheard place names
-   were fixed (Wonju, Pirmasens). Grouped into paragraphs; timings are to
-   the nearest second. NOTHING HAS BEEN CHECKED BY EAR YET. In particular:
-     - 0:18, 10:40  His mother's legal name, heard as "Kay Wool," is
-             written Gye-wol in the Korean press, so it is spelled that
-             way here. "Kay" (12:33) is the English name she went by.
-     - 12:19 Her family nickname, heard as "Yusoni," is written Yoo-suni.
-     - 21:12 "born in a white environment" is as heard; he may mean raised.
-     - 25:35 "Mrs. Locke," his mother's friend, is as heard. Spelling unknown.
-     - 31:42 He says the statues were of Kim Jong-il; in 1991 North Korea
-             was led by Kim Il Sung. Left as spoken.
-   If the YouTube upload is not this same cut, the timings will drift.
+   Machine-transcribed with Whisper large-v3-turbo from the final cut
+   of the recording (41:44), then lightly cleaned: filler words,
+   repeated words and small false starts were dropped. Grouped into
+   paragraphs.
+
+   On October 9, 2026 every passage was cross-checked against the
+   recording: it was re-transcribed with Whisper large-v3,
+   large-v3-turbo and small (the whole recording, and each passage on
+   its own) and the readings were compared and settled by AI review.
+   Words that could not be made out for certain were given their most
+   likely reading instead of being dropped. No person has yet checked it
+   by ear.
+   Best guesses, for anyone checking against the audio:
+     - 25:02 "Mrs. Locke" (also possible: "Mrs. Luck", "Mrs. Lock")
+   Notes:
+     - 0:18, 10:40 His mother's legal name, heard as "Kay Wool," is
+       written Gye-wol, as in the Korean press. "Kay" (12:33) is the
+       English name she went by.
+     - 31:42 He says the statues were of Kim Jong-il; in 1991 North
+       Korea was led by Kim Il Sung. Left as spoken.
 
    Each passage has a "speaker": "Interviewer" or the narrator's name.
 
-   To correct a line, edit its "text". Keep "t" (seconds from the
-   start of the video) as it is, or the sync will drift.
-   Delete the reviewed:false line below once you have checked it all
-   through, and the "unverified" notice will disappear from the page. */
+   To correct a line, edit its "text". Keep "t" (seconds
+   from the start of the video) as it is, or the sync will drift. */
 
 window.KWMB_TRANSCRIPT = {
   video: "9M1f10lg8So",
-  reviewed: false,
   cues: [
     {
       "t": 0,
@@ -39,7 +42,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 29,
       "speaker": "Interviewer",
-      "text": "Thank you. And I know that recently your family sort of went a little viral on the internet from the photo that sort of resurfaced. And after seeing a lot of people see your parents' faces after 70-plus years, what did it feel like? And did you think that there was any sort of significance to that?"
+      "text": "Thank you. And I know that recently your family sort of went a little viral on the internet from the photo that was sort of resurfaced. And after seeing a lot of people see your parents' faces after 70-plus years, what did it feel like? And did you think that there was any sort of a significance to that?"
     },
     {
       "t": 51,
@@ -49,7 +52,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 114,
       "speaker": "Charley Smith",
-      "text": "Also, I had written a book, and that book had been released while I was there in Korea. And, yeah, the book has been well received. I haven't heard whether it's made the bestseller list in Korea yet or not, but all the reviews about the book have been pretty good."
+      "text": "Also, I had written a book. That book had been released while I was there in Korea. And, yeah, the book has been well received. I haven't heard whether it's made the bestsellers list in Korea yet or not, but all the reviews about the book have been pretty good."
     },
     {
       "t": 142,
@@ -59,7 +62,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 154,
       "speaker": "Charley Smith",
-      "text": "Well, what she told me was that she had a very difficult life. She was always hungry, and I believe that led to her small size. I believe she was malnourished as she grew up. But she was also raised before the Korean War. Of course, there was World War II, and before that, the Japanese occupied Korea."
+      "text": "Well, what she told me was that she had a very difficult life. She was always hungry, and I believe that led to her small size. I believe she was malnourished as she grew up. But she was also raised before the Korean War. Of course, there was the World War II, and before that, the Japanese occupied Korea."
     },
     {
       "t": 190,
@@ -67,14 +70,14 @@ window.KWMB_TRANSCRIPT = {
       "text": "And she told me some pretty tough stories about how brutal the Japanese could be. When she was eight years old, she was forced to watch an execution of two men that were predominant in, well, that were politically predominant in the Wonju area where she lived. And that was quite, quite difficult for her. Of course, for an eight-year-old to see two people executed, shot, it was quite disturbing. But, yeah, I know that she was very poor. She really struggled. And as soon as she could, she left home and went to work at a coat factory in Seoul. And she was at that coat factory when the war broke out."
     },
     {
-      "t": 258,
+      "t": 255,
       "speaker": "Interviewer",
       "text": "Thank you so much. What do you know about how your father helped search for her family, and how that turned into a relationship at the end?"
     },
     {
       "t": 268,
       "speaker": "Charley Smith",
-      "text": "Well, it just occurred to me that I didn't finish answering the question that you had asked before. I don't know how she ended up getting a job on the base. I know that she was with a group of several other women, and apparently they were all hired as a group to do odd jobs around the base. I think she spent a lot of her time performing maid services and doing odd jobs wherever it was needed around the base. So she was there, and she had told me a couple times that my father never even paid attention to her."
+      "text": "Well, it just occurred to me that I didn't finish answering the question that you had asked before, but I don't know how she ended up getting a job on the base. I know that she was with a group of several other women, and apparently they were all hired as a group to do odd jobs around the base. I think she spent a lot of her time performing maid services and doing odd jobs wherever it was needed around the base. So she was there, and she had told me a couple times that my father never even paid attention to her."
     },
     {
       "t": 320,
@@ -84,7 +87,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 385,
       "speaker": "Interviewer",
-      "text": "Thank you so much. And at the time when your mother and father eventually got married, what was the sort of social atmosphere around that situation, especially considering how mixed racial marriages weren't especially common at that time?"
+      "text": "Thank you so much. And at the time when your mother and father eventually got married, what was the sort of social atmosphere around that situation, especially considering how mixed racial marriages weren't especially too common at that time?"
     },
     {
       "t": 401,
@@ -92,9 +95,9 @@ window.KWMB_TRANSCRIPT = {
       "text": "You know, I think during the wartime conditions, I believe that my father's American friends readily accepted my mother, and I believe that my mother's friends accepted my father. They ran into difficulties when they tried to rent a house, and no landlord wanted to rent to a mixed-race couple. So my father said he had to pay three times the going rent in order to get a house for them to rent. So as far as facing discrimination, I'm not aware of anything other than the landlord being reluctant to rent to them in Korea. But I do believe that as a couple, they were fairly well accepted, and I am told that I was very well accepted as a baby."
     },
     {
-      "t": 493,
+      "t": 490,
       "speaker": "Interviewer",
-      "text": "I believe that your father faced a military court-martial for building the house for your mom that was off base. Can you tell me a little bit about that as well?"
+      "text": "I believe that your father faced a military court-martial to build the house for your mom that was off base. Can you tell me a little bit about that as well?"
     },
     {
       "t": 503,
@@ -104,10 +107,10 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 530,
       "speaker": "Charley Smith",
-      "text": "But he also, after that, decided to build a house for them to live in. And he took materials from off the base and built a small, I can't imagine how he did it, but he was pretty handy, but he built a little hut for them to live in. And that apparently didn't remain standing for very long, because the military police came by and told him to take it apart and return all the materials that he had misappropriated from the base. And during that second instance, I don't believe he got into any other trouble. I don't think he got demoted or fined or anything like that."
+      "text": "But he also, after that, decided to build a house for them to live in. And he took materials from off the base and built a small, I can't imagine how he did it, but he was pretty handy, but he built a little hut for them to live in. And that apparently didn't remain standing for very long, because the military police came by and told him to take it apart and return all the materials that he had misappropriated from the base. But during that second instance, I don't believe he got into any other trouble. I don't think he got demoted or fined or anything like that."
     },
     {
-      "t": 590,
+      "t": 587,
       "speaker": "Interviewer",
       "text": "And I know that coming to the United States was quite the process. And I heard something along the lines of how your mother had to adopt another woman's name and birth records to get into the United States. If at all, did that affect her original identity, especially in those early years? And if so, how?"
     },
@@ -119,12 +122,12 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 668,
       "speaker": "Charley Smith",
-      "text": "And the sad thing, and this is something I learned shortly before my mother passed away, is that she didn't like that name, but she used it for 50-some years, because that was her legal name upon entry into the United States. Shortly before she died, she confided in me that that was not her name. And I guess she silently objected to using another person's name all of her life. But for her friends and members of the family, and of course her family she had lost contact with and thought were dead."
+      "text": "And the sad thing, and this is something I learned shortly before my mother passed away, is that she didn't like that name, but she used it for 50-some years, because that was her legal name upon entry into the United States. Shortly before she died, she confided in me that that was not her name. And I guess she silently objected to using another person's name all her life. But for her friends and members of the family, and of course her family she had lost contact with and thought were dead."
     },
     {
       "t": 739,
       "speaker": "Charley Smith",
-      "text": "But my father had three brothers and three sisters, and they all called her Yoo-suni, which was a nickname for Yoo-sun. And she preferred that to being called Kay. Yeah, so, yeah, it's kind of a sad tale. I didn't realize it at the time, but all my life, I just thought that was her legal name. Well, it was her legal name, but I thought that was the name that she was born with, and it apparently was not."
+      "text": "But my father had three brothers and three sisters, and they all called her Yoo-suni, which was a nickname for Yoo-sun. And she preferred that to being called Kay. Yeah, so, yeah, it's kind of a sad tale. I didn't realize it at the time, but all my life, I just thought that was her legal name. Well, it was her legal name, but I thought that was the name that she was born with, but it apparently was not."
     },
     {
       "t": 782,
@@ -142,14 +145,14 @@ window.KWMB_TRANSCRIPT = {
       "text": "And it was so interesting in his letters. He talks about frustrations dealing with people, and he would think that a certain process had occurred, and then a couple months later, he'd go back and discover that nothing had transpired. During those two years, he'd write home, “Oh, I think I'll be home in March.” “Oh, I think I'll be home in September.” “Oh, I think maybe next January.” But, yeah, finally, when I was a little over two years old, we did come to the United States."
     },
     {
-      "t": 899,
+      "t": 897,
       "speaker": "Interviewer",
       "text": "Yeah, I'm sure it was very difficult. And I'm pretty sure that your mother probably experienced intense homesickness when she arrived in America. What are your earliest memories of how she tried to keep her Korean heritage alive in your household?"
     },
     {
       "t": 918,
       "speaker": "Charley Smith",
-      "text": "Yeah, you know, I wasn't aware of how homesick she was. I can't remember where, but I believe I was four or five years old. I walked into her room and she was crying, and I asked her what the problem was, and she said that she missed her mother. And it wasn't until I read the letters that my father wrote to his parents that I understood the degree of homesickness she felt."
+      "text": "Yeah, you know, I wasn't aware of how homesick she was. I can't remember where, but I believe I was four or five years old. I walked into a room and she was crying, and I asked her what the problem was, and she said that she missed her mother. And it wasn't until I read the letters that my father wrote to his parents that I understood the degree of homesickness she felt."
     },
     {
       "t": 964,
@@ -169,12 +172,12 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1073,
       "speaker": "Charley Smith",
-      "text": "Yeah, you know, the degree of care that he gave to my mother was amazing. And, you know, the older I get, the more amazed I am at it. As I think back, a lot of the times I just thought that's what a relationship was, that people just took care of each other. And my mother, too, was so committed to tending to my father's needs. It wasn't a one-way street. She was very, very good to him also."
+      "text": "Yeah, you know, the degree of care that he gave to my mother was amazing. And, you know, the older I get, the more amazed I am at it. As I think back, a lot of the times I just thought that's what a relationship was, that people just took care of each other. And my mother, too, was so committed to tend to my father's needs. It wasn't a one-way street. She was very, very good to him also."
     },
     {
       "t": 1125,
       "speaker": "Charley Smith",
-      "text": "While I was growing up, though, I just thought that's the way married life was. You know, of course, now that I'm older, I realize they had something very special. I do believe that they were the definition of being soulmates. I mean, they were dedicated to each other, extremely dedicated to each other. So, yeah, my father never lost it. I mean, he never lost that desire to make my mother happy."
+      "text": "While I was growing up, though, I just thought that's the way married life was. You know, of course, now that I'm older, I realized they had something very special. I do believe that they were the definition of being soulmates. I mean, they were dedicated to each other, extremely dedicated to each other. So, yeah, my father never lost it. I mean, he never lost that desire to make my mother happy."
     },
     {
       "t": 1169,
@@ -184,7 +187,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1222,
       "speaker": "Interviewer",
-      "text": "Yeah, I'm not sure if I would know about it either. But yeah, that's super sweet. Growing up mixed race in that era, how did you feel about your own identity? And how has that changed your life? And did you feel any social pressure at all, by chance?"
+      "text": "Yeah, I'm not sure if I would know about it either. But yeah, it's super sweet. Growing up mixed race in that era, how did you feel about your own identity? And how has that changed your life? And did you feel any social pressure at all, by chance?"
     },
     {
       "t": 1239,
@@ -194,12 +197,12 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1279,
       "speaker": "Charley Smith",
-      "text": "I went to fifth grade, I was in a school in New York, fifth and sixth grade and part of my seventh grade. I was in the middle of New York, upstate. And my sister and I were the only Asians in the whole school. But I knew that I was well liked. I mean, I don't recall feeling any form of discrimination back then. But then again, I didn't look for it."
+      "text": "I went to fifth grade, I was in a school in New York, fifth and sixth grade and part of my seventh grade. I was in the middle of New York, upstate. And my sister and I were the only Asians in whole school. But I knew that I was well liked. I mean, I don't recall feeling any form of discrimination back then. But then again, I didn't look for it."
     },
     {
       "t": 1319,
       "speaker": "Charley Smith",
-      "text": "So, you know, as time has gone on, though, and especially more recently, I'm kind of aware. I'm kind of looking. I'm a little bit more skeptical than I've ever been. But, you know, now I live in Hawaii, and I fit right in, no matter what. So, yeah. But for all my life, really, I never really thought of it."
+      "text": "So, you know, as time has gone on, though, and especially more recently, I'm kind of aware. I'm kind of looking. I'm a little bit more skeptical than I've ever been. But, you know, now I live in Hawaii, and I fit right in, no matter what. So, yeah. But yeah, for all my life, really, I never really thought of it."
     },
     {
       "t": 1363,
@@ -219,7 +222,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1491,
       "speaker": "Interviewer",
-      "text": "And you mentioned the Korean community in Tacoma. I'm curious as to if your mother ever connected with other Korean military brides or Korean war brides in Tacoma."
+      "text": "And you mentioned the Korean community in Tacoma. I'm curious as to if your mother ever connected with other Korean military or Korean war brides in Tacoma."
     },
     {
       "t": 1502,
@@ -234,7 +237,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1588,
       "speaker": "Charley Smith",
-      "text": "You know, I don't know if she did or not. Yeah, if she mentioned it, I'd forgotten that. You know, she's been gone now for 22 years. So that's a long time. I've forgotten a lot in that period of time, but yeah."
+      "text": "You know, I don't know if she did or not. Yeah, if she mentioned it, I'd forgotten it. You know, she's been gone now for 22 years. So that's a long time. I've forgotten a lot in that period of time, but yeah."
     },
     {
       "t": 1611,
@@ -249,7 +252,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1685,
       "speaker": "Charley Smith",
-      "text": "Now, she had thought that they were all killed during the Korean War, her family. But while she was in Seoul working at this coat factory, the war broke out, and apparently her brother and her father decided that they sympathized with the communists, not with the democratic philosophy. So when the war broke out, they went north, and pretty much everybody else in South Korea ended up being pushed down to the very southern portion of Korea. But, yeah, so rather than being dead, she discovered that one brother died during the war, and she still had two brothers and two sisters that were still alive and living in North Korea. And it was quite a shock to her. And I tell you, it was quite an emotional reunion once she was able to get to North Korea."
+      "text": "Now, she had thought that they were all killed during the Korean War, her family. But while she was in Seoul working at this coat factory, the war broke out, and apparently her brother and her father decided that they sympathized with communists, not with the democratic philosophy. So when the war broke out, they went north, and pretty much everybody else in South Korea ended up being pushed down to the very southern portion of Korea. But, yeah, so rather than being dead, she discovered that one brother died during the war, and she still had two brothers and two sisters that were still alive and live in North Korea. And it was quite a shock to her. And I tell you, it was quite an emotional reunion once she was able to get to North Korea."
     },
     {
       "t": 1763,
@@ -269,12 +272,12 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1779,
       "speaker": "Charley Smith",
-      "text": "Yeah. She ended up flying into Pyongyang, but she had to fly first, I think it was to Beijing, because of course there were no direct flights from the United States. And she spent a couple, three days in Beijing trying to get visa papers together that allowed her to go to Pyongyang."
+      "text": "Yeah. She ended up flying into Pyongyang, but she had to fly first, I think it was to Beijing, because of course there was no direct flights from the United States. And she spent a couple, three days in Beijing trying to get visa papers together that allowed her to go to Pyongyang."
     },
     {
       "t": 1811,
       "speaker": "Charley Smith",
-      "text": "And when she finally did, now, back in 1991, that was 10 years before 9/11, and you could wander all over. There was no TSA where you had to go through and get your bags checked, that sort of thing. And what typically happened is, when you went to pick somebody up from the airport, you went to the gate that their plane arrived in. And so her sister had said, “We're all going to meet you at the airport and welcome you in.” And then when she came off the plane in Pyongyang, she expected to see her whole family there."
+      "text": "And when she finally did, now, back in 1991, that was 10 years before 9/11, and you could wander all over. There was no TSA where you had to go through and get your bags checked, that sort of thing. And what typically happened is, when you went to pick somebody up from the airport, you went to the gate that their plane arrived in. And so her sister had said, “We're all going to meet you at the airport and welcome you in.” And when she came off the plane in Pyongyang, she expected to see her whole family there."
     },
     {
       "t": 1860,
@@ -299,15 +302,15 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2076,
       "speaker": "Charley Smith",
-      "text": "So, no, I mean, I'm so glad to have that recording. I also have a video recording of my parents just sitting around talking about how they met, and I cherish that too. And really what I should do is put that on YouTube. I should do that. If I can figure out how to do that, maybe I will."
+      "text": "So, no, I mean, I'm so glad to have that recording. I also have a video recording of my parents just sitting around talking about how they met, and I cherish that too. And really what I should do is put that on YouTube. I should do that. If I can figure out how to do it, maybe I will."
     },
     {
       "t": 2111,
       "speaker": "Interviewer",
-      "text": "Yeah, I think that sounds super great. And if you need any help, I can try to help you with that as well."
+      "text": "Yeah, I think that sounds super grand. If you need any help, I can try to help you with that as well."
     },
     {
-      "t": 2117,
+      "t": 2118,
       "speaker": "Charley Smith",
       "text": "Well, I might call on you to help me out with that. So now, you have posted things on YouTube yourself, or you know how to do it?"
     },
@@ -317,12 +320,12 @@ window.KWMB_TRANSCRIPT = {
       "text": "I'll show you my digital archive and what I've done so far with it. And I'll show you, if you do choose to post it on YouTube, where I might be able to go on YouTube, and where I'm able to go on the archive as well."
     },
     {
-      "t": 2147,
+      "t": 2146,
       "speaker": "Charley Smith",
       "text": "Okay, great."
     },
     {
-      "t": 2149,
+      "t": 2147,
       "speaker": "Interviewer",
       "text": "Just a couple more questions. By the West, the Korean War is often called or remembered as the Forgotten War. By sharing your parents' stories, what do you hope people remember about the people who actually lived through it? And what do you think is super important for people to know about it?"
     },
@@ -334,7 +337,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 2231,
       "speaker": "Charley Smith",
-      "text": "Because, you know, in large part it explains the resiliency of Koreans, and it explains this incredible transformation that Korea has made since the war. I mean, if you look at South Korea and compare it to North Korea, you got to be proud of the fact that South Korea has done so well, has progressed in every thought, you know, the technology, the impact on society, you know, throughout the world. It's impressive."
+      "text": "Because, you know, it in large part explains the resiliency of Koreans, and it explains this incredible transformation that Korea has made since the war. I mean, if you look at South Korea and compare it to North Korea, you got to be proud of the fact that South Korea has done so well, has progressed in, you know, the technology, the impact on society, you know, throughout the world. It's impressive."
     },
     {
       "t": 2286,

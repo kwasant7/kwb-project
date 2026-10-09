@@ -4,44 +4,62 @@
    "original" and gives an English translation as "text"; the page
    shows both, and the PDF prints the English.
 
-   MACHINE-TRANSCRIBED with Whisper large-v3-turbo from the two camera
-   files, "Interview 1" (9:10) and "Interview 2" (13:05), then cleaned
-   and translated. The timings assume the two files are joined end to
-   end with nothing cut, so Interview 2 starts at 9:09.5; if the
-   YouTube upload is trimmed, the timings will drift. Unclear words were
-   re-transcribed from tight clips, and speakers were told apart by
-   voice pitch; times for short back-and-forth lines are approximate.
-   NOTHING HAS BEEN CHECKED BY EAR YET: have a Korean speaker check the
-   transcript and the translation. In particular:
+   Machine-transcribed with Whisper large-v3-turbo from the two camera
+   files, "Interview 1" (9:10) and "Interview 2" (13:05), joined end
+   to end (the same length as the YouTube video, 22:15), then cleaned
+   and translated.
+
+   On October 9, 2026 every passage was cross-checked against the
+   recording: it was re-transcribed with Whisper large-v3,
+   large-v3-turbo and small (the whole recording, and each passage on
+   its own) and the readings were compared and settled by AI review.
+   Words that could not be made out for certain were given their most
+   likely reading instead of being dropped. No person has yet checked it
+   by ear.
+   Best guesses, for anyone checking against the audio:
+     - 4:35 "Interviewer: 그 얘기 해 주세요. (split out of Hongja's cue)" (also
+       possible: "Hongja: 우리 집에서. (repeat, turbo reading)")
+     - 5:29 "이제는 대모 같은 거군요." (also possible: "이때는 대모 같은 거군요", "선생님은(쌤은)
+       대모 같은 거군요")
+     - 6:04 "남희 같은 친구들" (also possible: "남희가 아는 친구들", "남희 친구들")
+     - 6:48 "지금 와서 보니까 얼마나 대견하시죠?" (also possible: "얼마나 배경을 지죠/치죠 (as
+       heard, meaningless)", "얼마나 뿌듯하시죠", "얼마나… (trailing off)")
+     - 8:43 "쌀이라도 팔아 드리고" (also possible: "쌀을 팔아 드리고 (large-v3 retx,
+       p=0.41)")
+     - 9:03 "Interviewer: 네, 받아 보세요. / Hongja White: 누구야? (t=546)" (also
+       possible: "누가 시켜줬어? (large-v3 clip, turbo) also in the aside",
+       "speakers reversed")
+     - 9:26 "어디다 쓰시죠?" (also possible: "어디다 쓰시나요?", "어디다 쓰세요?")
+     - 10:12 "Since 와 가지고 이 방이야" (also possible: "센스 와 가지고 (as heard, no
+       clear Korean meaning)", "(word omitted)")
+     - 14:36 "그냥 쩔쩔매고 그냥 묻지요" (also possible: "그냥 쫄쫄 매고 그냥 웃죠 (large-v3
+       clip)", "그냥 쩔쩔매고 그냥 뭐지요 (small)")
+     - 14:36 "미국 사람하고 살아라" (also possible: "미국 사람으로 살아라 (full large-v3,
+       small)")
+     - 15:32 "여기까지 누추한 데 오셔 가지고" (also possible: "여기까지 유치한 데 오셔 가지고
+       (full large-v3, turbo)")
+     - 17:46 "대한부인회 초창기 시작… (in the Interviewer cue)" (also possible:
+       "the same words as Hongja White echoing the question ('대한부인회 초창기
+       시작?')")
+     - 18:27 "맞아요, 그 소위 잡음 잡으면 안 돼요? (Interviewer)" (also possible:
+       "맞아요. 그래서 소위 잡음을 잡으면 안 돼요. (clip large-v3)", "맞아, 그거 소위 잡음 작업은 안
+       돼요? (turbo retx)", "맞아. 그 소위 잡으면 들어가면 안 돼요? (small)")
+     - 21:37 "광주 본토박이네 (Interviewer)" (also possible: "광주 본토박이에요 (said
+       by Hongja White)")
+   Notes:
      - There may be two people on the interviewer side (a lower voice
        opens and closes the interview); both are labeled Interviewer.
-     - 4:16  A word heard as 주름 ("…다 주름 먹고 살고…") was dropped.
-     - 6:48  A word heard as 문호회 was dropped, and "얼마나 배경을 치죠"
-             at 6:57 could not be made out, so the question trails off.
-     - 9:02  An aside ("네, 받아보세요") and, at 18:27, an exchange
-             about background noise were dropped.
-     - 9:47  She dates the group to the 1960s; KWA dates its founding
-             to 1972. Left as spoken.
-     - 10:30 A word heard as 센스 was dropped ("…와 가지고 이 방이야").
-     - 11:22 조개 까는 공장 ("clam-shucking plant") was heard as 조개가는,
-             and 뽑고 ("pick") at 11:37 as 볶고.
-     - 14:46 A few words heard as "쫄쫄 맺고 그냥 묻죠" were dropped.
-     - 15:24 The end of "하나인데…" could not be made out.
-     - 17:13 Names as heard: 신도영 is written 신도형 (KWA lists Dori
-             Synn, 신도형); 수진 크로우 is written Sujin Crow, spelling
-             unknown; 종대문원 is Chong Dameron, 설자원익 is Sulja
-             Warnick, 옥순윌슨 is Ok Sun Wilson, 페더로 is Federal Way.
+     - 9:47 She dates the group to the 1960s; KWA dates its founding to
+       1972. Left as spoken.
+
    Each passage has a "speaker": "Interviewer" or the narrator's name.
 
    To correct a line, edit its "original" or "text". Keep "t" (seconds
-   from the start of the video) as it is, or the sync will drift.
-   Delete the reviewed:false line below once it has been checked all
-   through, and the "unverified" notice will disappear from the page. */
+   from the start of the video) as it is, or the sync will drift. */
 
 window.KWMB_TRANSCRIPT = {
   video: "JWU9dKE7U3k",
   lang: "ko",
-  reviewed: false,
   cues: [
     {
       "t": 0,
@@ -142,8 +160,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 57,
       "speaker": "Hongja White",
-      "original": "저희 집에서였습니다.",
-      "text": "At my house."
+      "original": "저희 집에서 했습니다.",
+      "text": "We did it at my house."
     },
     {
       "t": 58,
@@ -154,7 +172,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 65,
       "speaker": "Hongja White",
-      "original": "우리가 뭉쳐야 사니까. 우리 대한민국 사람들이 뭉쳐야지 우리가 힘이지, 안 그러면 미국 사람들한테 무시당하잖아요. 그러기 때문에 될 수 있으면 뭉쳐 보려고 열심히 뭉쳐 본 거죠.",
+      "original": "우리가 뭉쳐야 사니까. 우리 대한민국 사람들이 뭉쳐야지 우리가 힘이 있지, 안 그러면 미국 사람들한테 무시당하잖아요. 그렇기 때문에 될 수 있으면 뭉쳐 보려고 열심히 뭉쳐 본 거죠.",
       "text": "Because we had to stick together to survive. We Koreans only have strength when we stick together; otherwise Americans look down on us. So we tried as hard as we could to stick together."
     },
     {
@@ -166,14 +184,14 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 90,
       "speaker": "Hongja White",
-      "original": "그 시절에는 이웃하고 말할 사람도 없고, 그냥 반벙어리로 다 사는 거죠. 한국 분들이 오셔서 힘든 사람들 많았어요. 대학생들도 많았고. 주로 나이 먹은 사람들은 영어를 모르시니까 더 죽겠고. 어떻게 저렇게 그냥 살다 보니까 영어가 하나씩 늘어나고, 그렇게 해서 살아온 거죠.",
-      "text": "In those days there was no neighbor to talk to. We all lived half-mute. Many of the Koreans who came had a hard time. There were a lot of college students too. The older people especially didn't know English, so it was even harder for them. Somehow we just kept living, our English got a little better bit by bit, and that's how we got by."
+      "original": "그 시절에는 이웃하고 말할 사람도 없고, 그냥 반벙어리로 다 산 거죠. 한국 분들이 오셔서 힘든 사람들 많았어요. 대학생들도 많았고. 주로 나이 먹은 사람들은 더 영어를 모르시니까 더 죽겠고. 어떻게 저렇게 그냥 살다 보니까 영어가 하나씩 늘어나고, 그렇게 해서 이제 산 거죠. 살아온 거지, 지금까지.",
+      "text": "In those days there was no neighbor to talk to. We all lived half-mute. Many of the Koreans who came had a hard time. There were a lot of college students too. The older people especially knew even less English, so it was even harder for them. Somehow we just kept living, our English got a little better bit by bit, and that's how we lived. That's how we've lived, up to now."
     },
     {
       "t": 115,
       "speaker": "Interviewer",
-      "original": "그런데 말이 잘 안 통해서 굉장히 힘들고 좀 분하고 이런 거 없었어요?",
-      "text": "Weren't there times when it was very hard, even infuriating, because you couldn't make yourself understood?"
+      "original": "그런데 말이 잘 안 통해서 굉장히 힘들고 좀 화나고 이런 거 없었어요?",
+      "text": "Weren't there times when it was very hard and you got angry because you couldn't make yourself understood?"
     },
     {
       "t": 119,
@@ -196,7 +214,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 136,
       "speaker": "Interviewer",
-      "original": "그 얘기해 보세요. 얼마큼 힘들었는지.",
+      "original": "그거 얘기해 보세요. 얼마큼 힘들었는지.",
       "text": "Tell us about it, how hard it was."
     },
     {
@@ -214,8 +232,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 183,
       "speaker": "Interviewer",
-      "original": "벌써 한 것도 60년도 더 된 거 아니에요?",
-      "text": "That was more than sixty years ago, wasn't it?"
+      "original": "벌써 한, 그것도 60년도 더 된 거 아니에요?",
+      "text": "That was already more than sixty years ago, wasn't it?"
     },
     {
       "t": 186,
@@ -232,8 +250,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 195,
       "speaker": "Hongja White",
-      "original": "저요? 몇 년인지 잘 모르겠네.",
-      "text": "Me? I'm not sure what year."
+      "original": "제가요? 여기… 아휴, 몇 년인지 잘 모르겠네.",
+      "text": "Me? Here… oh, I'm not sure what year it was."
     },
     {
       "t": 201,
@@ -262,14 +280,14 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 209,
       "speaker": "Interviewer",
-      "original": "63년 전에 오셨으니까, 그 당시로 봐서는 한인들도 별로 살지 않고… 그 당시에 우리 한인들이 좀 있었어요? 그때 얘기 좀 해 보세요.",
-      "text": "You came 63 years ago, so back then not many Koreans lived there… Were there Koreans around then? Tell us about that time."
+      "original": "63년 전에 오셨으니까, 그 당시로 봐서는 한인들도 별로 살지 않고… 그 당시에 우리 한인들이 좀 있었어요? 그때 얘기 좀 해 보세요. 옛날 얘기.",
+      "text": "You came 63 years ago, so back then not many Koreans lived there… Were there Koreans around then? Tell us about that time. About the old days."
     },
     {
       "t": 220,
       "speaker": "Hongja White",
-      "original": "그때는 진짜 없었고, 대학생들 한 분씩 어쩌다가 이렇게 만나고. 결혼해서 들어온 사람들은 좀 가끔 드문드문, 국제결혼한 사람들 드문드문 있어 가지고. 너무 외로우니까 그런 사람을 내가 자꾸 이렇게 접근해 가지고, '우리 집에 좀 놀러 오세요' 하고, 내가 밥도 먹여 드리고 재워도 드리고. 또 거기에서 결혼하신 분들이 남편한테 좀 이렇게 맞았다고 해야 되나? 좀 이렇게 해 가지고, 내가 우리 집에 다 데려다 놓고 먹이고, 애들 데리고 있는 사람도 애들 다 데리고 우리 집 와서 다 먹고 살고 있었어요. 그 시절에는 많은 사람들이 우리 집에 와서 먹고 살았다고.",
-      "text": "Back then there really weren't any. Once in a while you'd meet a college student. Women who came by marriage were scattered here and there, a few women who had married Americans. They were so lonely that I kept reaching out to them: 'Come over to my house.' I fed them and let them sleep over. And some of the married women were, how should I say it, beaten by their husbands. So I brought them all to my house and fed them. The ones with children brought the children too, and they all came and lived at my house. In those days a lot of people lived and ate at my house."
+      "original": "그때는 진짜 없었고, 대학생들 한 분씩 어쩌다가 이렇게 만나고. 결혼해서 들어온 사람들은 좀 가끔 드문드문, 국제결혼한 사람들 드문드문 있어 가지고. 너무 외로우니까 그런 사람을 내가 자꾸 이렇게 접근해 가지고, '우리 집에 좀 놀러 오세요' 하고, 내가 밥도 먹여 드리고 재워도 드리고. 또 거기에서 결혼하신 분들이 남편한테 좀 이렇게 맞았다고 해야 되나? 좀 이렇게 해 가지고, 내가 우리 집에 다 데려다 놓고 먹이고, 애들 데리고 있는 사람도 애들 다 데리고 우리 집에 와서 주로 먹고 살고 있었어요. 그 시절에는 많은 사람들이 우리 집에 와서 먹고 살았다고.",
+      "text": "Back then there really weren't any. Once in a while you'd meet a college student. Women who came by marriage were scattered here and there, a few women who had married Americans. They were so lonely that I kept reaching out to them: 'Come over to my house.' I fed them and let them sleep over. And some of the married women were, how should I say it, beaten by their husbands. So I brought them all to my house and fed them. The ones with children brought the children too, and they mostly ate and lived at my house. In those days a lot of people lived and ate at my house."
     },
     {
       "t": 266,
@@ -280,8 +298,20 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 272,
       "speaker": "Hongja White",
-      "original": "그렇죠. 우리 집에서. 우리 집에서 부인회를 모여 살겠다 싶어서, 자꾸 이렇게 외국 사람들하고 결혼하신 분 와이프들 데려다 집에서 밥 먹이고 재우고 하다 보니까, 우리가 뭉쳐야 산다는 걸 내가 그때 깨달아서, 한국 사람을 모아서 우리가 이렇게 부인회를 하나 창설하자, 이런 생각을 해서. 무데뽀로 한 거죠, 무데뽀. 아무 뜻도 없이. 뭉쳐야 되니까.",
-      "text": "That's right. At my house. I thought we could gather as a women's association at my house. As I kept bringing home the wives who had married foreigners, feeding them and letting them sleep over, I realized that we had to stick together to survive. So I thought, let's gather Koreans and found a women's association. I just plunged in, no grand plan. Because we had to stick together."
+      "original": "그렇죠. 우리 집에서.",
+      "text": "That's right. At my house."
+    },
+    {
+      "t": 275,
+      "speaker": "Interviewer",
+      "original": "그 얘기 해 주세요.",
+      "text": "Tell us about that."
+    },
+    {
+      "t": 277,
+      "speaker": "Hongja White",
+      "original": "부인회를 우리가 모여 살겠다 싶어서, 자꾸 이렇게 외국 사람들하고 결혼하신 분 와이프들 데려다 집에서 밥 먹이고 재우고 하다 보니까, 우리가 뭉쳐야 산다는 걸 내가 그때 깨달아서, 한국 사람을 모아서 우리가 이렇게 부인회를 하나 창설하자, 이런 생각을 해서. 무데뽀로 한 거예요, 무데뽀. 아무 뜻도 없이. 뭉쳐야 되니까.",
+      "text": "I thought we'd gather as a women's association and get by that way. As I kept bringing home the wives who had married foreigners, feeding them and letting them sleep over, I realized then that we had to stick together to survive. So I thought, let's gather Koreans and found a women's association. I just plunged in headfirst, no grand plan. Because we had to stick together."
     },
     {
       "t": 305,
@@ -304,8 +334,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 311,
       "speaker": "Hongja White",
-      "original": "이름도 다 잊어버렸어. 몰라요.",
-      "text": "I've forgotten all the names. I don't know."
+      "original": "이름도 다 잊어버렸어. 몰라요, 나 지금.",
+      "text": "I've forgotten all the names. I don't know them now."
     },
     {
       "t": 312,
@@ -317,18 +347,18 @@ window.KWMB_TRANSCRIPT = {
       "t": 314,
       "speaker": "Hongja White",
       "original": "그때 좀 꽤 됐어요. 그래도 여기저기에서 나오셔 가지고 뭐 한 20명도 됐고, 10명에서 한 20명도 또 모아지고. 이제 자꾸 자꾸 이렇게 되니까 회장도 이렇게 하나씩 세워 주고, 내가 그렇게 된 거지.",
-      "text": "Quite a few. They came from here and there, about 20 of them. It grew from 10 to about 20. As it kept growing, we set up a president and so on. That's how I did it."
+      "text": "Quite a few. They came from here and there, about 20 of them. It grew from 10 to about 20. As it kept growing, I put presidents in place one by one. That's how it went."
     },
     {
       "t": 329,
       "speaker": "Interviewer",
-      "original": "선생님은 대모 같은 거군요.",
-      "text": "So you're something like its godmother."
+      "original": "이제는 대모 같은 거군요.",
+      "text": "So now you're something like its godmother."
     },
     {
       "t": 332,
       "speaker": "Hongja White",
-      "original": "그건 아니고, 그냥 내가 한국 사람으로서 우리가 살려면 뭉쳐야 되니까.",
+      "original": "아니, 그건 아니고, 그냥 내가 한국 사람으로서 우리가 살려면 뭉쳐야 되니까.",
       "text": "No, not that. It's just that as a Korean, I knew we had to stick together to survive."
     },
     {
@@ -346,7 +376,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 358,
       "speaker": "Interviewer",
-      "original": "그 당시에 초창기 활동했던 분들은 어떤 분들이 계세요? 김남희 회장 말고?",
+      "original": "그 당시에 초창기에 활동했던 분들은 어떤 분들이 계세요? 김남희 회장 말고?",
       "text": "Who else was active in the early days, besides Nam-Hi Kim?"
     },
     {
@@ -376,7 +406,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 388,
       "speaker": "Hongja White",
-      "original": "그때는 우리 집에…",
+      "original": "그때는 이제 우리 집에…",
       "text": "Back then, at my house…"
     },
     {
@@ -395,7 +425,7 @@ window.KWMB_TRANSCRIPT = {
       "t": 398,
       "speaker": "Interviewer",
       "original": "지금 대한부인회가 굉장히… 한 십여 명으로 시작했는데 1,800명이나 되는 큰 단체로 커졌거든요.",
-      "text": "KWA started with about ten people, and now it has grown into a big organization of 1,800."
+      "text": "KWA has really… it started with about ten people, and it has grown into a big organization of 1,800."
     },
     {
       "t": 407,
@@ -406,14 +436,14 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 408,
       "speaker": "Interviewer",
-      "original": "그 대한부인회를 맨 처음에 시작한 입장에서, 어떤 감회가 있으세요? 어떤 감정이 있으세요? 처음에 시작할 때… 지금 와서 보니까 얼마나…",
-      "text": "As the person who started KWA, how does it make you feel? What do you feel? When you started… and now, seeing it…"
+      "original": "그 대한부인회를 맨 처음에 시작한 분의 입장에서, 어떤 감회가 있으세요? 어떤 감정이 있으세요? 처음에 시작할 때… 지금 와서 보니까 얼마나 대견하시죠?",
+      "text": "As the person who first started KWA, how does it make you feel? What do you feel? When you started… and now, looking at it, you must be so proud of it?"
     },
     {
       "t": 419,
       "speaker": "Hongja White",
-      "original": "지금은 너무 proud of my country. 이렇게 많이 오셔 가지고 참석을 해 가지고, 점점점점 그렇게 불어나니까, 미국에서도 우리가 지지 않겠다, 이런 생각을 하고. 될 수 있으면 한인들도 똑바로 좀 지키면서 열심히 그룹을 만들어 가면서 살았으면 좋겠다, 이런 식이죠. 왜냐면 어디 가면 한국 사람이라고 미국 사람은 주로 무시하거든요. 한국 사람을 좀 많이 무시해요. 그래서 그것 때문에 내가 시작한 거예요, 그거를.",
-      "text": "Now I'm so proud of my country. So many people came and took part, and it kept growing and growing, so I think, we won't lose out even in America. I hope Koreans hold their ground and keep building groups as they live. Because wherever you go, Americans mostly look down on you for being Korean. They look down on Koreans a lot. That's why I started it."
+      "original": "지금은 너무 proud of my cou— people이 이렇게 많이 오셔 가지고, 그렇게 참석을 해 가지고, 점점점점 그렇게 불어나니까, 미국에서도 우리가 지지 않겠다, 이런 생각을 하고. 될 수 있으면 한인들도 똑바로 좀 지키면서 열심히 그룹을 만들어 가면서 살았으면 좋겠다, 이런 식이죠. 왜냐하면 어디 가면 한국 사람이라고 미국 사람은 주로 무시하거든요. 한국 사람을 좀 많이 무시해요. 그래서 그것 때문에 내가 시작한 거예요, 그거를.",
+      "text": "Now I'm so proud of my cou— my people, so many of them coming and taking part, and it kept growing and growing, so I think, we won't lose out even in America. I hope Koreans hold their ground and keep building groups as they live. Because wherever you go, Americans mostly look down on you for being Korean. They look down on Koreans a lot. That's why I started it."
     },
     {
       "t": 457,
@@ -496,8 +526,32 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 520,
       "speaker": "Hongja White",
-      "original": "그거야 별거는 아니지만… 아니, 이제 우리가 돈이 필요하니까 김치도 좀 팔아서 부인회에 모아서, 우리가 도네이션을 해야 되고. 또 특히 할머니들, 그 시절에 좀 곤란한 할머니들이 좀 있었어요. 그 할머니들한테도 쌀을 팔아 드리고.",
-      "text": "That's nothing special… We needed money, so we sold kimchi and pooled it in the association, and we had to give donations. And especially for the grandmothers. Back then there were some grandmothers having a hard time. We bought rice for them too."
+      "original": "그거야 별거는 아니지만…",
+      "text": "That's nothing special…"
+    },
+    {
+      "t": 522,
+      "speaker": "Interviewer",
+      "original": "아주 중요해요.",
+      "text": "It's very important."
+    },
+    {
+      "t": 523,
+      "speaker": "Hongja White",
+      "original": "아니, 이제 우리가 돈이 필요하니까 김치도 좀 팔아서 부인회에 모아 가지고, 우리가 도네이션을 해야 되고. 또 특히 할머니들, 그 시절에 좀 곤란한 할머니들이 좀 있었어요. 그 할머니들한테도 쌀이라도 팔아 드리고.",
+      "text": "Well, we needed money, so we sold kimchi and pooled the money in the association, and we had to give donations. And especially for the grandmothers. Back then there were some grandmothers having a hard time. We'd at least buy rice for them too."
+    },
+    {
+      "t": 543,
+      "speaker": "Interviewer",
+      "original": "네, 받아 보세요.",
+      "text": "Yes, go ahead and take it."
+    },
+    {
+      "t": 546,
+      "speaker": "Hongja White",
+      "original": "누구야?",
+      "text": "Who is it?"
     },
     {
       "t": 550,
@@ -514,7 +568,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 566,
       "speaker": "Interviewer",
-      "original": "그럼 그 모아진 돈은 어디다 쓰신 거예요?",
+      "original": "그럼 그 모아진 돈은 어디다 쓰시죠?",
       "text": "Then what did you use the money for?"
     },
     {
@@ -580,7 +634,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 612,
       "speaker": "Hongja White",
-      "original": "아, 그건 좀 내가 살다 보니까 좀 넓은 세상으로 가고 싶어 가지고. 왜냐면은 거기는 너무 좁아요. 그리고 이제 다 사람들이 살 만큼 다 잘 사시고 이제 하니까, '아, 나는 이제 뉴욕에 좀 가 봐야 되겠다' 하고 이리 온 거죠. 와 가지고 이 방이야. 이 방에서 이렇게 오래 살고 있어요.",
+      "original": "아, 그건 좀 내가 살다 보니까 좀 넓은 세상으로 가고 싶어 가지고. 왜냐면은 거기는 너무 좁아요. 그리고 이제 다 사람들이 살 만큼 다 잘 사시고 이제 하니까, '아, 나는 이제 뉴욕에 좀 가 봐야 되겠다' 하고 이리 온 거죠. Since 와 가지고 이 방이야. 이 방에서 이렇게 오래 살고 있어요.",
       "text": "Well, as time went on I wanted to go out into a wider world. It's too small there. And everyone was doing well enough by then, so I thought, 'I should go to New York,' and I came here. Since I came, it's been this room. I've lived in this room a long time."
     },
     {
@@ -604,8 +658,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 665,
       "speaker": "Hongja White",
-      "original": "네. 원래 거기 있던 자리로 돌아가려고 애쓰고 있습니다.",
-      "text": "Yes. I'm trying to go back to where I was."
+      "original": "네. 원래 거기 있던 자리로 도로 돌아가려고 애쓰고 있습니다.",
+      "text": "Yes. I'm trying to go back to where I was before."
     },
     {
       "t": 672,
@@ -616,8 +670,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 682,
       "speaker": "Hongja White",
-      "original": "아, 참, 할머니들, 아주머니들 이렇게 오셔 가지고 조개 까는 공장. 그런데 또 젊은 여자들은 밭에 가서, 나도 갔었지만, 우리가 이제 가서 그 뭐 뽑고 다듬고 이런 거, 주로 미국 농장에 가서 주로 그런 일을 했죠, 다들. 닭 공장에서도 부인네들이 많이 가고. 나는 안 가 봤지만 한국 사람이 많이 가 있어요.",
-      "text": "Oh, the grandmothers and the older women came and worked at the clam-shucking plant. The young women went to the fields. I went too. We'd pick and trim crops, mostly working on American farms. A lot of the wives went to the chicken plant too. I never went, but a lot of Koreans worked there."
+      "original": "아, 참, 할머니들, 아주머니들 이렇게 오셔 가지고 그 뭐야, 조개 까는 공장. 그런데 또 젊은 여자들은 밭에 가서, 나도 갔었지만, 우리가 이제 가 가지고 뭐 뽑고 다듬고 이런 거, 주로 미국 농장에 가 가지고 주로 그런 일을 했죠, 다들. 닭 공장에서도 부인네들이 많이 가고. 나는 안 가 봤지만 닭 공장에도 한국 사람이 많이 가 있어요.",
+      "text": "Oh, the grandmothers and the older women came and worked at, what was it, the clam-shucking plant. The young women went to the fields. I went too. We'd go pick and trim crops, mostly working on American farms. A lot of the wives went to the chicken plant too. I never went, but a lot of Koreans worked at the chicken plant."
     },
     {
       "t": 718,
@@ -640,13 +694,13 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 731,
       "speaker": "Hongja White",
-      "original": "그렇죠. 부인회를.",
-      "text": "That's right. The women's association."
+      "original": "그렇죠. 그렇죠.",
+      "text": "That's right. That's right."
     },
     {
       "t": 733,
       "speaker": "Interviewer",
-      "original": "지금은 이제 뭐 다들 좀 옛날 같지 않고 어렵지 않게 잘 지내고 있는데, 그래도 여기 미국에 온 우리 한인 여성들한테, 좀 선배로서, 60년 전에 온 분의 입장에서 한 말씀 꼭 해 주고 싶은 말씀 있으세요?",
+      "original": "지금은 이제 뭐 다들 좀 옛날 같지 않고 어렵지 않게 잘 지내고 있는데, 그래도 여기 미국에 온 우리 한인 여성들한테, 내가 좀 선배로서, 60년 전에 온 분의 입장에서 한 말씀 꼭 해 주고 싶은 말씀 있으세요?",
       "text": "Things aren't like the old days now, and people are doing well. Still, as an elder who came sixty years ago, is there something you'd like to say to the Korean women who have come to America?"
     },
     {
@@ -676,7 +730,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 790,
       "speaker": "Hongja White",
-      "original": "거기 지금 다 계시는 여러분들, 참 훌륭하시고 다 용감하시게 거기에서 지키고, 한 사람이라도 더 부인회에 조인해서, 모든 것을 전도 이렇게, 인도해 주면서 알선해 주면서, 그렇게 잘하고 사셨으면 좋겠어요. 다른 거 바랄 거 없고. 또 부인회가 열심히 크게 해서 이 나라에서 정말 알아주는 정도로 좀 그랬으면 좋겠어요.",
+      "original": "거기 지금 다 계시는 여러분들, 참 훌륭하시고 다 용감하시게 거기에서 지키고, 한 사람이라도 더 부인회에 조인해 가지고, 모든 것을 전도 이렇게, 인도해 주면서 알선해 주면서, 그렇게 잘하고 사셨으면 좋겠어요. 다른 거 바랄 거 없고. 또 부인회가 열심히 크게 해서 이 나라에서 정말 알아주는 정도로 좀 그랬으면 좋겠어요.",
       "text": "Everyone there now, you are wonderful, and you bravely hold your ground there. I hope you bring in even one more person to join the association, guiding them and connecting them with what they need, and live well doing that. I wish for nothing else. And I hope the association works hard and grows until it's truly recognized in this country."
     },
     {
@@ -724,8 +778,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 876,
       "speaker": "Hongja White",
-      "original": "그럴 때는 내가 가서 말릴 수도 없고, 남편들이 무서우니까. 그냥 가서 말리려고 하면 막 '꺼지라'고 그러고, 영어로 막 그래 버리니까 무서워서 못 들어가고… 그리고 여자들은 내가 가끔 데리고 와요, 저희 집에. 우리 집에서 재워 주고 먹여 주고 다 해. 어디 갈 데 없는 사람은 내가 다 재워 주고 다 먹여 주고. 우리 남편한테는 내가 죄 져 가지고. 그래서 내가 '아니다, 이거는', 내가 이제 물러서서, '우리 남편 좋은 여자 결혼해서 미국 사람하고 살아라' 했다고. 그래서 내가 이혼하고 나온 겁니다.",
-      "text": "At those times I couldn't go and stop it, because the husbands were frightening. If I went to stop them, they'd yell 'Get out!' in English, so I was too scared to go in… And sometimes I'd bring the women to my house. I let them sleep at my house, fed them, everything. Anyone with nowhere to go, I let them sleep and fed them. I felt I was wronging my own husband. So I thought, 'This isn't right,' and I stepped aside: 'My husband should marry a good woman, an American, and live with her,' I told him. So I divorced and left."
+      "original": "그럴 때는 내가 가 본들 가서 말릴 수도 없고, 남편들이 무서우니까. 그냥 뭐 좀 가서 말리려고 하면 막 '꺼지라'고 그러고, 영어로 막 그래 버리니까 무서워서 못 들어가고, 그냥 쩔쩔매고 그냥 묻지요. 그리고 여자들은 내가 가끔 데리고 와요, 저희 집에. 우리 집에서 재워 주고 먹여 주고 다 해. 어디 갈 데 없는 사람은 내가 다 재워 주고 다 먹여 주고. 우리 남편한테는 내가 죄 져 가지고. 그래서 내가 '아니다, 이거는', 내가 이제는 물러서서, '우리 남편 좋은 여자 결혼해서 미국 사람하고 살아라' 했다고. 그래서 내가 이혼하고 나온 겁니다.",
+      "text": "At those times, even if I went, I couldn't stop it, because the husbands were frightening. If I went to try to stop them, they'd yell 'Get out!' in English, so I was too scared to go in. I'd just be at a loss and keep it buried. And sometimes I'd bring the women to my house. I let them sleep at my house, fed them, everything. Anyone with nowhere to go, I let them sleep and fed them. I felt I was wronging my own husband. So I thought, 'This isn't right,' and I stepped aside: 'My husband should marry a good woman, an American, and live with her,' I told him. So I divorced and left."
     },
     {
       "t": 918,
@@ -742,14 +796,14 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 922,
       "speaker": "Interviewer",
-      "original": "자녀분이 하나예요? 둘이에요?",
+      "original": "자녀분이 어떻게, 하나예요? 둘이에요?",
       "text": "Do you have one child, or two?"
     },
     {
       "t": 924,
       "speaker": "Hongja White",
-      "original": "하나인데…",
-      "text": "One…"
+      "original": "하나인데 데려다가…",
+      "text": "One, and I brought…"
     },
     {
       "t": 926,
@@ -772,7 +826,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 932,
       "speaker": "Hongja White",
-      "original": "아이고, 감사합니다. 여기까지 유치한 데 오셔 가지고, 별것도 아닌데 오셔 가지고, 진짜 감사합니다.",
+      "original": "아이고, 감사합니다. 여기까지 누추한 데 오셔 가지고, 별것도 아닌데 오셔 가지고, 진짜 감사합니다.",
       "text": "Oh, thank you. You came all the way to this humble place, for nothing special. Thank you so much."
     },
     {
@@ -790,8 +844,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 961,
       "speaker": "Interviewer",
-      "original": "대한부인회 임원들이 지금 홍자 화이트 전 회장님을 모실 준비를 하고 있어요. 그래서 대한부인회 아파트에 아파트를 마련해 드리는데, 지금 비어 있는 아파트가 없어 갖고, 조금 기다리시면 오실 수 있을 것 같아요. 우리 임원들이 특별히 관심을 많이 갖고 있는데, 임원들한테 한 말씀 해 주세요.",
-      "text": "KWA's board is getting ready to welcome you, our former president. We're arranging an apartment for you in KWA's housing, but none are vacant right now, so I think you'll be able to come if you can wait a little. The board members care about this especially. Please say a word to them."
+      "original": "대한부인회 임원들이 지금 홍자 화이트 전 회장님을 모실 준비를 하고 있어요. 그래서 대한부인회 아파트에 아파트를 마련해 드리는데, 지금 비어 있는 아파트가 없어 갖고, 조금 기다리시고 오실 수 있을 것 같아요. 우리 임원들이 특별히 관심을 많이 갖고 있는데, 임원들한테 한 말씀 해 주세요.",
+      "text": "KWA's board is getting ready to welcome you, our former president. We're arranging an apartment for you in KWA's housing, but none are vacant right now, so I think you'll be able to come after waiting a little. The board members care about this especially. Please say a word to them."
     },
     {
       "t": 982,
@@ -820,8 +874,20 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1013,
       "speaker": "Hongja White",
-      "original": "좀 됐죠. 글쎄, 좀 그 정도 돼서 왔을 거예요.",
-      "text": "A while. Well, it was probably about that long before I came here."
+      "original": "좀 됐죠.",
+      "text": "It's been a while."
+    },
+    {
+      "t": 1015,
+      "speaker": "Interviewer",
+      "original": "예, 10여 년 정도 돼요?",
+      "text": "So about ten years?"
+    },
+    {
+      "t": 1018,
+      "speaker": "Hongja White",
+      "original": "글쎄, 좀 그 정도 돼서 왔을 거예요, 제가.",
+      "text": "Well, it was probably about that long before I came here."
     },
     {
       "t": 1020,
@@ -850,8 +916,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1038,
       "speaker": "Interviewer",
-      "original": "그 전에 신도형. 수진 크로우 말씀하시는 건가요?",
-      "text": "Before her, Shin Do-hyung. Do you mean Sujin Crow?"
+      "original": "그 전에 신도형, 또 수진 크로우 말씀하시는 건가요?",
+      "text": "Before her, Shin Do-hyung, and… do you mean Sujin Crow?"
     },
     {
       "t": 1042,
@@ -862,8 +928,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1044,
       "speaker": "Interviewer",
-      "original": "종 데머런, 설자 워닉, 옥순 윌슨.",
-      "text": "Chong Dameron, Sulja Warnick, Ok Sun Wilson."
+      "original": "종 데머런, 설자 워닉… 설자 워닉인가? 옥순 윌슨.",
+      "text": "Chong Dameron, Sulja Warnick… was it Sulja Warnick? Ok Sun Wilson."
     },
     {
       "t": 1054,
@@ -880,14 +946,14 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1066,
       "speaker": "Interviewer",
-      "original": "그 대한부인회에서 간병인 있죠, 인홈 케어. 인홈 케어 시스템을 대한부인회가 지금 해서 참 잘 성공하고 있거든요. 대한부인회의 인홈 케어 시스템을 맨 처음에 누가 시작했을까요? 기억나세요? 대한부인회 초창기 때 인홈 케어를 시작한 사람.",
-      "text": "KWA has caregivers, in-home care. KWA runs an in-home care program now, and it's been very successful. Who first started KWA's in-home care? Do you remember? The person who started in-home care in KWA's early days."
+      "original": "그 대한부인회에서 간병인 있죠, 인홈 케어. 인홈 케어 시스템을 대한부인회가 지금 해서 참 잘 성공하고 있거든요. 대한부인회의 인홈 케어 시스템을 맨 처음에 누가 시작했어요? 기억나세요? 대한부인회 초창기 시작… 초창기 때 인홈 케어를 시작한 사람.",
+      "text": "KWA has caregivers, in-home care. KWA runs an in-home care program now, and it's been very successful. Who first started KWA's in-home care? Do you remember? When KWA was just starting… the person who started in-home care in the early days."
     },
     {
       "t": 1091,
       "speaker": "Hongja White",
-      "original": "대한부인회 초창기에 시작한 사람이 나거든요. 거기 인홈 케어, 간병인… 간병인이 그때는 별로 없었는데.",
-      "text": "I'm the one who started KWA in the early days. But in-home care, caregivers… there weren't really any caregivers back then."
+      "original": "대한부인회 초창기에 시작한 사람이 나거든요. 그건 그렇고, 거기 인홈 케어, 간병인… 간병인이 그때는 별로 없었는데.",
+      "text": "I'm the one who started KWA in the early days. That aside, in-home care there, caregivers… there weren't really any caregivers back then."
     },
     {
       "t": 1101,
@@ -898,11 +964,23 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1104,
       "speaker": "Hongja White",
-      "original": "네, 그 후의 일이죠. 한참, 한참 지났어요.",
-      "text": "Yes, that came later. Much, much later."
+      "original": "네, 그 후의 일이죠.",
+      "text": "Yes, that came later."
     },
     {
-      "t": 1108,
+      "t": 1107,
+      "speaker": "Interviewer",
+      "original": "맞아요, 그 소위 잡음 잡으면 안 돼요?",
+      "text": "Right, can't we get rid of the background noise?"
+    },
+    {
+      "t": 1110,
+      "speaker": "Hongja White",
+      "original": "한참, 한참 지나서.",
+      "text": "Much, much later."
+    },
+    {
+      "t": 1112,
       "speaker": "Interviewer",
       "original": "그때는 안 계셨구나. 네, 알겠습니다.",
       "text": "So you weren't there by then. I see."
@@ -916,14 +994,14 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1123,
       "speaker": "Hongja White",
-      "original": "선생님들이 더 자랑스럽죠. 여기까지 와서, 정말 아무것도 모르는 나에게 유튜브를 해 주셨으니까 얼마나 감사합니까.",
-      "text": "You're the ones to be proud of. You came all the way here and made a YouTube video of me, someone who knows nothing. I'm so grateful."
+      "original": "아유, 선생님들이 더 자랑스럽죠. 여기까지 와서 지금, 정말 아무것도 모르는 나에게 유튜브를 해 주셨으니까 얼마나 감사합니까.",
+      "text": "Oh, you're the ones to be proud of. You came all the way here and made a YouTube video of me, someone who knows nothing. I'm so grateful."
     },
     {
       "t": 1132,
       "speaker": "Interviewer",
-      "original": "그러니까 타코마로 이사 가시는 거 말고, 이거는 꼭 해 보고 싶다 하는 거 없으세요?",
-      "text": "Besides moving to Tacoma, is there anything you'd really like to do?"
+      "original": "그러니까 타코마로 이사 가시는 거 말고, 요거는 한번 꼭 해 보고 싶다 하는 거 없으세요?",
+      "text": "Besides moving to Tacoma, is there anything you'd really like to do at least once?"
     },
     {
       "t": 1138,
@@ -982,8 +1060,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1244,
       "speaker": "Hongja White",
-      "original": "다른 한국 여자들하고는 많이 싸우는 거 내가 잘…",
-      "text": "With other Korean women, I fought a lot…"
+      "original": "다른 한국 여자들하고는 많이 싸운 거 내가 잘…",
+      "text": "Fighting a lot with other Korean women, I don't really…"
     },
     {
       "t": 1249,
@@ -1006,8 +1084,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1262,
       "speaker": "Hongja White",
-      "original": "싸운 것보다 남편한테 내가 좀 몰아갔죠. '여자는 영어를 모른다. 어떻게 이 여자를, 한국에서 들어온 지도 얼마 안 돼 가지고, 와이프를 사랑해 줄지는 모를망정, 그렇게 사람을 때리냐.' 이런 식으로 내가 말은 하죠. 한두 사람은 했어요.",
-      "text": "Rather than fighting, I cornered the husband. 'She doesn't know English. How can you do this to her? She's only just come from Korea. You should be loving your wife, and instead you beat her like that?' That's how I'd put it. I did it for one or two women."
+      "original": "싸운 것보다도 남편한테 내가 좀 뭐라 하죠. '여자는 영어를 모른다. 어떻게 이 여자를, 한국에서 데리고 온 지도 얼마 안 돼 가지고, 와이프를 사랑해 줄지는 모를망정, 그렇게 사람을 때려 패냐.' 이런 식으로 내가 말은 하죠. 한두 사람은 했어요.",
+      "text": "Rather than fighting, I'd give the husband a piece of my mind. 'She doesn't know English. How can you do this to her? You only just brought her over from Korea. You may not love your wife, but how can you beat a person like that?' That's how I'd put it. I did it for one or two women."
     },
     {
       "t": 1282,
@@ -1024,7 +1102,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1293,
       "speaker": "Interviewer",
-      "original": "학교도 거기 다니고 그러지 않으셨어요? 어디서?",
+      "original": "학교도 거기서 다니고 그러지 않으셨어요? 어디서?",
       "text": "Didn't you go to school there? Where?"
     },
     {
@@ -1036,8 +1114,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1297,
       "speaker": "Interviewer",
-      "original": "광주요? 그렇군요. 부모님들은 모셔 오지 않고?",
-      "text": "Gwangju? I see. You didn't bring your parents over?"
+      "original": "광주요? 그렇군요. 광주 본토박이네. 그리고 부모님들은 모셔 오지 않고?",
+      "text": "Gwangju? I see. A Gwangju native, then. And you didn't bring your parents over?"
     },
     {
       "t": 1303,

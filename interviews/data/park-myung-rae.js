@@ -4,47 +4,46 @@
    as "original" and gives an English translation as "text"; the page
    shows both, and the PDF prints the English.
 
-   MACHINE-TRANSCRIBED with Whisper large-v3-turbo from the final cut of
-   the recording (20:11), then cleaned and translated. Speech-recognition
-   errors were fixed from context, and each unclear word was
-   re-transcribed from a tight clip around it (beam search, a topic
-   prompt, a higher sampling temperature and the small model), keeping
-   the reading the passes agreed on. Speakers were told apart by voice
-   pitch. Timings are to the nearest second. NOTHING HAS BEEN CHECKED BY
-   EAR YET: have a Korean speaker check the transcript and the
-   translation. In particular:
-     - 3:01  "Pacific Villa," heard as 패스비킬라, is KWA's first senior
-             housing, opened in 1998.
-     - 6:09  "organic identity" is as heard, in English.
-     - 6:48  She says "Vancouver, BC" (밴쿠버 BC). KWA's office is in
-             Vancouver, Washington, so the English says only Vancouver.
-     - 12:22 잘난 체하지 마 ("don't act like you're better than others")
-             was heard as 자 렌치 하지 마 / 자랑치하지 마.
-     - 14:12 "U.S. citizen" was heard as US 시리즈니.
-     - 15:25, 15:33 소스 ("resource") was heard as 솔리스.
-     - 15:53 The interviewer's "value" was heard as 바위.
-     - 18:22, 18:38 "oppression" was heard as "operation"; she says
-             "oppressed" a few seconds later.
-     - 19:25, 19:49 "KWA" was heard as 캐러비아 and 캐더비.
-     - 4:15  The interviewer's question credits the War Brides Act of
-             1945. Korean wives could not use that act until the 1947
-             amendment, and most came after the 1952 Immigration and
-             Nationality Act (see Source Material). Left as spoken.
-   Two unclear words at 4:10-4:12, during the mic adjustment, were
-   dropped. If the YouTube upload is not this same cut, the timings
-   will drift.
+   Machine-transcribed with Whisper large-v3-turbo from the final cut
+   of the recording (20:11), then cleaned and translated.
+
+   On October 9, 2026 every passage was cross-checked against the
+   recording: it was re-transcribed with Whisper large-v3,
+   large-v3-turbo and small (the whole recording, and each passage on
+   its own) and the readings were compared and settled by AI review.
+   Words that could not be made out for certain were given their most
+   likely reading instead of being dropped. No person has yet checked it
+   by ear.
+   Best guesses, for anyone checking against the audio:
+     - 4:07 "오케이. 잘 안 들려요? 아니면…" (also possible: "오케이. 잘 안 들려요? 그러면
+       (large-v3 full pass; could be the interviewer's 'So,' before
+       'Next question')", "오케이. 잘 안 들려요? (+ interviewer's 네, retx
+       249.3-256)")
+     - 6:01 "자기네 organic identity (unchanged, already flagged in the
+       file header)" (also possible: "자기네 original identity (large-v3
+       full and clip: 오리지널 아이덴티티)")
+     - 15:11 "그런 서비스도 해 드리고" (also possible: "그런 소스도 해 드리고 (resource)",
+       "솔리스 (as heard by turbo/small)")
+     - 15:50 "value가 있는 것 같아요?" (also possible: "value가 있는지", "value가
+       있나요?")
+     - 16:01 "펀드를 줘야 돼?" (also possible: "펀딩을 줘야 돼?", "funder를 (as
+       literally heard, 펀더를)")
+   Notes:
+     - 4:15 The interviewer's question credits the War Brides Act of
+       1945. Korean wives could not use that act until the 1947
+       amendment, and most came after the 1952 Immigration and
+       Nationality Act (see Source Material). Left as spoken.
+     - 6:48 She says "Vancouver, BC" (밴쿠버 BC). KWA's office is in
+       Vancouver, Washington, so the English says only Vancouver.
 
    Each passage has a "speaker": "Interviewer" or the narrator's name.
 
    To correct a line, edit its "original" or "text". Keep "t" (seconds
-   from the start of the video) as it is, or the sync will drift.
-   Delete the reviewed:false line below once it has been checked all
-   through, and the "unverified" notice will disappear from the page. */
+   from the start of the video) as it is, or the sync will drift. */
 
 window.KWMB_TRANSCRIPT = {
   video: "0JZ9-g8DVII",
   lang: "ko",
-  reviewed: false,
   cues: [
     {
       "t": 0,
@@ -61,13 +60,13 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 35,
       "speaker": "Interviewer",
-      "original": "감사합니다. 그다음에 이제 mission of KWA가, 오늘의 KWA는 미션이 뭐고요. 그다음에 1972년에 시작했을 때, 어떻게 바뀌었어요?",
+      "original": "감사합니다. 그다음에 이제 mission of KWA가, 오늘의 KWA는 미션이 뭐고요. 그다음에 1972년에 시작했을 때, 어떻게 바꿨어요?",
       "text": "Thank you. Next, KWA's mission: what is KWA's mission today? And how has it changed since it started in 1972?"
     },
     {
       "t": 48,
       "speaker": "Park Myung Rae",
-      "original": "저희의 미션은 아주 간단하게 말해서 caring for community. 그래서 커뮤니티를 위한다. 이게 굉장히, 이 미션이 왜 좋냐면, 우리는 이런 걸 하기 위해서 생긴 기관이 아니에요. 우리는 커뮤니티가 필요로 하는 거는 뭐든지 익스팬드를 했어요.",
+      "original": "저희의 미션은 아주 간단하게 말해서 caring for community. 그래서 커뮤니티를 위한다. 이게 굉장히, 이 미션이 왜 좋냐면, 우리는 이런 걸 하기 위해서 생긴 기관이 아니에요. 우리는 커뮤니티가 필요로 하는 거는 뭐든지 expand를 했어요.",
       "text": "Put very simply, our mission is caring for community. We exist for the community. The reason I like this mission so much is that we weren't founded to do one particular thing. Whatever the community needed, we expanded into it."
     },
     {
@@ -85,7 +84,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 115,
       "speaker": "Park Myung Rae",
-      "original": "그래서 이분들이 당신들의 집에다가 숨겨 주다가, 이게 시기적으로 우리가 할 수 있는 게 아니구나. 그래서 여기 카운티에 가서, 남편들이 군인이었기 때문에 도움도 받을 수 있었을 거예요. 카운티에 가서 이런 쉘터를 하나 짓게 해 달라. 그래서 거기서 땅을 받고. 그리고 이분들이 김치를 팔면서, 떡을 팔면서, 빈대떡을 팔면서 돈을 모으기 시작해서 처음 시작한 게 DV 쉘터예요. 이렇게 physical abuse 당하는 사람들을 숨겨 주는 것.",
+      "original": "그래서 이분들이 당신들의 집에다가 숨겨 주다가, 이게 시기적으로 우리가 할 수 있는 게 아니구나. 그래서 여기 카운티에 가서, 남편들이 군인이었기 때문에 도움도 받을 수 있었을 거예요. 카운티에 가서 이런 셸터를 하나 짓게 해 달라. 그래서 거기서 땅을 받고. 그리고 이분들이 김치를 팔면서, 떡을 팔면서, 빈대떡을 팔면서 돈을 모으기 시작해서 처음 시작한 게 DV 셸터예요. 이렇게 physical abuse 당하는 사람들을 숨겨 주는 것.",
       "text": "They hid women in their own homes until they realized this wasn't something they could keep doing themselves. So they went to the county here, and since their husbands were in the military, they were probably able to get some help. They asked the county to let them build a shelter, and they got land from it. Then they started raising money by selling kimchi, selling rice cakes, selling bindaetteok, and the first thing they started was the DV shelter: hiding people who were being physically abused."
     },
     {
@@ -97,7 +96,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 161,
       "speaker": "Park Myung Rae",
-      "original": "그런데 나중에 보니까 그 당시 전쟁 때 오신 분들이, 많은 분들이 한국에서 가난이 싫어서 나온 사람들이 많아요. 그런데 부모님들한테 생계를 책임지던 사람들이었잖아요. 그러니까 '내가 부모님을 모셔 오고 싶어요.' 그런데 장소가 없어. 오케이, 우리 노인 아파트 짓자. 그래서 저희가 퍼시픽 빌라를 지은 거예요. 그래서 그분들을 모셔 온 거예요.",
+      "original": "그런데 나중에 보니까 그 당시 전쟁 때 오신 분들이, 많은 분들이 한국에서 가난이 싫어서 나온 사람들이 많아요. 그런데 부모님들한테 생계를 책임지던 사람들이었잖아요. 그러니까 '내가 부모님을 모셔 오고 싶어요.' 그런데 장소가 없어요. 오케이, 우리 노인 아파트 짓자. 그래서 저희가 퍼시픽 빌라를 지은 거예요. 그래서 그분들을 모셔 온 거예요.",
       "text": "Later they saw that many of the women who came around the time of the war had left Korea to escape poverty. And they had been the ones supporting their parents. So: 'I want to bring my parents over.' But there was nowhere for them to live. Okay, let's build senior apartments. That's why we built Pacific Villa, and that's how the parents were brought over."
     },
     {
@@ -121,19 +120,19 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 245,
       "speaker": "Interviewer",
-      "original": "혹시 이거 더 하기 전에 마이크 좀 올려 주실 수 있을까요?",
-      "text": "Before we go on, could you move the mic up a little?"
+      "original": "혹시 이거 더 하기 전에 마이크 좀 올려 주세요.",
+      "text": "Before we go on, please move the mic up a little."
     },
     {
       "t": 247,
       "speaker": "Park Myung Rae",
-      "original": "오케이. 잘 안 들려요?",
-      "text": "Okay. Is it hard to hear me?"
+      "original": "오케이. 잘 안 들려요? 아니면…",
+      "text": "Okay. Is it hard to hear me? Or…"
     },
     {
       "t": 253,
       "speaker": "Interviewer",
-      "original": "Next question. War Brides Act of 1945가 많이 도움이 많이 됐잖아요. 이렇게 Korean war bride가 들어올 수 있게, 아메리카를 들어올 수 있게. From KWA's perspective에서는 이 법이 얼마큼 중요했죠?",
+      "original": "Next question. War Brides Act of 1945가 많이 도움이 많이 됐잖아요. 이렇게 Korean war bride가 들어올 수 있게, 아메리카를 들어올 수 있게. From KWA's perspective에서는 이 법이 얼마큼 중요했어요?",
       "text": "Next question. The War Brides Act of 1945 helped a lot, letting Korean war brides come into America. From KWA's perspective, how important was this law?"
     },
     {
@@ -145,8 +144,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 297,
       "speaker": "Park Myung Rae",
-      "original": "그래서 war bride law가 없었으면 이 많은 사람들이 한국에서 더 이상 살 수 있는 길이 없었을 거예요. 그래서 이분들은 미국을 온 게 선택이 아니라 살기 위해서 오신 분들이 많아요, 그 당시 사람들은.",
-      "text": "Without the war bride law, many of these people would have had no way left to survive in Korea. So for many people back then, coming to America wasn't a choice. They came in order to live."
+      "original": "그래서 war bride rule이 없었으면 이 많은 사람들이 한국에서 더 이상 살 수 있는 길이 없었을 거예요. 그래서 이분들은 미국을 온 게 선택이 아니라 살기 위해서 오신 분들이 많아요, 그 당시 사람들은.",
+      "text": "Without the war bride rule, many of these people would have had no way left to survive in Korea. So for many people back then, coming to America wasn't a choice. They came in order to live."
     },
     {
       "t": 311,
@@ -169,7 +168,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 379,
       "speaker": "Interviewer",
-      "original": "오늘은 KWA가, 얘기한 것처럼 14 counties, 15 offices, 거의 2,000 employees가 있는데, 어떻게 그렇게 커진 것 같아요?",
+      "original": "오늘은 이제 KWA가, 얘기한 것처럼 14 counties, 15 offices, 거의 2,000 employees가 있는데, 어떻게 그렇게 커진 것 같아요?",
       "text": "Today, like you said, KWA covers 14 counties, with 15 offices and almost 2,000 employees. How do you think it grew so big?"
     },
     {
@@ -193,19 +192,19 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 457,
       "speaker": "Park Myung Rae",
-      "original": "우리의 기본 시작으로 된 DV 쉘터. 그거는 우리가 굉장히 proud한 게, 어느 정도면, 얼마 전에 우리 한 이사님이 미국 Bank of America 은행을 갔어요. 그런데 거기 텔러 한 분이 뛰어나오면서 'I love KWA' 그러더래요. 그래서 보니까 우리 이사님이 여기 배지를 갖고 계셨거든요. 그래서 어떻게 우리를 아냐 그랬더니, 자기가 남편한테 매 맞고 이럴 때 우리가 데려다가 DV 쉘터에다가 있게 해 주고. 우리 DV 쉘터에 있다가 사람들한테 transition home으로 1년까지를 우리가 보내 드리거든요. 그 안에 기술도 가르치고 해서 이분이 잡을 잡은 거예요. '그래서 지금 내가 이렇게 뱅크에서 일할 수 있게 된 거는 KWA다.'",
+      "original": "우리의 기본 시작으로 된 DV 셸터. 그거는 우리가 굉장히 proud한 게, 어느 정도면, 얼마 전에 우리 한 이사님이 미국 Bank of America 은행을 갔어요. 그런데 거기 텔러 한 분이 뛰어나오면서 'I love KWA' 그러더래요. 그래서 보니까 우리 이사님이 여기 배지를 갖고 계셨거든요. 그래서 어떻게 우리를 아냐 그랬더니, 자기가 남편한테 매 맞고 이럴 때 우리가 데려다가 DV 셸터에다가 있게 해 주고. 우리 DV 셸터에 있다가 사람들한테 transition home으로 1년까지를 우리가 보내 드리거든요. 그 안에 기술도 가르치고 해서 이분이 잡을 잡은 거예요. '그래서 지금 내가 이렇게 뱅크에서 일할 수 있게 된 거는 KWA다.'",
       "text": "The DV shelter, which is how we started. Here's how proud we are of it. Not long ago one of our board members went to a Bank of America branch. One of the tellers came running out and said, 'I love KWA.' Our board member was wearing a KWA badge, you see. When she asked how the teller knew us, it turned out that when the teller's husband was beating her, we had taken her in and let her stay at the DV shelter. From the DV shelter, people move to a transition home, where we let them stay for up to a year. We teach them skills there too, and that's how she got a job. 'It's because of KWA that I can work at a bank like this now.'"
     },
     {
       "t": 501,
       "speaker": "Park Myung Rae",
-      "original": "이런 게 사실 가장 큰 미션인 거예요. 그렇지만 크기로 보면 인홈 케어 서비스가 굉장히 커요. 우리가 1년에 1,800명의 현장 직원들이 있어요. 그분들이 나가서 매달 한 2,000명 환자를 우리가 보고 있거든요. 그래서 크기로는 그거지만, 우리가 가장 proud하게 느끼는 거는 우리의 기본 미션, DV 쉘터.",
+      "original": "이런 게 사실 가장 큰 미션인 거예요. 그렇지만 크기로 보면 인홈 케어 서비스가 굉장히 커요. 우리가 1년에 1,800명의 현장 직원들이 있어요. 그분들이 나가서 매달 한 2,000명 환자를 우리가 보고 있거든요. 그래서 크기로는 그거지만, 우리가 가장 proud하게 느끼는 거는 우리의 기본 미션, DV 셸터.",
       "text": "That's really our biggest mission. By size, though, in-home care is very large. We have 1,800 field staff a year. They go out, and every month we see about 2,000 patients. So by size it's that, but what we feel proudest of is our core mission, the DV shelter."
     },
     {
       "t": 524,
       "speaker": "Interviewer",
-      "original": "이제 young Korean American이 꽤 많이 있는데요. 무슨 lesson을 배울 수 있는 것 같아요? KWA 스토리에서.",
+      "original": "이제 young한 Korean American이 꽤 많이 있는데요. 무슨 lesson을 배울 수 있는 것 같아요? KWA 스토리에서.",
       "text": "There are quite a lot of young Korean Americans now. What lessons do you think they can learn from KWA's story?"
     },
     {
@@ -223,7 +222,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 603,
       "speaker": "Park Myung Rae",
-      "original": "이런 아이덴티티를 잊지 않고 make it better 하는 게, 이게 있잖아요. 나는 'I'm American, I blend in.' 그거하고 아이덴티티는 헷갈리면 안 돼요. 나는 아이덴티티가 Korean 맞아요. 그렇지만 I live in America. 그래서 bigger picture를 보는 거지, 나의 root는 잊지 말고.",
+      "original": "이런 아이덴티티를 잊지 않고 make it better 하는 게, 이게 있잖아요. 나는 'American, I blend in.' 그거하고 아이덴티티는 헷갈리면 안 돼요. 나는 아이덴티티가 Korean 맞아요. 그렇지만 I live in America. 그래서 bigger picture를 보는 거지, 나의 root는 잊지 말고.",
       "text": "Not forgetting this identity, and making it better. You know how it goes: 'I'm American, I blend in.' You shouldn't confuse that with identity. My identity is Korean, that's right. But I live in America. So you look at the bigger picture, without forgetting your roots."
     },
     {
@@ -235,7 +234,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 643,
       "speaker": "Interviewer",
-      "original": "KWA가 커지면서, 그다음에 또 이제 KWA가 뭐 여자 사람들을 많이 도와주었잖아요. 많이 roles take on 했잖아요. 그래서 이런 더 큰 roles take on 했을 때, especially in the early ages, 좀 어떤 커뮤니티 리액션이 어땠어요?",
+      "original": "KWA가 커지면서, 그다음에 또 이제 KWA가 여자 사람들을 많이 도와주었잖아요. 많이 roles take on 했잖아요. 그래서 이런 더 큰 roles take on 했을 때, especially in the early ages, 어떤 커뮤니티 리액션이 어땠어요?",
       "text": "As KWA grew, it helped a lot of women, and it took on a lot of roles. When it took on these bigger roles, especially in the early years, how did the community react?"
     },
     {
@@ -253,8 +252,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 664,
       "speaker": "Park Myung Rae",
-      "original": "내가 와서 놀란 거는, 우리가 굉장히 많은 일을 하고 있었는데 they were so busy helping. 그렇기 때문에 '우리가 여기 있습니다'를 안 얘기했었나 봐요. 그래서 많은 기관들이 나중에 우리를 알고, 우리의 규모를, 우리가 이런 거를 serve하고 있습니다 하면 다들 놀래요. 'We didn't know.' 왜냐하면 이분들은 '나는 누구야' 자랑할 시간이 없었어요. 현장에 respond하는 기관이었기 때문에, 여기에 가서 '우리 기관은 이렇습니다' 하는.",
-      "text": "What surprised me when I came was that we were doing so much work, but they were so busy helping. So I guess they never told anyone, 'We're here.' Many organizations only got to know us later, and when we tell them how big we are, that we serve all this, they're all surprised. 'We didn't know.' Because these women had no time to brag about who they were. It was an organization that responded in the field, not one that went around saying, 'This is our organization.'"
+      "original": "내가 와서 놀란 거는, 우리가 굉장히 많은 일을 하고 있었는데 they were so busy helping. 그렇기 때문에 '우리가 여기 있습니다'를 안 얘기했었나 봐요. 그래서 많은 기관들이 나중에 우리를 알고, 우리의 규모를, 우리가 이런 거를 solve하고 있습니다 하면 다들 놀래요. 'We didn't know.' 왜냐하면 이분들은 '나는 누구야' 자랑할 시간이 없었어요. 현장에 respond하는 기관이었기 때문에, 여기에 가서 '우리 기관은 이렇습니다'…",
+      "text": "What surprised me when I came was that we were doing so much work, but they were so busy helping. So I guess they never told anyone, 'We're here.' Many organizations only got to know us later, and when we tell them how big we are, that we're solving these kinds of problems, they're all surprised. 'We didn't know.' Because these women had no time to brag about who they were. It was an organization that responded in the field, so going out and saying, 'This is our organization'…"
     },
     {
       "t": 691,
@@ -265,7 +264,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 710,
       "speaker": "Park Myung Rae",
-      "original": "그래서 많은 커뮤니티 커넥션을 하다 보니까, 오늘 아침만 해도 military 사람들하고 우리가 미팅을 했어요. 왜냐하면 6·25 행사를, '우리는 당신들을 위한 행사를 하고 싶습니다. 그래서 military가 포커스가 되는 행사를 해 주고 싶습니다.' 그랬더니 이분이 우리 기관에 대해서 공부를 하셨나 봐요. 아침에 미팅에 오셔서 너무 놀라는 거예요. '너네 이런 일을 하던 기관이냐.' 그래서 그 respect가 오는 거는 대단해요.",
+      "original": "그래서 많은 커뮤니티 커넥션을 하다 보니까, 오늘 아침만 해도 military 사람들하고 우리가 미팅을 했어요. 왜냐하면 6·25 행사를, '우리는 당신들을 위한 행사를 하고 싶습니다. 그래서 military가 포커스가 되는 행사를 해 주고 싶습니다.' 이분이 우리 기관에 대해서 공부를 하셨나 봐요. 아침에 미팅에 오셔서 너무 놀라는 거예요. '너네 이런 일을 하던 기관이냐.' 그래서 그 respect가 오는 거는 대단해요.",
       "text": "So we've been making a lot of community connections. Just this morning we met with people from the military about a Korean War commemoration: 'We want to hold an event for you. We want to put on an event that focuses on the military.' The person we met had apparently read up on our organization, and at the meeting this morning was so surprised. 'You're the organization that does all this?' The respect that comes from that is really something."
     },
     {
@@ -313,7 +312,7 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 865,
       "speaker": "Park Myung Rae",
-      "original": "그리고 또 말씀드린 대로 이렇게 DV 쉘터가, 옛날에는 여자들이 남자한테 맞는 거였잖아요, 주로. 그런데 요즘은 그게 아니에요. 부모들이 자식한테 학대를 당해요. 그래서 부모들이 쫓겨나요. 그래서 그분들도 우리가 쉘터에다 모시는 거예요. 그리고 어떤 경우는 남자도 여자한테 abuse 당하는 경우가 있어요. 그래서 이제 이게 expand가 됐어요. 그래서 우리 쉘터에는 노인들, 갑자기 자식들한테 쫓겨난 사람들, 이런 사람들도 와 있어요.",
+      "original": "그리고 또 말씀드린 대로 이렇게 DV 셸터가, 옛날에는 여자들이 남자한테 맞는 거였잖아요, 주로. 그런데 요즘은 그게 아니에요. 부모들이 자식한테 학대를 당해요. 그래서 부모들이 쫓겨나요. 그래서 그분들도 우리가 셸터에다 모시는 거예요. 그리고 어떤 경우는 남자도 여자한테 abuse 당하는 경우가 있어요. 그래서 이제 이게 expand가 됐어요. 그래서 우리 셸터에는 노인들, 갑자기 자식들한테 쫓겨난 사람들, 이런 사람들도 와 있어요.",
       "text": "And as I mentioned, the DV shelter: in the old days it was mostly women being beaten by men. These days it isn't only that. Parents are abused by their children and get thrown out. So we take them into the shelter too. And in some cases men are abused by women. So it has expanded. Our shelter now also has elderly people who were suddenly thrown out by their children."
     },
     {
@@ -325,8 +324,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 911,
       "speaker": "Park Myung Rae",
-      "original": "그리고 많은 분들이 '나는 65살인데 Medicaid를 못 받을 거야. income이 좀 있으니까.' 그렇지만 꼭 그렇지 않거든요. 그래서 그분들한테 가서, income이 있지만 그분이 사는 환경에 따라서 benefit을 받을 수 있는 조건이 있거든요. 그래서 저희가 그런 소스도 해 드리고.",
-      "text": "And many people think, 'I'm 65, but I won't get Medicaid, since I have some income.' But that isn't necessarily so. Even with some income, depending on a person's living situation, they can still qualify for benefits. So we help with resources like that too."
+      "original": "그리고 많은 분들이 '나는 65살인데 Medicaid를 못 받을 거야. income이 좀 있으니까.' 그렇지만 꼭 그렇지 않거든요. 그래서 그분들한테 가서, income이 있지만 그분이 사는 환경에 따라서 benefit을 받을 수 있는 조건이 있거든요. 그래서 저희가 그런 서비스도 해 드리고.",
+      "text": "And many people think, 'I'm 65, but I won't get Medicaid, since I have some income.' But that isn't necessarily so. Even with some income, depending on a person's living situation, they can still qualify for benefits. So we provide services like that too."
     },
     {
       "t": 928,
@@ -337,13 +336,13 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 950,
       "speaker": "Interviewer",
-      "original": "이게 KWA가 Korean Women's Association이잖아요. 1972에 founded 되어서. 무슨, 타이틀에 Women이 있는 게 어떤 무슨 value가 있나요?",
-      "text": "KWA is the Korean Women's Association, founded in 1972. What value is there in having 'Women' in the title?"
+      "original": "이게 KWA가 Korean Women's Association이잖아요. 1972에 founded 되어서. 무슨, 이거 타이틀에 Women이 있는 게 좀 어떤 무슨 value가 있는 것 같아요?",
+      "text": "KWA is the Korean Women's Association, founded in 1972. Do you think there's some value in having 'Women' in the title?"
     },
     {
       "t": 961,
       "speaker": "Park Myung Rae",
-      "original": "이게 많은 사람들이 이런 challenge를 많이 했어요. Korean Women's Association 하니까 많은 funder들이 '우리가 왜 Korean만 펀딩을 줘야 돼?' 그리고 남자들은 '어? 나는 여기 가면 안 되는 건가?' 그래서 우리도 고민을 많이 했고, pressure도 많이 들어왔어요. 이름을 바꿔라, 뭐를 바꿔라. 그런데 이렇게 우리가 결정을 한 거예요.",
+      "original": "이게 많은 사람들이 이런 challenge를 많이 했어요. Korean Women's Association 하니까 많은 funder들이 '우리가 왜 Korean만 펀드를 줘야 돼?' 그리고 남자들은 '어? 나는 여기 가면 안 되는 건가?' 그래서 우리도 고민을 많이 했고, pressure도 많이 들어왔어요. 이름을 바꿔라, 뭐를 바꿔라. 그런데 이렇게 우리가 결정을 한 거예요.",
       "text": "A lot of people have challenged us on that. Because it's the Korean Women's Association, many funders asked, 'Why should we fund only Koreans?' And men asked, 'Huh? Does that mean I can't go there?' So we thought about it a lot, and we got a lot of pressure. Change the name, change this or that. But this is what we decided."
     },
     {
@@ -356,7 +355,7 @@ window.KWMB_TRANSCRIPT = {
       "t": 1010,
       "speaker": "Park Myung Rae",
       "original": "Politician이 왔었어요. 그래서 우리가 얘기를 했어요. '우리는 그 사람들을 메모라이즈하기 위해서 이름을 못 바꾼다. Like YMCA.' YMCA, YWCA도 Christian Association이잖아요. 그래서 그 사람들도 이름을 YMCA 한 것처럼 우리도 KWA로 아이덴티티를 우리가 바꿨어요. 왜냐하면 그걸 길게 늘어뜨리면 사람들이 자꾸 Korean 단어가 들어가서. 그렇지만 그분들한테 KWA는 우리의 founding spirit을 잊지 말자. 그거고, 대신 our mission is serve, serve all.",
-      "text": "Politicians came to us too. So we told them, 'We can't change the name, because it keeps those women's memory. Like the YMCA.' The YMCA and YWCA are Christian associations, right? Just as they go by YMCA, we changed our identity to KWA. Because when you spell it all out, people keep seeing the word Korean. But for us, KWA means never forgetting our founding spirit. And instead, our mission is to serve, to serve all."
+      "text": "Politicians came to us. So we told them, 'We can't change the name, because it keeps those women's memory. Like the YMCA.' The YMCA and YWCA are Christian associations, right? Just as they go by YMCA, we changed our identity to KWA. Because when you spell it all out, people keep seeing the word Korean. But what we told them was that KWA means never forgetting our founding spirit. That's what it is. And instead, our mission is to serve, to serve all."
     },
     {
       "t": 1042,
@@ -379,8 +378,8 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1075,
       "speaker": "Interviewer",
-      "original": "네, 미션, community impact, history, the brief history. Quick and very quick summary.",
-      "text": "Yes: the mission, the community impact, the history, a brief history. A quick, very quick summary."
+      "original": "네, 미션과 community impact와 history, brief history. Very quick summary.",
+      "text": "Yes: the mission, the community impact, and the history, a brief history. A very quick summary."
     },
     {
       "t": 1081,
@@ -391,20 +390,20 @@ window.KWMB_TRANSCRIPT = {
     {
       "t": 1109,
       "speaker": "Park Myung Rae",
-      "original": "그렇기 때문에 그분들이 거기까지 가는 과정에 housing이 필요해? 우리 transitional housing에 남겨 드리고, 거기서 교육시켜 드리고. 그래서 그분들이 empower가 돼서 스스로의 oppression을 이겨 낼 수 있고. 그리고 그분들이 돌아와서 또 다른 oppressed 된 사람들을 도와주는 거. 우리 직원들에는 우리 쉘터를 거쳐 간 사람들이 제법 있어요. 그런 거를 해내 갈 수 있는 게 나는 참 좋은 미션이라고 봐요.",
+      "original": "그렇기 때문에 그분들이 거기까지 가는 과정에 housing이 필요해? 우리 transitional housing에 남겨 드리고, 거기서 교육시켜 드리고. 그래서 그분들이 empower가 돼서 스스로의 oppression을 이겨 낼 수 있고. 그리고 그분들이 돌아와서 또 다른 oppressed 된 사람들을 도와주는 거. 우리 직원들에는 우리 셸터를 거쳐 간 사람들이 제법 있어요. 그런 거를 해내 갈 수 있는 게 나는 참 좋은 미션이라고 봐요.",
       "text": "So on the way there, if they need housing, we let them stay in our transitional housing and give them training there. Then they're empowered and can overcome their own oppression. And then they come back and help other people who are oppressed. Quite a few of our staff are people who came through our shelter. Being able to make that happen is what makes it such a good mission, I think."
     },
     {
       "t": 1137,
       "speaker": "Park Myung Rae",
-      "original": "그리고 우리 원로 한 분한테 이런 말을 들었어요. 제가 이렇게 말씀드렸어요. '당신들은 열정이 참 대단합니다. 그 열정으로 이 기관을 만드셨군요.' 했더니 '열정이 아니다' 이러시더라고요. 뭐냐 했더니 분노였대요. '내가 왜 이렇게 억울하게 살아야 되지? 내가 왜 이렇게 할 말을 못 하고 살지?' 이 분노를 나가서 쌈박질하는 데 쓰지 않고, '내 옆에 사람들은 이렇게 살지 말게 해 주자. 내 옆에 사람들은 좀 더 편하게 살게 해 주자.' 그 분노가 너무나 멋있게 만들어낸 기관이 KWA인 것 같아요.",
-      "text": "And one of our elders told me something. I had said, 'You all had such passion. You built this organization out of that passion.' The answer was, 'It wasn't passion.' When I asked what it was, it was anger. 'Why do I have to live with this injustice? Why do I have to live without being able to say what I want to say?' Instead of using that anger to go out and pick fights: 'Let's make sure the people next to me don't have to live like this. Let's make life a little easier for the people next to me.' I think KWA is what that anger built, and built so beautifully."
+      "original": "그리고 우리 원로 한 분한테 이런 말을 들었어요. 제가 이렇게 말씀드렸어요. '당신들은 열정이 참 대단합니다. 그 열정으로 이 기관을 만드셨군요.' 했더니 '열정이 아니다' 이러시더라고요. 그래서 뭐냐 했더니 분노였대요. '내가 왜 이렇게 억울하게 살아야 되지? 내가 왜 이렇게 할 말을 못 하고 살지?' 이 분노를 나가서 쌈박질하는 데 쓰지 않고, '내 옆에 사람들은 이렇게 살지 말게 해 주자. 내 옆에 사람들은 좀 더 편하게 살게 해 주자.' 그 분노가 너무나 멋있게 만들어낸 기관이 KWA인 것 같아요.",
+      "text": "And one of our elders told me something. I had said, 'You all had such passion. You built this organization out of that passion.' The answer was, 'It wasn't passion.' So when I asked what it was, it was anger. 'Why do I have to live with this injustice? Why do I have to live without being able to say what I want to say?' Instead of using that anger to go out and pick fights: 'Let's make sure the people next to me don't have to live like this. Let's make life a little easier for the people next to me.' I think KWA is what that anger built, and built so beautifully."
     },
     {
       "t": 1171,
       "speaker": "Park Myung Rae",
-      "original": "그래서 이 젊은 사람들도, 그 anger라는 것은 항상 필요해요. 내가 oppress 당하고 있다는 걸 잊지 말고. 그렇지만 이거를 나쁘게 싸움을 하는 게 아니라, 어떻게 하면 내 자식들은, 내 후손들은 행복하게 살 수 있게 할까. 그게 우리 엄마들, 우리 아빠들이 한 거잖아요. 그래서 나는 이 KWA의 분노에서 나온 승화가 이 세상에 점점 더 불꽃처럼 커졌으면 좋겠어요. 우리가 이게 불씨가 돼서, 모든 기관들이 이런 불씨가 돼서 따뜻한 세상이 됐으면 좋겠어요.",
-      "text": "So young people need that anger too, always. Don't forget that you're being oppressed. But don't use it to fight in a bad way. Use it to ask how your children and your descendants can live happily. That's what our mothers and fathers did. So I hope that what KWA made of its anger keeps growing in this world, like a flame. I hope we become a spark, that every organization becomes a spark like this, and that the world becomes a warmer place."
+      "original": "그래서 이 젊은 사람들도, 그 anger라는 것은 항상 필요해요. 내가 oppress 당하고 있다는 걸 잊지 말고. 그렇지만 이거를 나쁘게 싸움을 한 게 아니라, 어떻게 하면 내 자식들은, 내 후손들은 행복하게 살 수 있게 했을까. 그게 우리 엄마들, 우리 아빠들이 한 거잖아요. 그래서 나는 이 KWA의 분노에서 나온 그 승화가 이 세상에 점점 더 불꽃처럼 커졌으면 좋겠어요. 우리가 이게 불씨가 돼서, 모든 기관들이 이런 불씨가 돼서 따뜻한 세상이 됐으면 좋겠어요.",
+      "text": "So young people need that anger too, always. Don't forget that you're being oppressed. But it wasn't about fighting in a bad way. It was about 'How can I make sure my children, my descendants, live happily?' That's what our mothers and fathers did. So I hope that what KWA made of its anger keeps growing in this world, like a flame. I hope we become a spark, that every organization becomes a spark like this, and that the world becomes a warmer place."
     },
     {
       "t": 1208,
