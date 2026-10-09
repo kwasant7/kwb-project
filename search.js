@@ -12,7 +12,6 @@
   var sectionSelect = document.getElementById('section');
   var status = document.getElementById('search-status');
   var out = document.getElementById('results');
-  var hints = document.getElementById('search-hints');
 
   var TYPES = [
     { key: 'interview', one: 'oral history', many: 'oral histories', label: 'Oral histories' },
@@ -368,7 +367,6 @@
     var browsing = !terms.length;
     var idle = browsing && type === 'all' && !sectionId;
 
-    hints.hidden = !idle;
     out.textContent = '';
     if (idle) {
       status.textContent = '';
@@ -452,14 +450,6 @@
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     search();
-  });
-
-  Array.prototype.forEach.call(hints.querySelectorAll('button'), function (button) {
-    button.addEventListener('click', function () {
-      input.value = button.textContent;
-      search();
-      input.focus();
-    });
   });
 
   status.textContent = 'Loading the archive…';
