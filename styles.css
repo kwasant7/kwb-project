@@ -1008,8 +1008,8 @@ footer {
   font-size: 0.9rem;
 }
 
-/* "With support from" credit. The logo is a JPEG on white; multiply lets
-   the page background show through so it doesn't sit in a white box. */
+/* "With support from" credit. The logo PNG has a transparent margin
+   around it, so it is drawn taller than the 56px the mark itself fills. */
 .support {
   display: inline-flex;
   flex-direction: column;
@@ -1022,9 +1022,8 @@ footer {
 .support:hover span { text-decoration: underline; }
 .support img {
   display: block;
-  height: 56px;
+  height: 72px;
   width: auto;
-  mix-blend-mode: multiply;
 }
 
 @media (prefers-reduced-motion: reduce) {
