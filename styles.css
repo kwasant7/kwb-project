@@ -1074,3 +1074,15 @@ footer {
 
   @page { margin: 18mm; }
 }
+
+/* Featured link to the Tacoma Public Library Northwest Room archive */
+.announce-bar {
+  background: var(--accent-soft);
+  border-bottom: 1px solid var(--accent-soft-border);
+  color: #3a2a10;
+  text-align: center;
+  font-size: 0.95rem;
+  padding: 0.6rem 1rem;
+  line-height: 1.4;
+}
+.announce-bar a { font-weight: 600; white-space: nowrap; }
